@@ -1,0 +1,23 @@
+{
+  "the cat sat on the mat": [
+    "###LEFT-WALL###",
+    "the",
+    "cat",
+    "sat",
+    "on",
+    "the",
+    "mat"
+  ],
+  "hello world": [
+    "###LEFT-WALL###",
+    "hello",
+    "world"
+  ],
+  "John saw Mary.": [
+    "###LEFT-WALL###",
+    "John",
+    "saw",
+    "Mary",
+    "."
+  ]
+}

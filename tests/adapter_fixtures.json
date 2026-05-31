@@ -1,0 +1,122 @@
+{
+  "tokens_to_narsese": [
+    {
+      "id": "basic_pair",
+      "input": ["###LEFT-WALL###", "the", "cat"],
+      "expected": ["<(*, \"the\", \"cat\") --> follows>."],
+      "rationale": "Single adjacent pair. Verifies left-wall is dropped and one statement is emitted for one pair."
+    },
+    {
+      "id": "three_words",
+      "input": ["###LEFT-WALL###", "the", "cat", "sat"],
+      "expected": [
+        "<(*, \"the\", \"cat\") --> follows>.",
+        "<(*, \"cat\", \"sat\") --> follows>."
+      ],
+      "rationale": "Three words yield two adjacent pairs. Verifies the off-by-one bound on the loop."
+    },
+    {
+      "id": "punctuation_filtered",
+      "input": ["###LEFT-WALL###", "hello", ",", "world", "."],
+      "expected": ["<(*, \"hello\", \"world\") --> follows>."],
+      "rationale": "Pure-punctuation tokens are filtered. 'hello' and 'world' end up adjacent across the dropped comma."
+    },
+    {
+      "id": "left_wall_only",
+      "input": ["###LEFT-WALL###"],
+      "expected": [],
+      "rationale": "No real words means no pairs means no statements. Verifies the empty-result path."
+    },
+    {
+      "id": "single_word",
+      "input": ["###LEFT-WALL###", "alone"],
+      "expected": [],
+      "rationale": "One word has no neighbor. Verifies the loop terminates correctly at len(words) - 1 == 0."
+    },
+    {
+      "id": "numerics_count_as_words",
+      "input": ["###LEFT-WALL###", "year", "2026"],
+      "expected": ["<(*, \"year\", \"2026\") --> follows>."],
+      "rationale": "Alphanumeric check includes digits. '2026' is a real token, not punctuation."
+    },
+    {
+      "id": "all_punctuation_input",
+      "input": ["###LEFT-WALL###", ".", "?", "!"],
+      "expected": [],
+      "rationale": "Every non-wall token is pure punctuation, so they all get filtered. No statements emitted."
+    },
+    {
+      "id": "mixed_alnum_punct_token",
+      "input": ["###LEFT-WALL###", "C++", "is", "old"],
+      "expected": [
+        "<(*, \"C++\", \"is\") --> follows>.",
+        "<(*, \"is\", \"old\") --> follows>."
+      ],
+      "rationale": "A token containing at least one alphanumeric character (here C and ++) is treated as a word."
+    }
+  ],
+  "inferences_to_result": [
+    {
+      "id": "single_inference",
+      "input": ["<(*, \"the\", \"cat\") --> follows>. %1.00;0.90%"],
+      "expected": {
+        "statements": [
+          {"statement": "<(*, \"the\", \"cat\") --> follows>.", "freq": 1.0, "conf": 0.9}
+        ],
+        "stats": {"count": 1, "mean_freq": 1.0, "mean_conf": 0.9}
+      },
+      "rationale": "Single well-formed line. Verifies parse, float extraction, and stats with count == 1."
+    },
+    {
+      "id": "two_inferences_mixed_truth",
+      "input": [
+        "<(*, \"a\", \"b\") --> follows>. %1.00;0.90%",
+        "<(*, \"b\", \"c\") --> follows>. %0.80;0.50%"
+      ],
+      "expected": {
+        "statements": [
+          {"statement": "<(*, \"a\", \"b\") --> follows>.", "freq": 1.0, "conf": 0.9},
+          {"statement": "<(*, \"b\", \"c\") --> follows>.", "freq": 0.8, "conf": 0.5}
+        ],
+        "stats": {"count": 2, "mean_freq": 0.9, "mean_conf": 0.7}
+      },
+      "rationale": "Two lines with distinct truth values. Verifies the mean calculation across multiple inferences."
+    },
+    {
+      "id": "empty_input",
+      "input": [],
+      "expected": {
+        "statements": [],
+        "stats": {"count": 0, "mean_freq": 0.0, "mean_conf": 0.0}
+      },
+      "rationale": "Empty input must not divide by zero. Verifies the count == 0 branch returns 0.0 means."
+    },
+    {
+      "id": "malformed_line_skipped",
+      "input": [
+        "<(*, \"a\", \"b\") --> follows>. %1.00;0.90%",
+        "this is not valid Narsese",
+        "<(*, \"c\", \"d\") --> follows>. %0.50;0.50%"
+      ],
+      "expected": {
+        "statements": [
+          {"statement": "<(*, \"a\", \"b\") --> follows>.", "freq": 1.0, "conf": 0.9},
+          {"statement": "<(*, \"c\", \"d\") --> follows>.", "freq": 0.5, "conf": 0.5}
+        ],
+        "stats": {"count": 2, "mean_freq": 0.75, "mean_conf": 0.7}
+      },
+      "rationale": "Malformed lines are silently skipped. Stats reflect only successfully parsed lines."
+    },
+    {
+      "id": "whitespace_tolerated",
+      "input": ["  <(*, \"a\", \"b\") --> follows>. %1.00;0.90%  "],
+      "expected": {
+        "statements": [
+          {"statement": "<(*, \"a\", \"b\") --> follows>.", "freq": 1.0, "conf": 0.9}
+        ],
+        "stats": {"count": 1, "mean_freq": 1.0, "mean_conf": 0.9}
+      },
+      "rationale": "Leading and trailing whitespace on input lines is stripped before regex matching."
+    }
+  ]
+}

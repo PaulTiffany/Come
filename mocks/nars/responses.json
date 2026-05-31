@@ -1,0 +1,19 @@
+{
+  "_note": "Keys are sha256 of input statements joined by newline. Populated lazily; unknown keys fall back to echo-as-fact at confidence 0.90.",
+  "_example_input_for_demo_key": [
+    "<(*, \"the\", \"cat\") --> follows>.",
+    "<(*, \"cat\", \"sat\") --> follows>.",
+    "<(*, \"sat\", \"on\") --> follows>.",
+    "<(*, \"on\", \"the\") --> follows>.",
+    "<(*, \"the\", \"mat\") --> follows>."
+  ],
+  "b36dc03d8771966c3570cb7e8522379707467378c173c39a082a77af65d1fe5f": [
+    "<(*, \"the\", \"cat\") --> follows>. %1.00;0.90%",
+    "<(*, \"cat\", \"sat\") --> follows>. %1.00;0.90%",
+    "<(*, \"sat\", \"on\") --> follows>. %1.00;0.90%",
+    "<(*, \"on\", \"the\") --> follows>. %1.00;0.90%",
+    "<(*, \"the\", \"mat\") --> follows>. %1.00;0.90%",
+    "<(*, \"the\", \"sat\") --> follows>. %0.80;0.45%",
+    "<(*, \"cat\", \"on\") --> follows>. %0.75;0.40%"
+  ]
+}
