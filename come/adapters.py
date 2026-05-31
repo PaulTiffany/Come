@@ -49,19 +49,47 @@ def tokens_to_narsese(tokens: List[str]) -> List[str]:
     return statements
 
 
-# Matches an ONA-style line:
+# Compact mock format used by come/nars.py mock mode:
 #   <(*, "the", "cat") --> follows>. %1.00;0.90%
-# Captures: statement (everything up to and including the period), freq, conf.
-_INFERENCE_RE = re.compile(
+_MOCK_RE = re.compile(
     r'^(?P<statement><.+?>\.)\s*%(?P<freq>[01]\.\d+);(?P<conf>[01]\.\d+)%\s*$'
 )
 
+# Real ONA output format observed from `./NAR shell`:
+#   Derived: <(*, "a", "b") --> follows>. Priority=0.407 Stamp=[2,1] Truth: frequency=1.000000, confidence=0.810000
+# The "kind" prefix is Input (echo of the input statement), Selected (internal
+# scheduling), or Derived (new inference). Only Derived lines represent new
+# knowledge produced by the reasoner. Input and Selected are filtered out.
+_ONA_RE = re.compile(
+    r'^(?P<kind>Derived|Input|Selected):\s+(?P<statement><.+?>\.)\s+'
+    r'Priority=[\d.]+\s+Stamp=\[[\d,\s]+\]\s+Truth:\s+'
+    r'frequency=(?P<freq>[\d.]+),\s+confidence=(?P<conf>[\d.]+)\s*$'
+)
+
+
+def _parse_line(line: str):
+    """Return (statement, freq, conf) or None.
+
+    Tries the mock format first since it is the simpler match. Falls back to
+    real ONA format. For real ONA, only Derived lines are kept.
+    """
+    line = line.strip()
+    m = _MOCK_RE.match(line)
+    if m is not None:
+        return m.group("statement"), float(m.group("freq")), float(m.group("conf"))
+    m = _ONA_RE.match(line)
+    if m is not None and m.group("kind") == "Derived":
+        return m.group("statement"), float(m.group("freq")), float(m.group("conf"))
+    return None
+
 
 def inferences_to_result(inferences: List[str]) -> Dict:
-    """Parse ONA inference lines into a structured result.
+    """Parse inference lines into a structured result.
 
-    Each line is expected to be of the form:
-        <statement>. %freq;conf%
+    Accepts both the compact mock format `<statement>. %freq;conf%` and the
+    real ONA output format with Priority/Stamp/Truth fields. For real ONA
+    input, only Derived lines are counted (Input echoes and Selected internal
+    scheduling are dropped).
 
     Returns a dict with:
         statements: list of {"statement", "freq", "conf"}
@@ -70,13 +98,14 @@ def inferences_to_result(inferences: List[str]) -> Dict:
     """
     parsed = []
     for line in inferences:
-        m = _INFERENCE_RE.match(line.strip())
-        if m is None:
+        result = _parse_line(line)
+        if result is None:
             continue
+        statement, freq, conf = result
         parsed.append({
-            "statement": m.group("statement"),
-            "freq": float(m.group("freq")),
-            "conf": float(m.group("conf")),
+            "statement": statement,
+            "freq": freq,
+            "conf": conf,
         })
 
     count = len(parsed)

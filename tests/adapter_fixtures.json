@@ -117,6 +117,47 @@
         "stats": {"count": 1, "mean_freq": 1.0, "mean_conf": 0.9}
       },
       "rationale": "Leading and trailing whitespace on input lines is stripped before regex matching."
+    },
+    {
+      "id": "ona_format_single_derived",
+      "input": ["Derived: <(*, \"a\", \"b\") --> follows>. Priority=0.407250 Stamp=[2,1] Truth: frequency=1.000000, confidence=0.810000"],
+      "expected": {
+        "statements": [
+          {"statement": "<(*, \"a\", \"b\") --> follows>.", "freq": 1.0, "conf": 0.81}
+        ],
+        "stats": {"count": 1, "mean_freq": 1.0, "mean_conf": 0.81}
+      },
+      "rationale": "Real ONA output format. Verifies the parser handles the Priority/Stamp/Truth fields and extracts the truth values from frequency=X, confidence=Y."
+    },
+    {
+      "id": "ona_format_input_and_selected_filtered",
+      "input": [
+        "Input: <(*, \"a\", \"b\") --> follows>. Priority=1.000000 Stamp=[1] Truth: frequency=1.000000, confidence=0.900000",
+        "Selected: <(*, \"a\", \"b\") --> follows>. Priority=1.000000 Stamp=[1] Truth: frequency=1.000000, confidence=0.900000",
+        "Derived: <(*, \"a\", \"c\") --> follows>. Priority=0.407250 Stamp=[2,1] Truth: frequency=1.000000, confidence=0.810000"
+      ],
+      "expected": {
+        "statements": [
+          {"statement": "<(*, \"a\", \"c\") --> follows>.", "freq": 1.0, "conf": 0.81}
+        ],
+        "stats": {"count": 1, "mean_freq": 1.0, "mean_conf": 0.81}
+      },
+      "rationale": "Real ONA output mixes Input (echo), Selected (internal scheduling), and Derived (new knowledge). Only Derived lines should be counted as inferences."
+    },
+    {
+      "id": "ona_format_two_derivations",
+      "input": [
+        "Derived: <(*, \"a\", \"c\") --> follows>. Priority=0.407250 Stamp=[2,1] Truth: frequency=1.000000, confidence=0.810000",
+        "Derived: <(*, \"c\", \"a\") --> follows>. Priority=0.325691 Stamp=[2,1] Truth: frequency=1.000000, confidence=0.447514"
+      ],
+      "expected": {
+        "statements": [
+          {"statement": "<(*, \"a\", \"c\") --> follows>.", "freq": 1.0, "conf": 0.81},
+          {"statement": "<(*, \"c\", \"a\") --> follows>.", "freq": 1.0, "conf": 0.447514}
+        ],
+        "stats": {"count": 2, "mean_freq": 1.0, "mean_conf": 0.628757}
+      },
+      "rationale": "Two real ONA derivations from a deduction-plus-abduction pair. Verifies the mean calculation works across real-format inputs."
     }
   ]
 }
