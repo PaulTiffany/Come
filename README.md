@@ -13,6 +13,16 @@ This is a companion artifact for two papers:
 
 Both papers argue that adequacy of an epistemic system should be measurable, not asserted. This repository operationalizes that argument at the level of test suites: a test suite that survives mutation is making a claim about coverage it cannot back. The Hypothesis Surface paper calls that pattern *anti-masking*. Here it is the contract that every adapter in the pipeline must satisfy.
 
+## Why this pattern is load-bearing
+
+> *A "perfect paper" is a paradox drive if authors and readers are disjoint.* — Paul Carver Tiffany III
+
+The academic convention asks authors to deliver an artifact immune to criticism, but the author has no privileged access to what a future reader will find broken. That disjointness makes the demand for perfection a paradox driver: a tension unresolvable from inside, only by reframing.
+
+The reframing this repository operationalizes is integration. Authors and readers stop being disjoint when they share a substrate the reader can mutate and verify. Every adapter ships with its test suite. Every surviving mutant is an invitation to find a hole the author did not. Anti-masking is the contract that keeps the integration honest: the author may not assert what the test suite cannot back, and the reader may not dismiss what they have not run.
+
+This repository is incomplete by construction. The work of integrating author and reader is by definition not finished. The invitation in the epigraph is the form of that incompleteness.
+
 ## Pipeline
 
 ```
