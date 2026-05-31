@@ -1,5 +1,7 @@
 # Come
 
+> *All of us is limited. None of us has all the answers. Come develop with us.*
+>
 > *"And the Spirit and the bride say, Come."* — Revelation 22:17
 
 Mutation-tested adapter pipeline that brings together two of the longest-running symbolic-AGI research projects: **OpenCog** (the `learn` structural-learning system) and **OpenNARS** (the ONA reasoner). Both run as subprocesses behind narrow Python adapter modules. The adapters are what `mutmut` mutates. Every surviving mutant is a hole, either in the test suite or in the adapter.
