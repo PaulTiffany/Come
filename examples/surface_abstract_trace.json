@@ -1,0 +1,3185 @@
+{
+  "input": "A resource-bounded agent that differentiates its input into claims faces a geometric forcing law. The cost of further claim interactions diverges at critical conflict density making continued differentiation epistemically insolvent. The agent must integrate. We introduce the Hypothesis Surface a typed epistemic workspace for active inference at test time that separates claims from their evidential fibers. Three invariants function as integrability conditions each bounding a dimension of epistemic expansion to ensure convergence. Under bounded observation differentiation and integration are dual but not inverse. A fuzzy fundamental theorem shows that re-differentiating an integrated state recovers the original plus an irreducible residual. A Gibbs characterization then establishes that integration by succeeding forces a transition to coherent sampling. A deterministic pipeline implements the framework with no external APIs and no GPU. The anti-masking invariant reduces the masking rate to zero. The integrability condition is load-bearing. The masking rate computable from text alone is an integration diagnostic complementary to the collapse diagnostic established in prior work.",
+  "opencog_tokens": [
+    "###LEFT-WALL###",
+    "A",
+    "resource-bounded",
+    "agent",
+    "that",
+    "differentiates",
+    "its",
+    "input",
+    "into",
+    "claims",
+    "faces",
+    "a",
+    "geometric",
+    "forcing",
+    "law.",
+    "The",
+    "cost",
+    "of",
+    "further",
+    "claim",
+    "interactions",
+    "diverges",
+    "at",
+    "critical",
+    "conflict",
+    "density",
+    "making",
+    "continued",
+    "differentiation",
+    "epistemically",
+    "insolvent.",
+    "The",
+    "agent",
+    "must",
+    "integrate.",
+    "We",
+    "introduce",
+    "the",
+    "Hypothesis",
+    "Surface",
+    "a",
+    "typed",
+    "epistemic",
+    "workspace",
+    "for",
+    "active",
+    "inference",
+    "at",
+    "test",
+    "time",
+    "that",
+    "separates",
+    "claims",
+    "from",
+    "their",
+    "evidential",
+    "fibers.",
+    "Three",
+    "invariants",
+    "function",
+    "as",
+    "integrability",
+    "conditions",
+    "each",
+    "bounding",
+    "a",
+    "dimension",
+    "of",
+    "epistemic",
+    "expansion",
+    "to",
+    "ensure",
+    "convergence.",
+    "Under",
+    "bounded",
+    "observation",
+    "differentiation",
+    "and",
+    "integration",
+    "are",
+    "dual",
+    "but",
+    "not",
+    "inverse.",
+    "A",
+    "fuzzy",
+    "fundamental",
+    "theorem",
+    "shows",
+    "that",
+    "re-differentiating",
+    "an",
+    "integrated",
+    "state",
+    "recovers",
+    "the",
+    "original",
+    "plus",
+    "an",
+    "irreducible",
+    "residual.",
+    "A",
+    "Gibbs",
+    "characterization",
+    "then",
+    "establishes",
+    "that",
+    "integration",
+    "by",
+    "succeeding",
+    "forces",
+    "a",
+    "transition",
+    "to",
+    "coherent",
+    "sampling.",
+    "A",
+    "deterministic",
+    "pipeline",
+    "implements",
+    "the",
+    "framework",
+    "with",
+    "no",
+    "external",
+    "APIs",
+    "and",
+    "no",
+    "GPU.",
+    "The",
+    "anti-masking",
+    "invariant",
+    "reduces",
+    "the",
+    "masking",
+    "rate",
+    "to",
+    "zero.",
+    "The",
+    "integrability",
+    "condition",
+    "is",
+    "load-bearing.",
+    "The",
+    "masking",
+    "rate",
+    "computable",
+    "from",
+    "text",
+    "alone",
+    "is",
+    "an",
+    "integration",
+    "diagnostic",
+    "complementary",
+    "to",
+    "the",
+    "collapse",
+    "diagnostic",
+    "established",
+    "in",
+    "prior",
+    "work."
+  ],
+  "narsese_in": [
+    "<(*, \"A\", \"resource-bounded\") --> follows>.",
+    "<(*, \"resource-bounded\", \"agent\") --> follows>.",
+    "<(*, \"agent\", \"that\") --> follows>.",
+    "<(*, \"that\", \"differentiates\") --> follows>.",
+    "<(*, \"differentiates\", \"its\") --> follows>.",
+    "<(*, \"its\", \"input\") --> follows>.",
+    "<(*, \"input\", \"into\") --> follows>.",
+    "<(*, \"into\", \"claims\") --> follows>.",
+    "<(*, \"claims\", \"faces\") --> follows>.",
+    "<(*, \"faces\", \"a\") --> follows>.",
+    "<(*, \"a\", \"geometric\") --> follows>.",
+    "<(*, \"geometric\", \"forcing\") --> follows>.",
+    "<(*, \"forcing\", \"law.\") --> follows>.",
+    "<(*, \"law.\", \"The\") --> follows>.",
+    "<(*, \"The\", \"cost\") --> follows>.",
+    "<(*, \"cost\", \"of\") --> follows>.",
+    "<(*, \"of\", \"further\") --> follows>.",
+    "<(*, \"further\", \"claim\") --> follows>.",
+    "<(*, \"claim\", \"interactions\") --> follows>.",
+    "<(*, \"interactions\", \"diverges\") --> follows>.",
+    "<(*, \"diverges\", \"at\") --> follows>.",
+    "<(*, \"at\", \"critical\") --> follows>.",
+    "<(*, \"critical\", \"conflict\") --> follows>.",
+    "<(*, \"conflict\", \"density\") --> follows>.",
+    "<(*, \"density\", \"making\") --> follows>.",
+    "<(*, \"making\", \"continued\") --> follows>.",
+    "<(*, \"continued\", \"differentiation\") --> follows>.",
+    "<(*, \"differentiation\", \"epistemically\") --> follows>.",
+    "<(*, \"epistemically\", \"insolvent.\") --> follows>.",
+    "<(*, \"insolvent.\", \"The\") --> follows>.",
+    "<(*, \"The\", \"agent\") --> follows>.",
+    "<(*, \"agent\", \"must\") --> follows>.",
+    "<(*, \"must\", \"integrate.\") --> follows>.",
+    "<(*, \"integrate.\", \"We\") --> follows>.",
+    "<(*, \"We\", \"introduce\") --> follows>.",
+    "<(*, \"introduce\", \"the\") --> follows>.",
+    "<(*, \"the\", \"Hypothesis\") --> follows>.",
+    "<(*, \"Hypothesis\", \"Surface\") --> follows>.",
+    "<(*, \"Surface\", \"a\") --> follows>.",
+    "<(*, \"a\", \"typed\") --> follows>.",
+    "<(*, \"typed\", \"epistemic\") --> follows>.",
+    "<(*, \"epistemic\", \"workspace\") --> follows>.",
+    "<(*, \"workspace\", \"for\") --> follows>.",
+    "<(*, \"for\", \"active\") --> follows>.",
+    "<(*, \"active\", \"inference\") --> follows>.",
+    "<(*, \"inference\", \"at\") --> follows>.",
+    "<(*, \"at\", \"test\") --> follows>.",
+    "<(*, \"test\", \"time\") --> follows>.",
+    "<(*, \"time\", \"that\") --> follows>.",
+    "<(*, \"that\", \"separates\") --> follows>.",
+    "<(*, \"separates\", \"claims\") --> follows>.",
+    "<(*, \"claims\", \"from\") --> follows>.",
+    "<(*, \"from\", \"their\") --> follows>.",
+    "<(*, \"their\", \"evidential\") --> follows>.",
+    "<(*, \"evidential\", \"fibers.\") --> follows>.",
+    "<(*, \"fibers.\", \"Three\") --> follows>.",
+    "<(*, \"Three\", \"invariants\") --> follows>.",
+    "<(*, \"invariants\", \"function\") --> follows>.",
+    "<(*, \"function\", \"as\") --> follows>.",
+    "<(*, \"as\", \"integrability\") --> follows>.",
+    "<(*, \"integrability\", \"conditions\") --> follows>.",
+    "<(*, \"conditions\", \"each\") --> follows>.",
+    "<(*, \"each\", \"bounding\") --> follows>.",
+    "<(*, \"bounding\", \"a\") --> follows>.",
+    "<(*, \"a\", \"dimension\") --> follows>.",
+    "<(*, \"dimension\", \"of\") --> follows>.",
+    "<(*, \"of\", \"epistemic\") --> follows>.",
+    "<(*, \"epistemic\", \"expansion\") --> follows>.",
+    "<(*, \"expansion\", \"to\") --> follows>.",
+    "<(*, \"to\", \"ensure\") --> follows>.",
+    "<(*, \"ensure\", \"convergence.\") --> follows>.",
+    "<(*, \"convergence.\", \"Under\") --> follows>.",
+    "<(*, \"Under\", \"bounded\") --> follows>.",
+    "<(*, \"bounded\", \"observation\") --> follows>.",
+    "<(*, \"observation\", \"differentiation\") --> follows>.",
+    "<(*, \"differentiation\", \"and\") --> follows>.",
+    "<(*, \"and\", \"integration\") --> follows>.",
+    "<(*, \"integration\", \"are\") --> follows>.",
+    "<(*, \"are\", \"dual\") --> follows>.",
+    "<(*, \"dual\", \"but\") --> follows>.",
+    "<(*, \"but\", \"not\") --> follows>.",
+    "<(*, \"not\", \"inverse.\") --> follows>.",
+    "<(*, \"inverse.\", \"A\") --> follows>.",
+    "<(*, \"A\", \"fuzzy\") --> follows>.",
+    "<(*, \"fuzzy\", \"fundamental\") --> follows>.",
+    "<(*, \"fundamental\", \"theorem\") --> follows>.",
+    "<(*, \"theorem\", \"shows\") --> follows>.",
+    "<(*, \"shows\", \"that\") --> follows>.",
+    "<(*, \"that\", \"re-differentiating\") --> follows>.",
+    "<(*, \"re-differentiating\", \"an\") --> follows>.",
+    "<(*, \"an\", \"integrated\") --> follows>.",
+    "<(*, \"integrated\", \"state\") --> follows>.",
+    "<(*, \"state\", \"recovers\") --> follows>.",
+    "<(*, \"recovers\", \"the\") --> follows>.",
+    "<(*, \"the\", \"original\") --> follows>.",
+    "<(*, \"original\", \"plus\") --> follows>.",
+    "<(*, \"plus\", \"an\") --> follows>.",
+    "<(*, \"an\", \"irreducible\") --> follows>.",
+    "<(*, \"irreducible\", \"residual.\") --> follows>.",
+    "<(*, \"residual.\", \"A\") --> follows>.",
+    "<(*, \"A\", \"Gibbs\") --> follows>.",
+    "<(*, \"Gibbs\", \"characterization\") --> follows>.",
+    "<(*, \"characterization\", \"then\") --> follows>.",
+    "<(*, \"then\", \"establishes\") --> follows>.",
+    "<(*, \"establishes\", \"that\") --> follows>.",
+    "<(*, \"that\", \"integration\") --> follows>.",
+    "<(*, \"integration\", \"by\") --> follows>.",
+    "<(*, \"by\", \"succeeding\") --> follows>.",
+    "<(*, \"succeeding\", \"forces\") --> follows>.",
+    "<(*, \"forces\", \"a\") --> follows>.",
+    "<(*, \"a\", \"transition\") --> follows>.",
+    "<(*, \"transition\", \"to\") --> follows>.",
+    "<(*, \"to\", \"coherent\") --> follows>.",
+    "<(*, \"coherent\", \"sampling.\") --> follows>.",
+    "<(*, \"sampling.\", \"A\") --> follows>.",
+    "<(*, \"A\", \"deterministic\") --> follows>.",
+    "<(*, \"deterministic\", \"pipeline\") --> follows>.",
+    "<(*, \"pipeline\", \"implements\") --> follows>.",
+    "<(*, \"implements\", \"the\") --> follows>.",
+    "<(*, \"the\", \"framework\") --> follows>.",
+    "<(*, \"framework\", \"with\") --> follows>.",
+    "<(*, \"with\", \"no\") --> follows>.",
+    "<(*, \"no\", \"external\") --> follows>.",
+    "<(*, \"external\", \"APIs\") --> follows>.",
+    "<(*, \"APIs\", \"and\") --> follows>.",
+    "<(*, \"and\", \"no\") --> follows>.",
+    "<(*, \"no\", \"GPU.\") --> follows>.",
+    "<(*, \"GPU.\", \"The\") --> follows>.",
+    "<(*, \"The\", \"anti-masking\") --> follows>.",
+    "<(*, \"anti-masking\", \"invariant\") --> follows>.",
+    "<(*, \"invariant\", \"reduces\") --> follows>.",
+    "<(*, \"reduces\", \"the\") --> follows>.",
+    "<(*, \"the\", \"masking\") --> follows>.",
+    "<(*, \"masking\", \"rate\") --> follows>.",
+    "<(*, \"rate\", \"to\") --> follows>.",
+    "<(*, \"to\", \"zero.\") --> follows>.",
+    "<(*, \"zero.\", \"The\") --> follows>.",
+    "<(*, \"The\", \"integrability\") --> follows>.",
+    "<(*, \"integrability\", \"condition\") --> follows>.",
+    "<(*, \"condition\", \"is\") --> follows>.",
+    "<(*, \"is\", \"load-bearing.\") --> follows>.",
+    "<(*, \"load-bearing.\", \"The\") --> follows>.",
+    "<(*, \"The\", \"masking\") --> follows>.",
+    "<(*, \"masking\", \"rate\") --> follows>.",
+    "<(*, \"rate\", \"computable\") --> follows>.",
+    "<(*, \"computable\", \"from\") --> follows>.",
+    "<(*, \"from\", \"text\") --> follows>.",
+    "<(*, \"text\", \"alone\") --> follows>.",
+    "<(*, \"alone\", \"is\") --> follows>.",
+    "<(*, \"is\", \"an\") --> follows>.",
+    "<(*, \"an\", \"integration\") --> follows>.",
+    "<(*, \"integration\", \"diagnostic\") --> follows>.",
+    "<(*, \"diagnostic\", \"complementary\") --> follows>.",
+    "<(*, \"complementary\", \"to\") --> follows>.",
+    "<(*, \"to\", \"the\") --> follows>.",
+    "<(*, \"the\", \"collapse\") --> follows>.",
+    "<(*, \"collapse\", \"diagnostic\") --> follows>.",
+    "<(*, \"diagnostic\", \"established\") --> follows>.",
+    "<(*, \"established\", \"in\") --> follows>.",
+    "<(*, \"in\", \"prior\") --> follows>.",
+    "<(*, \"prior\", \"work.\") --> follows>."
+  ],
+  "nars_inferences": [
+    "Input: <(\"A\" * \"resource-bounded\") --> follows>. Priority=1.000000 Stamp=[1] Truth: frequency=1.000000, confidence=0.900000",
+    "Selected: <(\"A\" * \"resource-bounded\") --> follows>. Priority=1.000000 Stamp=[1] Truth: frequency=1.000000, confidence=0.900000",
+    "Derived: <\"A\" --> (follows /1 \"resource-bounded\")>. Priority=0.350102 Stamp=[1] Truth: frequency=1.000000, confidence=0.810000",
+    "Derived: <\"resource-bounded\" --> (follows /2 \"A\")>. Priority=0.350102 Stamp=[1] Truth: frequency=1.000000, confidence=0.810000",
+    "Input: <(\"resource-bounded\" * \"agent\") --> follows>. Priority=1.000000 Stamp=[2] Truth: frequency=1.000000, confidence=0.900000",
+    "Selected: <(\"resource-bounded\" * \"agent\") --> follows>. Priority=1.000000 Stamp=[2] Truth: frequency=1.000000, confidence=0.900000",
+    "Derived: <\"resource-bounded\" --> (follows /1 \"agent\")>. Priority=0.350102 Stamp=[2] Truth: frequency=1.000000, confidence=0.810000",
+    "Derived: <\"agent\" --> (follows /2 \"resource-bounded\")>. Priority=0.350102 Stamp=[2] Truth: frequency=1.000000, confidence=0.810000",
+    "Derived: <(\"A\" * \"resource-bounded\") --> (\"resource-bounded\" * \"agent\")>. Priority=0.217127 Stamp=[2,1] Truth: frequency=1.000000, confidence=0.447514",
+    "Derived: <(\"resource-bounded\" * \"agent\") --> (\"A\" * \"resource-bounded\")>. Priority=0.217127 Stamp=[2,1] Truth: frequency=1.000000, confidence=0.447514",
+    "Derived: <(\"A\" * \"resource-bounded\") <-> (\"resource-bounded\" * \"agent\")>. Priority=0.217127 Stamp=[2,1] Truth: frequency=1.000000, confidence=0.447514",
+    "Derived: <(\"resource-bounded\" * \"agent\") <-> (\"A\" * \"resource-bounded\")>. Priority=0.217127 Stamp=[2,1] Truth: frequency=1.000000, confidence=0.447514",
+    "Derived: <((follows /2 \"A\") * \"agent\") --> follows>. Priority=0.074657 Stamp=[2,1] Truth: frequency=1.000000, confidence=0.421631",
+    "Input: <(\"agent\" * \"that\") --> follows>. Priority=1.000000 Stamp=[3] Truth: frequency=1.000000, confidence=0.900000",
+    "Selected: <(\"agent\" * \"that\") --> follows>. Priority=1.000000 Stamp=[3] Truth: frequency=1.000000, confidence=0.900000",
+    "Derived: <\"agent\" --> (follows /1 \"that\")>. Priority=0.350102 Stamp=[3] Truth: frequency=1.000000, confidence=0.810000",
+    "Derived: <\"that\" --> (follows /2 \"agent\")>. Priority=0.350102 Stamp=[3] Truth: frequency=1.000000, confidence=0.810000",
+    "Derived: <(\"A\" * \"resource-bounded\") --> (\"agent\" * \"that\")>. Priority=0.195414 Stamp=[3,1] Truth: frequency=1.000000, confidence=0.447514",
+    "Derived: <(\"agent\" * \"that\") --> (\"A\" * \"resource-bounded\")>. Priority=0.195414 Stamp=[3,1] Truth: frequency=1.000000, confidence=0.447514",
+    "Derived: <(\"A\" * \"resource-bounded\") <-> (\"agent\" * \"that\")>. Priority=0.195414 Stamp=[3,1] Truth: frequency=1.000000, confidence=0.447514",
+    "Derived: <(\"agent\" * \"that\") <-> (\"A\" * \"resource-bounded\")>. Priority=0.195414 Stamp=[3,1] Truth: frequency=1.000000, confidence=0.447514",
+    "Derived: <(\"resource-bounded\" * \"agent\") --> (\"agent\" * \"that\")>. Priority=0.217127 Stamp=[3,2] Truth: frequency=1.000000, confidence=0.447514",
+    "Derived: <(\"agent\" * \"that\") --> (\"resource-bounded\" * \"agent\")>. Priority=0.217127 Stamp=[3,2] Truth: frequency=1.000000, confidence=0.447514",
+    "Derived: <(\"resource-bounded\" * \"agent\") <-> (\"agent\" * \"that\")>. Priority=0.217127 Stamp=[3,2] Truth: frequency=1.000000, confidence=0.447514",
+    "Derived: <(\"agent\" * \"that\") <-> (\"resource-bounded\" * \"agent\")>. Priority=0.217127 Stamp=[3,2] Truth: frequency=1.000000, confidence=0.447514",
+    "Derived: <((follows /2 \"resource-bounded\") * \"that\") --> follows>. Priority=0.074657 Stamp=[3,2] Truth: frequency=1.000000, confidence=0.421631",
+    "Derived: <((follows /2 \"A\") * \"agent\") --> (\"agent\" * \"that\")>. Priority=0.012895 Stamp=[3,2,1] Truth: frequency=1.000000, confidence=0.275083",
+    "Derived: <(\"agent\" * \"that\") --> ((follows /2 \"A\") * \"agent\")>. Priority=0.012895 Stamp=[3,2,1] Truth: frequency=1.000000, confidence=0.275083",
+    "Derived: <((follows /2 \"A\") * \"agent\") <-> (\"agent\" * \"that\")>. Priority=0.012895 Stamp=[3,2,1] Truth: frequency=1.000000, confidence=0.275083",
+    "Derived: <(\"agent\" * \"that\") <-> ((follows /2 \"A\") * \"agent\")>. Priority=0.012895 Stamp=[3,2,1] Truth: frequency=1.000000, confidence=0.275083",
+    "Input: <(\"that\" * \"differentiates\") --> follows>. Priority=1.000000 Stamp=[4] Truth: frequency=1.000000, confidence=0.900000",
+    "Selected: <(\"that\" * \"differentiates\") --> follows>. Priority=1.000000 Stamp=[4] Truth: frequency=1.000000, confidence=0.900000",
+    "Derived: <\"that\" --> (follows /1 \"differentiates\")>. Priority=0.350102 Stamp=[4] Truth: frequency=1.000000, confidence=0.810000",
+    "Derived: <\"differentiates\" --> (follows /2 \"that\")>. Priority=0.350102 Stamp=[4] Truth: frequency=1.000000, confidence=0.810000",
+    "Derived: <(\"A\" * \"resource-bounded\") --> (\"that\" * \"differentiates\")>. Priority=0.175873 Stamp=[4,1] Truth: frequency=1.000000, confidence=0.447514",
+    "Derived: <(\"that\" * \"differentiates\") --> (\"A\" * \"resource-bounded\")>. Priority=0.175873 Stamp=[4,1] Truth: frequency=1.000000, confidence=0.447514",
+    "Derived: <(\"A\" * \"resource-bounded\") <-> (\"that\" * \"differentiates\")>. Priority=0.175873 Stamp=[4,1] Truth: frequency=1.000000, confidence=0.447514",
+    "Derived: <(\"that\" * \"differentiates\") <-> (\"A\" * \"resource-bounded\")>. Priority=0.175873 Stamp=[4,1] Truth: frequency=1.000000, confidence=0.447514",
+    "Derived: <(\"resource-bounded\" * \"agent\") --> (\"that\" * \"differentiates\")>. Priority=0.195414 Stamp=[4,2] Truth: frequency=1.000000, confidence=0.447514",
+    "Derived: <(\"that\" * \"differentiates\") --> (\"resource-bounded\" * \"agent\")>. Priority=0.195414 Stamp=[4,2] Truth: frequency=1.000000, confidence=0.447514",
+    "Derived: <(\"resource-bounded\" * \"agent\") <-> (\"that\" * \"differentiates\")>. Priority=0.195414 Stamp=[4,2] Truth: frequency=1.000000, confidence=0.447514",
+    "Derived: <(\"that\" * \"differentiates\") <-> (\"resource-bounded\" * \"agent\")>. Priority=0.195414 Stamp=[4,2] Truth: frequency=1.000000, confidence=0.447514",
+    "Derived: <((follows /2 \"A\") * \"agent\") --> (\"that\" * \"differentiates\")>. Priority=0.011606 Stamp=[4,2,1] Truth: frequency=1.000000, confidence=0.275083",
+    "Derived: <(\"that\" * \"differentiates\") --> ((follows /2 \"A\") * \"agent\")>. Priority=0.011606 Stamp=[4,2,1] Truth: frequency=1.000000, confidence=0.275083",
+    "Derived: <((follows /2 \"A\") * \"agent\") <-> (\"that\" * \"differentiates\")>. Priority=0.011606 Stamp=[4,2,1] Truth: frequency=1.000000, confidence=0.275083",
+    "Derived: <(\"that\" * \"differentiates\") <-> ((follows /2 \"A\") * \"agent\")>. Priority=0.011606 Stamp=[4,2,1] Truth: frequency=1.000000, confidence=0.275083",
+    "Derived: <(\"agent\" * \"that\") --> (\"that\" * \"differentiates\")>. Priority=0.217127 Stamp=[4,3] Truth: frequency=1.000000, confidence=0.447514",
+    "Derived: <(\"that\" * \"differentiates\") --> (\"agent\" * \"that\")>. Priority=0.217127 Stamp=[4,3] Truth: frequency=1.000000, confidence=0.447514",
+    "Derived: <(\"agent\" * \"that\") <-> (\"that\" * \"differentiates\")>. Priority=0.217127 Stamp=[4,3] Truth: frequency=1.000000, confidence=0.447514",
+    "Derived: <(\"that\" * \"differentiates\") <-> (\"agent\" * \"that\")>. Priority=0.217127 Stamp=[4,3] Truth: frequency=1.000000, confidence=0.447514",
+    "Derived: <((follows /2 \"agent\") * \"differentiates\") --> follows>. Priority=0.074657 Stamp=[4,3] Truth: frequency=1.000000, confidence=0.421631",
+    "Derived: <((follows /2 \"resource-bounded\") * \"that\") --> (\"that\" * \"differentiates\")>. Priority=0.012895 Stamp=[4,3,2] Truth: frequency=1.000000, confidence=0.275083",
+    "Derived: <(\"that\" * \"differentiates\") --> ((follows /2 \"resource-bounded\") * \"that\")>. Priority=0.012895 Stamp=[4,3,2] Truth: frequency=1.000000, confidence=0.275083",
+    "Derived: <((follows /2 \"resource-bounded\") * \"that\") <-> (\"that\" * \"differentiates\")>. Priority=0.012895 Stamp=[4,3,2] Truth: frequency=1.000000, confidence=0.275083",
+    "Derived: <(\"that\" * \"differentiates\") <-> ((follows /2 \"resource-bounded\") * \"that\")>. Priority=0.012895 Stamp=[4,3,2] Truth: frequency=1.000000, confidence=0.275083",
+    "Input: <(\"differentiates\" * \"its\") --> follows>. Priority=1.000000 Stamp=[5] Truth: frequency=1.000000, confidence=0.900000",
+    "Selected: <(\"differentiates\" * \"its\") --> follows>. Priority=1.000000 Stamp=[5] Truth: frequency=1.000000, confidence=0.900000",
+    "Derived: <\"differentiates\" --> (follows /1 \"its\")>. Priority=0.350102 Stamp=[5] Truth: frequency=1.000000, confidence=0.810000",
+    "Derived: <\"its\" --> (follows /2 \"differentiates\")>. Priority=0.350102 Stamp=[5] Truth: frequency=1.000000, confidence=0.810000",
+    "Derived: <(\"A\" * \"resource-bounded\") --> (\"differentiates\" * \"its\")>. Priority=0.158286 Stamp=[5,1] Truth: frequency=1.000000, confidence=0.447514",
+    "Derived: <(\"differentiates\" * \"its\") --> (\"A\" * \"resource-bounded\")>. Priority=0.158286 Stamp=[5,1] Truth: frequency=1.000000, confidence=0.447514",
+    "Derived: <(\"A\" * \"resource-bounded\") <-> (\"differentiates\" * \"its\")>. Priority=0.158286 Stamp=[5,1] Truth: frequency=1.000000, confidence=0.447514",
+    "Derived: <(\"differentiates\" * \"its\") <-> (\"A\" * \"resource-bounded\")>. Priority=0.158286 Stamp=[5,1] Truth: frequency=1.000000, confidence=0.447514",
+    "Derived: <(\"resource-bounded\" * \"agent\") --> (\"differentiates\" * \"its\")>. Priority=0.175873 Stamp=[5,2] Truth: frequency=1.000000, confidence=0.447514",
+    "Derived: <(\"differentiates\" * \"its\") --> (\"resource-bounded\" * \"agent\")>. Priority=0.175873 Stamp=[5,2] Truth: frequency=1.000000, confidence=0.447514",
+    "Derived: <(\"resource-bounded\" * \"agent\") <-> (\"differentiates\" * \"its\")>. Priority=0.175873 Stamp=[5,2] Truth: frequency=1.000000, confidence=0.447514",
+    "Derived: <(\"differentiates\" * \"its\") <-> (\"resource-bounded\" * \"agent\")>. Priority=0.175873 Stamp=[5,2] Truth: frequency=1.000000, confidence=0.447514",
+    "Derived: <(\"agent\" * \"that\") --> (\"differentiates\" * \"its\")>. Priority=0.195414 Stamp=[5,3] Truth: frequency=1.000000, confidence=0.447514",
+    "Derived: <(\"differentiates\" * \"its\") --> (\"agent\" * \"that\")>. Priority=0.195414 Stamp=[5,3] Truth: frequency=1.000000, confidence=0.447514",
+    "Derived: <(\"agent\" * \"that\") <-> (\"differentiates\" * \"its\")>. Priority=0.195414 Stamp=[5,3] Truth: frequency=1.000000, confidence=0.447514",
+    "Derived: <(\"differentiates\" * \"its\") <-> (\"agent\" * \"that\")>. Priority=0.195414 Stamp=[5,3] Truth: frequency=1.000000, confidence=0.447514",
+    "Derived: <(\"that\" * \"differentiates\") --> (\"differentiates\" * \"its\")>. Priority=0.217127 Stamp=[5,4] Truth: frequency=1.000000, confidence=0.447514",
+    "Derived: <(\"differentiates\" * \"its\") --> (\"that\" * \"differentiates\")>. Priority=0.217127 Stamp=[5,4] Truth: frequency=1.000000, confidence=0.447514",
+    "Derived: <(\"that\" * \"differentiates\") <-> (\"differentiates\" * \"its\")>. Priority=0.217127 Stamp=[5,4] Truth: frequency=1.000000, confidence=0.447514",
+    "Derived: <(\"differentiates\" * \"its\") <-> (\"that\" * \"differentiates\")>. Priority=0.217127 Stamp=[5,4] Truth: frequency=1.000000, confidence=0.447514",
+    "Input: <(\"its\" * \"input\") --> follows>. Priority=1.000000 Stamp=[6] Truth: frequency=1.000000, confidence=0.900000",
+    "Selected: <(\"its\" * \"input\") --> follows>. Priority=1.000000 Stamp=[6] Truth: frequency=1.000000, confidence=0.900000",
+    "Derived: <\"its\" --> (follows /1 \"input\")>. Priority=0.350102 Stamp=[6] Truth: frequency=1.000000, confidence=0.810000",
+    "Derived: <\"input\" --> (follows /2 \"its\")>. Priority=0.350102 Stamp=[6] Truth: frequency=1.000000, confidence=0.810000",
+    "Derived: <(\"that\" * \"differentiates\") --> (\"its\" * \"input\")>. Priority=0.195414 Stamp=[6,4] Truth: frequency=1.000000, confidence=0.447514",
+    "Derived: <(\"its\" * \"input\") --> (\"that\" * \"differentiates\")>. Priority=0.195414 Stamp=[6,4] Truth: frequency=1.000000, confidence=0.447514",
+    "Derived: <(\"that\" * \"differentiates\") <-> (\"its\" * \"input\")>. Priority=0.195414 Stamp=[6,4] Truth: frequency=1.000000, confidence=0.447514",
+    "Derived: <(\"its\" * \"input\") <-> (\"that\" * \"differentiates\")>. Priority=0.195414 Stamp=[6,4] Truth: frequency=1.000000, confidence=0.447514",
+    "Derived: <(\"differentiates\" * \"its\") --> (\"its\" * \"input\")>. Priority=0.217127 Stamp=[6,5] Truth: frequency=1.000000, confidence=0.447514",
+    "Derived: <(\"its\" * \"input\") --> (\"differentiates\" * \"its\")>. Priority=0.217127 Stamp=[6,5] Truth: frequency=1.000000, confidence=0.447514",
+    "Derived: <(\"differentiates\" * \"its\") <-> (\"its\" * \"input\")>. Priority=0.217127 Stamp=[6,5] Truth: frequency=1.000000, confidence=0.447514",
+    "Derived: <(\"its\" * \"input\") <-> (\"differentiates\" * \"its\")>. Priority=0.217127 Stamp=[6,5] Truth: frequency=1.000000, confidence=0.447514",
+    "Input: <(\"input\" * \"into\") --> follows>. Priority=1.000000 Stamp=[7] Truth: frequency=1.000000, confidence=0.900000",
+    "Selected: <(\"input\" * \"into\") --> follows>. Priority=1.000000 Stamp=[7] Truth: frequency=1.000000, confidence=0.900000",
+    "Derived: <\"input\" --> (follows /1 \"into\")>. Priority=0.350102 Stamp=[7] Truth: frequency=1.000000, confidence=0.810000",
+    "Derived: <\"into\" --> (follows /2 \"input\")>. Priority=0.350102 Stamp=[7] Truth: frequency=1.000000, confidence=0.810000",
+    "Derived: <(\"differentiates\" * \"its\") --> (\"input\" * \"into\")>. Priority=0.195414 Stamp=[7,5] Truth: frequency=1.000000, confidence=0.447514",
+    "Derived: <(\"input\" * \"into\") --> (\"differentiates\" * \"its\")>. Priority=0.195414 Stamp=[7,5] Truth: frequency=1.000000, confidence=0.447514",
+    "Derived: <(\"differentiates\" * \"its\") <-> (\"input\" * \"into\")>. Priority=0.195414 Stamp=[7,5] Truth: frequency=1.000000, confidence=0.447514",
+    "Derived: <(\"input\" * \"into\") <-> (\"differentiates\" * \"its\")>. Priority=0.195414 Stamp=[7,5] Truth: frequency=1.000000, confidence=0.447514",
+    "Input: <(\"into\" * \"claims\") --> follows>. Priority=1.000000 Stamp=[8] Truth: frequency=1.000000, confidence=0.900000",
+    "Selected: <(\"into\" * \"claims\") --> follows>. Priority=1.000000 Stamp=[8] Truth: frequency=1.000000, confidence=0.900000",
+    "Derived: <\"into\" --> (follows /1 \"claims\")>. Priority=0.350102 Stamp=[8] Truth: frequency=1.000000, confidence=0.810000",
+    "Derived: <\"claims\" --> (follows /2 \"into\")>. Priority=0.350102 Stamp=[8] Truth: frequency=1.000000, confidence=0.810000",
+    "Input: <(\"claims\" * \"faces\") --> follows>. Priority=1.000000 Stamp=[9] Truth: frequency=1.000000, confidence=0.900000",
+    "Selected: <(\"claims\" * \"faces\") --> follows>. Priority=1.000000 Stamp=[9] Truth: frequency=1.000000, confidence=0.900000",
+    "Derived: <\"claims\" --> (follows /1 \"faces\")>. Priority=0.350102 Stamp=[9] Truth: frequency=1.000000, confidence=0.810000",
+    "Derived: <\"faces\" --> (follows /2 \"claims\")>. Priority=0.350102 Stamp=[9] Truth: frequency=1.000000, confidence=0.810000",
+    "Input: <(\"faces\" * \"a\") --> follows>. Priority=1.000000 Stamp=[10] Truth: frequency=1.000000, confidence=0.900000",
+    "Selected: <(\"faces\" * \"a\") --> follows>. Priority=1.000000 Stamp=[10] Truth: frequency=1.000000, confidence=0.900000",
+    "Derived: <\"faces\" --> (follows /1 \"a\")>. Priority=0.350102 Stamp=[10] Truth: frequency=1.000000, confidence=0.810000",
+    "Derived: <\"a\" --> (follows /2 \"faces\")>. Priority=0.350102 Stamp=[10] Truth: frequency=1.000000, confidence=0.810000",
+    "Input: <(\"a\" * \"geometric\") --> follows>. Priority=1.000000 Stamp=[11] Truth: frequency=1.000000, confidence=0.900000",
+    "Selected: <(\"a\" * \"geometric\") --> follows>. Priority=1.000000 Stamp=[11] Truth: frequency=1.000000, confidence=0.900000",
+    "Derived: <\"a\" --> (follows /1 \"geometric\")>. Priority=0.350102 Stamp=[11] Truth: frequency=1.000000, confidence=0.810000",
+    "Derived: <\"geometric\" --> (follows /2 \"a\")>. Priority=0.350102 Stamp=[11] Truth: frequency=1.000000, confidence=0.810000",
+    "Input: <(\"geometric\" * \"forcing\") --> follows>. Priority=1.000000 Stamp=[12] Truth: frequency=1.000000, confidence=0.900000",
+    "Selected: <(\"geometric\" * \"forcing\") --> follows>. Priority=1.000000 Stamp=[12] Truth: frequency=1.000000, confidence=0.900000",
+    "Derived: <\"geometric\" --> (follows /1 \"forcing\")>. Priority=0.350102 Stamp=[12] Truth: frequency=1.000000, confidence=0.810000",
+    "Derived: <\"forcing\" --> (follows /2 \"geometric\")>. Priority=0.350102 Stamp=[12] Truth: frequency=1.000000, confidence=0.810000",
+    "Input: <(\"forcing\" * \"law.\") --> follows>. Priority=1.000000 Stamp=[13] Truth: frequency=1.000000, confidence=0.900000",
+    "Selected: <(\"forcing\" * \"law.\") --> follows>. Priority=1.000000 Stamp=[13] Truth: frequency=1.000000, confidence=0.900000",
+    "Derived: <\"forcing\" --> (follows /1 \"law.\")>. Priority=0.350102 Stamp=[13] Truth: frequency=1.000000, confidence=0.810000",
+    "Derived: <\"law.\" --> (follows /2 \"forcing\")>. Priority=0.350102 Stamp=[13] Truth: frequency=1.000000, confidence=0.810000",
+    "Input: <(\"law.\" * \"The\") --> follows>. Priority=1.000000 Stamp=[14] Truth: frequency=1.000000, confidence=0.900000",
+    "Selected: <(\"law.\" * \"The\") --> follows>. Priority=1.000000 Stamp=[14] Truth: frequency=1.000000, confidence=0.900000",
+    "Derived: <\"law.\" --> (follows /1 \"The\")>. Priority=0.350102 Stamp=[14] Truth: frequency=1.000000, confidence=0.810000",
+    "Derived: <\"The\" --> (follows /2 \"law.\")>. Priority=0.350102 Stamp=[14] Truth: frequency=1.000000, confidence=0.810000",
+    "Input: <(\"The\" * \"cost\") --> follows>. Priority=1.000000 Stamp=[15] Truth: frequency=1.000000, confidence=0.900000",
+    "Selected: <(\"The\" * \"cost\") --> follows>. Priority=1.000000 Stamp=[15] Truth: frequency=1.000000, confidence=0.900000",
+    "Derived: <\"The\" --> (follows /1 \"cost\")>. Priority=0.350102 Stamp=[15] Truth: frequency=1.000000, confidence=0.810000",
+    "Derived: <\"cost\" --> (follows /2 \"The\")>. Priority=0.350102 Stamp=[15] Truth: frequency=1.000000, confidence=0.810000",
+    "Input: <(\"cost\" * \"of\") --> follows>. Priority=1.000000 Stamp=[16] Truth: frequency=1.000000, confidence=0.900000",
+    "Selected: <(\"cost\" * \"of\") --> follows>. Priority=1.000000 Stamp=[16] Truth: frequency=1.000000, confidence=0.900000",
+    "Derived: <\"cost\" --> (follows /1 \"of\")>. Priority=0.350102 Stamp=[16] Truth: frequency=1.000000, confidence=0.810000",
+    "Derived: <\"of\" --> (follows /2 \"cost\")>. Priority=0.350102 Stamp=[16] Truth: frequency=1.000000, confidence=0.810000",
+    "Input: <(\"of\" * \"further\") --> follows>. Priority=1.000000 Stamp=[17] Truth: frequency=1.000000, confidence=0.900000",
+    "Selected: <(\"of\" * \"further\") --> follows>. Priority=1.000000 Stamp=[17] Truth: frequency=1.000000, confidence=0.900000",
+    "Derived: <\"of\" --> (follows /1 \"further\")>. Priority=0.350102 Stamp=[17] Truth: frequency=1.000000, confidence=0.810000",
+    "Derived: <\"further\" --> (follows /2 \"of\")>. Priority=0.350102 Stamp=[17] Truth: frequency=1.000000, confidence=0.810000",
+    "Input: <(\"further\" * \"claim\") --> follows>. Priority=1.000000 Stamp=[18] Truth: frequency=1.000000, confidence=0.900000",
+    "Selected: <(\"further\" * \"claim\") --> follows>. Priority=1.000000 Stamp=[18] Truth: frequency=1.000000, confidence=0.900000",
+    "Derived: <\"further\" --> (follows /1 \"claim\")>. Priority=0.350102 Stamp=[18] Truth: frequency=1.000000, confidence=0.810000",
+    "Derived: <\"claim\" --> (follows /2 \"further\")>. Priority=0.350102 Stamp=[18] Truth: frequency=1.000000, confidence=0.810000",
+    "Input: <(\"claim\" * \"interactions\") --> follows>. Priority=1.000000 Stamp=[19] Truth: frequency=1.000000, confidence=0.900000",
+    "Selected: <(\"claim\" * \"interactions\") --> follows>. Priority=1.000000 Stamp=[19] Truth: frequency=1.000000, confidence=0.900000",
+    "Derived: <\"claim\" --> (follows /1 \"interactions\")>. Priority=0.350102 Stamp=[19] Truth: frequency=1.000000, confidence=0.810000",
+    "Derived: <\"interactions\" --> (follows /2 \"claim\")>. Priority=0.350102 Stamp=[19] Truth: frequency=1.000000, confidence=0.810000",
+    "Input: <(\"interactions\" * \"diverges\") --> follows>. Priority=1.000000 Stamp=[20] Truth: frequency=1.000000, confidence=0.900000",
+    "Selected: <(\"interactions\" * \"diverges\") --> follows>. Priority=1.000000 Stamp=[20] Truth: frequency=1.000000, confidence=0.900000",
+    "Derived: <\"interactions\" --> (follows /1 \"diverges\")>. Priority=0.350102 Stamp=[20] Truth: frequency=1.000000, confidence=0.810000",
+    "Derived: <\"diverges\" --> (follows /2 \"interactions\")>. Priority=0.350102 Stamp=[20] Truth: frequency=1.000000, confidence=0.810000",
+    "Input: <(\"diverges\" * \"at\") --> follows>. Priority=1.000000 Stamp=[21] Truth: frequency=1.000000, confidence=0.900000",
+    "Selected: <(\"diverges\" * \"at\") --> follows>. Priority=1.000000 Stamp=[21] Truth: frequency=1.000000, confidence=0.900000",
+    "Derived: <\"diverges\" --> (follows /1 \"at\")>. Priority=0.350102 Stamp=[21] Truth: frequency=1.000000, confidence=0.810000",
+    "Derived: <\"at\" --> (follows /2 \"diverges\")>. Priority=0.350102 Stamp=[21] Truth: frequency=1.000000, confidence=0.810000",
+    "Input: <(\"at\" * \"critical\") --> follows>. Priority=1.000000 Stamp=[22] Truth: frequency=1.000000, confidence=0.900000",
+    "Selected: <(\"at\" * \"critical\") --> follows>. Priority=1.000000 Stamp=[22] Truth: frequency=1.000000, confidence=0.900000",
+    "Derived: <\"at\" --> (follows /1 \"critical\")>. Priority=0.350102 Stamp=[22] Truth: frequency=1.000000, confidence=0.810000",
+    "Derived: <\"critical\" --> (follows /2 \"at\")>. Priority=0.350102 Stamp=[22] Truth: frequency=1.000000, confidence=0.810000",
+    "Input: <(\"critical\" * \"conflict\") --> follows>. Priority=1.000000 Stamp=[23] Truth: frequency=1.000000, confidence=0.900000",
+    "Selected: <(\"critical\" * \"conflict\") --> follows>. Priority=1.000000 Stamp=[23] Truth: frequency=1.000000, confidence=0.900000",
+    "Derived: <\"critical\" --> (follows /1 \"conflict\")>. Priority=0.350102 Stamp=[23] Truth: frequency=1.000000, confidence=0.810000",
+    "Derived: <\"conflict\" --> (follows /2 \"critical\")>. Priority=0.350102 Stamp=[23] Truth: frequency=1.000000, confidence=0.810000",
+    "Input: <(\"conflict\" * \"density\") --> follows>. Priority=1.000000 Stamp=[24] Truth: frequency=1.000000, confidence=0.900000",
+    "Selected: <(\"conflict\" * \"density\") --> follows>. Priority=1.000000 Stamp=[24] Truth: frequency=1.000000, confidence=0.900000",
+    "Derived: <\"conflict\" --> (follows /1 \"density\")>. Priority=0.350102 Stamp=[24] Truth: frequency=1.000000, confidence=0.810000",
+    "Derived: <\"density\" --> (follows /2 \"conflict\")>. Priority=0.350102 Stamp=[24] Truth: frequency=1.000000, confidence=0.810000",
+    "Input: <(\"density\" * \"making\") --> follows>. Priority=1.000000 Stamp=[25] Truth: frequency=1.000000, confidence=0.900000",
+    "Selected: <(\"density\" * \"making\") --> follows>. Priority=1.000000 Stamp=[25] Truth: frequency=1.000000, confidence=0.900000",
+    "Derived: <\"density\" --> (follows /1 \"making\")>. Priority=0.350102 Stamp=[25] Truth: frequency=1.000000, confidence=0.810000",
+    "Derived: <\"making\" --> (follows /2 \"density\")>. Priority=0.350102 Stamp=[25] Truth: frequency=1.000000, confidence=0.810000",
+    "Input: <(\"making\" * \"continued\") --> follows>. Priority=1.000000 Stamp=[26] Truth: frequency=1.000000, confidence=0.900000",
+    "Selected: <(\"making\" * \"continued\") --> follows>. Priority=1.000000 Stamp=[26] Truth: frequency=1.000000, confidence=0.900000",
+    "Derived: <\"making\" --> (follows /1 \"continued\")>. Priority=0.350102 Stamp=[26] Truth: frequency=1.000000, confidence=0.810000",
+    "Derived: <\"continued\" --> (follows /2 \"making\")>. Priority=0.350102 Stamp=[26] Truth: frequency=1.000000, confidence=0.810000",
+    "Input: <(\"continued\" * \"differentiation\") --> follows>. Priority=1.000000 Stamp=[27] Truth: frequency=1.000000, confidence=0.900000",
+    "Selected: <(\"continued\" * \"differentiation\") --> follows>. Priority=1.000000 Stamp=[27] Truth: frequency=1.000000, confidence=0.900000",
+    "Derived: <\"continued\" --> (follows /1 \"differentiation\")>. Priority=0.350102 Stamp=[27] Truth: frequency=1.000000, confidence=0.810000",
+    "Derived: <\"differentiation\" --> (follows /2 \"continued\")>. Priority=0.350102 Stamp=[27] Truth: frequency=1.000000, confidence=0.810000",
+    "Input: <(\"differentiation\" * \"epistemically\") --> follows>. Priority=1.000000 Stamp=[28] Truth: frequency=1.000000, confidence=0.900000",
+    "Selected: <(\"differentiation\" * \"epistemically\") --> follows>. Priority=1.000000 Stamp=[28] Truth: frequency=1.000000, confidence=0.900000",
+    "Derived: <\"differentiation\" --> (follows /1 \"epistemically\")>. Priority=0.350102 Stamp=[28] Truth: frequency=1.000000, confidence=0.810000",
+    "Derived: <\"epistemically\" --> (follows /2 \"differentiation\")>. Priority=0.350102 Stamp=[28] Truth: frequency=1.000000, confidence=0.810000",
+    "Input: <(\"epistemically\" * \"insolvent.\") --> follows>. Priority=1.000000 Stamp=[29] Truth: frequency=1.000000, confidence=0.900000",
+    "Selected: <(\"epistemically\" * \"insolvent.\") --> follows>. Priority=1.000000 Stamp=[29] Truth: frequency=1.000000, confidence=0.900000",
+    "Derived: <\"epistemically\" --> (follows /1 \"insolvent.\")>. Priority=0.350102 Stamp=[29] Truth: frequency=1.000000, confidence=0.810000",
+    "Derived: <\"insolvent.\" --> (follows /2 \"epistemically\")>. Priority=0.350102 Stamp=[29] Truth: frequency=1.000000, confidence=0.810000",
+    "Input: <(\"insolvent.\" * \"The\") --> follows>. Priority=1.000000 Stamp=[30] Truth: frequency=1.000000, confidence=0.900000",
+    "Selected: <(\"insolvent.\" * \"The\") --> follows>. Priority=1.000000 Stamp=[30] Truth: frequency=1.000000, confidence=0.900000",
+    "Derived: <\"insolvent.\" --> (follows /1 \"The\")>. Priority=0.350102 Stamp=[30] Truth: frequency=1.000000, confidence=0.810000",
+    "Derived: <\"The\" --> (follows /2 \"insolvent.\")>. Priority=0.350102 Stamp=[30] Truth: frequency=1.000000, confidence=0.810000",
+    "Input: <(\"The\" * \"agent\") --> follows>. Priority=1.000000 Stamp=[31] Truth: frequency=1.000000, confidence=0.900000",
+    "Selected: <(\"The\" * \"agent\") --> follows>. Priority=1.000000 Stamp=[31] Truth: frequency=1.000000, confidence=0.900000",
+    "Derived: <\"The\" --> (follows /1 \"agent\")>. Priority=0.350102 Stamp=[31] Truth: frequency=1.000000, confidence=0.810000",
+    "Derived: <\"agent\" --> (follows /2 \"The\")>. Priority=0.350102 Stamp=[31] Truth: frequency=1.000000, confidence=0.810000",
+    "Input: <(\"agent\" * \"must\") --> follows>. Priority=1.000000 Stamp=[32] Truth: frequency=1.000000, confidence=0.900000",
+    "Selected: <(\"agent\" * \"must\") --> follows>. Priority=1.000000 Stamp=[32] Truth: frequency=1.000000, confidence=0.900000",
+    "Derived: <\"agent\" --> (follows /1 \"must\")>. Priority=0.350102 Stamp=[32] Truth: frequency=1.000000, confidence=0.810000",
+    "Derived: <\"must\" --> (follows /2 \"agent\")>. Priority=0.350102 Stamp=[32] Truth: frequency=1.000000, confidence=0.810000",
+    "Input: <(\"must\" * \"integrate.\") --> follows>. Priority=1.000000 Stamp=[33] Truth: frequency=1.000000, confidence=0.900000",
+    "Selected: <(\"must\" * \"integrate.\") --> follows>. Priority=1.000000 Stamp=[33] Truth: frequency=1.000000, confidence=0.900000",
+    "Derived: <\"must\" --> (follows /1 \"integrate.\")>. Priority=0.350102 Stamp=[33] Truth: frequency=1.000000, confidence=0.810000",
+    "Derived: <\"integrate.\" --> (follows /2 \"must\")>. Priority=0.350102 Stamp=[33] Truth: frequency=1.000000, confidence=0.810000",
+    "Input: <(\"integrate.\" * \"We\") --> follows>. Priority=1.000000 Stamp=[34] Truth: frequency=1.000000, confidence=0.900000",
+    "Selected: <(\"integrate.\" * \"We\") --> follows>. Priority=1.000000 Stamp=[34] Truth: frequency=1.000000, confidence=0.900000",
+    "Derived: <\"integrate.\" --> (follows /1 \"We\")>. Priority=0.350102 Stamp=[34] Truth: frequency=1.000000, confidence=0.810000",
+    "Derived: <\"We\" --> (follows /2 \"integrate.\")>. Priority=0.350102 Stamp=[34] Truth: frequency=1.000000, confidence=0.810000",
+    "Input: <(\"We\" * \"introduce\") --> follows>. Priority=1.000000 Stamp=[35] Truth: frequency=1.000000, confidence=0.900000",
+    "Selected: <(\"We\" * \"introduce\") --> follows>. Priority=1.000000 Stamp=[35] Truth: frequency=1.000000, confidence=0.900000",
+    "Derived: <\"We\" --> (follows /1 \"introduce\")>. Priority=0.350102 Stamp=[35] Truth: frequency=1.000000, confidence=0.810000",
+    "Derived: <\"introduce\" --> (follows /2 \"We\")>. Priority=0.350102 Stamp=[35] Truth: frequency=1.000000, confidence=0.810000",
+    "Input: <(\"introduce\" * \"the\") --> follows>. Priority=1.000000 Stamp=[36] Truth: frequency=1.000000, confidence=0.900000",
+    "Selected: <(\"introduce\" * \"the\") --> follows>. Priority=1.000000 Stamp=[36] Truth: frequency=1.000000, confidence=0.900000",
+    "Derived: <\"introduce\" --> (follows /1 \"the\")>. Priority=0.350102 Stamp=[36] Truth: frequency=1.000000, confidence=0.810000",
+    "Derived: <\"the\" --> (follows /2 \"introduce\")>. Priority=0.350102 Stamp=[36] Truth: frequency=1.000000, confidence=0.810000",
+    "Input: <(\"the\" * \"Hypothesis\") --> follows>. Priority=1.000000 Stamp=[37] Truth: frequency=1.000000, confidence=0.900000",
+    "Selected: <(\"the\" * \"Hypothesis\") --> follows>. Priority=1.000000 Stamp=[37] Truth: frequency=1.000000, confidence=0.900000",
+    "Derived: <\"the\" --> (follows /1 \"Hypothesis\")>. Priority=0.350102 Stamp=[37] Truth: frequency=1.000000, confidence=0.810000",
+    "Derived: <\"Hypothesis\" --> (follows /2 \"the\")>. Priority=0.350102 Stamp=[37] Truth: frequency=1.000000, confidence=0.810000",
+    "Input: <(\"Hypothesis\" * \"Surface\") --> follows>. Priority=1.000000 Stamp=[38] Truth: frequency=1.000000, confidence=0.900000",
+    "Selected: <(\"Hypothesis\" * \"Surface\") --> follows>. Priority=1.000000 Stamp=[38] Truth: frequency=1.000000, confidence=0.900000",
+    "Derived: <\"Hypothesis\" --> (follows /1 \"Surface\")>. Priority=0.350102 Stamp=[38] Truth: frequency=1.000000, confidence=0.810000",
+    "Derived: <\"Surface\" --> (follows /2 \"Hypothesis\")>. Priority=0.350102 Stamp=[38] Truth: frequency=1.000000, confidence=0.810000",
+    "Input: <(\"Surface\" * \"a\") --> follows>. Priority=1.000000 Stamp=[39] Truth: frequency=1.000000, confidence=0.900000",
+    "Selected: <(\"Surface\" * \"a\") --> follows>. Priority=1.000000 Stamp=[39] Truth: frequency=1.000000, confidence=0.900000",
+    "Derived: <\"Surface\" --> (follows /1 \"a\")>. Priority=0.350102 Stamp=[39] Truth: frequency=1.000000, confidence=0.810000",
+    "Derived: <\"a\" --> (follows /2 \"Surface\")>. Priority=0.350102 Stamp=[39] Truth: frequency=1.000000, confidence=0.810000",
+    "Input: <(\"a\" * \"typed\") --> follows>. Priority=1.000000 Stamp=[40] Truth: frequency=1.000000, confidence=0.900000",
+    "Selected: <(\"a\" * \"typed\") --> follows>. Priority=1.000000 Stamp=[40] Truth: frequency=1.000000, confidence=0.900000",
+    "Derived: <\"a\" --> (follows /1 \"typed\")>. Priority=0.350102 Stamp=[40] Truth: frequency=1.000000, confidence=0.810000",
+    "Derived: <\"typed\" --> (follows /2 \"a\")>. Priority=0.350102 Stamp=[40] Truth: frequency=1.000000, confidence=0.810000",
+    "Input: <(\"typed\" * \"epistemic\") --> follows>. Priority=1.000000 Stamp=[41] Truth: frequency=1.000000, confidence=0.900000",
+    "Selected: <(\"typed\" * \"epistemic\") --> follows>. Priority=1.000000 Stamp=[41] Truth: frequency=1.000000, confidence=0.900000",
+    "Derived: <\"typed\" --> (follows /1 \"epistemic\")>. Priority=0.350102 Stamp=[41] Truth: frequency=1.000000, confidence=0.810000",
+    "Derived: <\"epistemic\" --> (follows /2 \"typed\")>. Priority=0.350102 Stamp=[41] Truth: frequency=1.000000, confidence=0.810000",
+    "Input: <(\"epistemic\" * \"workspace\") --> follows>. Priority=1.000000 Stamp=[42] Truth: frequency=1.000000, confidence=0.900000",
+    "Selected: <(\"epistemic\" * \"workspace\") --> follows>. Priority=1.000000 Stamp=[42] Truth: frequency=1.000000, confidence=0.900000",
+    "Derived: <\"epistemic\" --> (follows /1 \"workspace\")>. Priority=0.350102 Stamp=[42] Truth: frequency=1.000000, confidence=0.810000",
+    "Derived: <\"workspace\" --> (follows /2 \"epistemic\")>. Priority=0.350102 Stamp=[42] Truth: frequency=1.000000, confidence=0.810000",
+    "Input: <(\"workspace\" * \"for\") --> follows>. Priority=1.000000 Stamp=[43] Truth: frequency=1.000000, confidence=0.900000",
+    "Selected: <(\"workspace\" * \"for\") --> follows>. Priority=1.000000 Stamp=[43] Truth: frequency=1.000000, confidence=0.900000",
+    "Derived: <\"workspace\" --> (follows /1 \"for\")>. Priority=0.350102 Stamp=[43] Truth: frequency=1.000000, confidence=0.810000",
+    "Derived: <\"for\" --> (follows /2 \"workspace\")>. Priority=0.350102 Stamp=[43] Truth: frequency=1.000000, confidence=0.810000",
+    "Input: <(\"for\" * \"active\") --> follows>. Priority=1.000000 Stamp=[44] Truth: frequency=1.000000, confidence=0.900000",
+    "Selected: <(\"for\" * \"active\") --> follows>. Priority=1.000000 Stamp=[44] Truth: frequency=1.000000, confidence=0.900000",
+    "Derived: <\"for\" --> (follows /1 \"active\")>. Priority=0.350102 Stamp=[44] Truth: frequency=1.000000, confidence=0.810000",
+    "Derived: <\"active\" --> (follows /2 \"for\")>. Priority=0.350102 Stamp=[44] Truth: frequency=1.000000, confidence=0.810000",
+    "Input: <(\"active\" * \"inference\") --> follows>. Priority=1.000000 Stamp=[45] Truth: frequency=1.000000, confidence=0.900000",
+    "Selected: <(\"active\" * \"inference\") --> follows>. Priority=1.000000 Stamp=[45] Truth: frequency=1.000000, confidence=0.900000",
+    "Derived: <\"active\" --> (follows /1 \"inference\")>. Priority=0.350102 Stamp=[45] Truth: frequency=1.000000, confidence=0.810000",
+    "Derived: <\"inference\" --> (follows /2 \"active\")>. Priority=0.350102 Stamp=[45] Truth: frequency=1.000000, confidence=0.810000",
+    "Input: <(\"inference\" * \"at\") --> follows>. Priority=1.000000 Stamp=[46] Truth: frequency=1.000000, confidence=0.900000",
+    "Selected: <(\"inference\" * \"at\") --> follows>. Priority=1.000000 Stamp=[46] Truth: frequency=1.000000, confidence=0.900000",
+    "Derived: <\"inference\" --> (follows /1 \"at\")>. Priority=0.350102 Stamp=[46] Truth: frequency=1.000000, confidence=0.810000",
+    "Derived: <\"at\" --> (follows /2 \"inference\")>. Priority=0.350102 Stamp=[46] Truth: frequency=1.000000, confidence=0.810000",
+    "Input: <(\"at\" * \"test\") --> follows>. Priority=1.000000 Stamp=[47] Truth: frequency=1.000000, confidence=0.900000",
+    "Selected: <(\"at\" * \"test\") --> follows>. Priority=1.000000 Stamp=[47] Truth: frequency=1.000000, confidence=0.900000",
+    "Derived: <\"at\" --> (follows /1 \"test\")>. Priority=0.350102 Stamp=[47] Truth: frequency=1.000000, confidence=0.810000",
+    "Derived: <\"test\" --> (follows /2 \"at\")>. Priority=0.350102 Stamp=[47] Truth: frequency=1.000000, confidence=0.810000",
+    "Input: <(\"test\" * \"time\") --> follows>. Priority=1.000000 Stamp=[48] Truth: frequency=1.000000, confidence=0.900000",
+    "Selected: <(\"test\" * \"time\") --> follows>. Priority=1.000000 Stamp=[48] Truth: frequency=1.000000, confidence=0.900000",
+    "Derived: <\"test\" --> (follows /1 \"time\")>. Priority=0.350102 Stamp=[48] Truth: frequency=1.000000, confidence=0.810000",
+    "Derived: <\"time\" --> (follows /2 \"test\")>. Priority=0.350102 Stamp=[48] Truth: frequency=1.000000, confidence=0.810000",
+    "Input: <(\"time\" * \"that\") --> follows>. Priority=1.000000 Stamp=[49] Truth: frequency=1.000000, confidence=0.900000",
+    "Selected: <(\"time\" * \"that\") --> follows>. Priority=1.000000 Stamp=[49] Truth: frequency=1.000000, confidence=0.900000",
+    "Derived: <\"time\" --> (follows /1 \"that\")>. Priority=0.350102 Stamp=[49] Truth: frequency=1.000000, confidence=0.810000",
+    "Derived: <\"that\" --> (follows /2 \"time\")>. Priority=0.350102 Stamp=[49] Truth: frequency=1.000000, confidence=0.810000",
+    "Input: <(\"that\" * \"separates\") --> follows>. Priority=1.000000 Stamp=[50] Truth: frequency=1.000000, confidence=0.900000",
+    "Selected: <(\"that\" * \"separates\") --> follows>. Priority=1.000000 Stamp=[50] Truth: frequency=1.000000, confidence=0.900000",
+    "Derived: <\"that\" --> (follows /1 \"separates\")>. Priority=0.350102 Stamp=[50] Truth: frequency=1.000000, confidence=0.810000",
+    "Derived: <\"separates\" --> (follows /2 \"that\")>. Priority=0.350102 Stamp=[50] Truth: frequency=1.000000, confidence=0.810000",
+    "Input: <(\"separates\" * \"claims\") --> follows>. Priority=1.000000 Stamp=[51] Truth: frequency=1.000000, confidence=0.900000",
+    "Selected: <(\"separates\" * \"claims\") --> follows>. Priority=1.000000 Stamp=[51] Truth: frequency=1.000000, confidence=0.900000",
+    "Derived: <\"separates\" --> (follows /1 \"claims\")>. Priority=0.350102 Stamp=[51] Truth: frequency=1.000000, confidence=0.810000",
+    "Derived: <\"claims\" --> (follows /2 \"separates\")>. Priority=0.350102 Stamp=[51] Truth: frequency=1.000000, confidence=0.810000",
+    "Input: <(\"claims\" * \"from\") --> follows>. Priority=1.000000 Stamp=[52] Truth: frequency=1.000000, confidence=0.900000",
+    "Selected: <(\"claims\" * \"from\") --> follows>. Priority=1.000000 Stamp=[52] Truth: frequency=1.000000, confidence=0.900000",
+    "Derived: <\"claims\" --> (follows /1 \"from\")>. Priority=0.350102 Stamp=[52] Truth: frequency=1.000000, confidence=0.810000",
+    "Derived: <\"from\" --> (follows /2 \"claims\")>. Priority=0.350102 Stamp=[52] Truth: frequency=1.000000, confidence=0.810000",
+    "Input: <(\"from\" * \"their\") --> follows>. Priority=1.000000 Stamp=[53] Truth: frequency=1.000000, confidence=0.900000",
+    "Selected: <(\"from\" * \"their\") --> follows>. Priority=1.000000 Stamp=[53] Truth: frequency=1.000000, confidence=0.900000",
+    "Derived: <\"from\" --> (follows /1 \"their\")>. Priority=0.350102 Stamp=[53] Truth: frequency=1.000000, confidence=0.810000",
+    "Derived: <\"their\" --> (follows /2 \"from\")>. Priority=0.350102 Stamp=[53] Truth: frequency=1.000000, confidence=0.810000",
+    "Input: <(\"their\" * \"evidential\") --> follows>. Priority=1.000000 Stamp=[54] Truth: frequency=1.000000, confidence=0.900000",
+    "Selected: <(\"their\" * \"evidential\") --> follows>. Priority=1.000000 Stamp=[54] Truth: frequency=1.000000, confidence=0.900000",
+    "Derived: <\"their\" --> (follows /1 \"evidential\")>. Priority=0.350102 Stamp=[54] Truth: frequency=1.000000, confidence=0.810000",
+    "Derived: <\"evidential\" --> (follows /2 \"their\")>. Priority=0.350102 Stamp=[54] Truth: frequency=1.000000, confidence=0.810000",
+    "Input: <(\"evidential\" * \"fibers.\") --> follows>. Priority=1.000000 Stamp=[55] Truth: frequency=1.000000, confidence=0.900000",
+    "Selected: <(\"evidential\" * \"fibers.\") --> follows>. Priority=1.000000 Stamp=[55] Truth: frequency=1.000000, confidence=0.900000",
+    "Derived: <\"evidential\" --> (follows /1 \"fibers.\")>. Priority=0.350102 Stamp=[55] Truth: frequency=1.000000, confidence=0.810000",
+    "Derived: <\"fibers.\" --> (follows /2 \"evidential\")>. Priority=0.350102 Stamp=[55] Truth: frequency=1.000000, confidence=0.810000",
+    "Input: <(\"fibers.\" * \"Three\") --> follows>. Priority=1.000000 Stamp=[56] Truth: frequency=1.000000, confidence=0.900000",
+    "Selected: <(\"fibers.\" * \"Three\") --> follows>. Priority=1.000000 Stamp=[56] Truth: frequency=1.000000, confidence=0.900000",
+    "Derived: <\"fibers.\" --> (follows /1 \"Three\")>. Priority=0.350102 Stamp=[56] Truth: frequency=1.000000, confidence=0.810000",
+    "Derived: <\"Three\" --> (follows /2 \"fibers.\")>. Priority=0.350102 Stamp=[56] Truth: frequency=1.000000, confidence=0.810000",
+    "Input: <(\"Three\" * \"invariants\") --> follows>. Priority=1.000000 Stamp=[57] Truth: frequency=1.000000, confidence=0.900000",
+    "Selected: <(\"Three\" * \"invariants\") --> follows>. Priority=1.000000 Stamp=[57] Truth: frequency=1.000000, confidence=0.900000",
+    "Derived: <\"Three\" --> (follows /1 \"invariants\")>. Priority=0.350102 Stamp=[57] Truth: frequency=1.000000, confidence=0.810000",
+    "Derived: <\"invariants\" --> (follows /2 \"Three\")>. Priority=0.350102 Stamp=[57] Truth: frequency=1.000000, confidence=0.810000",
+    "Input: <(\"invariants\" * \"function\") --> follows>. Priority=1.000000 Stamp=[58] Truth: frequency=1.000000, confidence=0.900000",
+    "Selected: <(\"invariants\" * \"function\") --> follows>. Priority=1.000000 Stamp=[58] Truth: frequency=1.000000, confidence=0.900000",
+    "Derived: <\"invariants\" --> (follows /1 \"function\")>. Priority=0.350102 Stamp=[58] Truth: frequency=1.000000, confidence=0.810000",
+    "Derived: <\"function\" --> (follows /2 \"invariants\")>. Priority=0.350102 Stamp=[58] Truth: frequency=1.000000, confidence=0.810000",
+    "Input: <(\"function\" * \"as\") --> follows>. Priority=1.000000 Stamp=[59] Truth: frequency=1.000000, confidence=0.900000",
+    "Selected: <(\"function\" * \"as\") --> follows>. Priority=1.000000 Stamp=[59] Truth: frequency=1.000000, confidence=0.900000",
+    "Derived: <\"function\" --> (follows /1 \"as\")>. Priority=0.350102 Stamp=[59] Truth: frequency=1.000000, confidence=0.810000",
+    "Derived: <\"as\" --> (follows /2 \"function\")>. Priority=0.350102 Stamp=[59] Truth: frequency=1.000000, confidence=0.810000",
+    "Input: <(\"as\" * \"integrability\") --> follows>. Priority=1.000000 Stamp=[60] Truth: frequency=1.000000, confidence=0.900000",
+    "Selected: <(\"as\" * \"integrability\") --> follows>. Priority=1.000000 Stamp=[60] Truth: frequency=1.000000, confidence=0.900000",
+    "Derived: <\"as\" --> (follows /1 \"integrability\")>. Priority=0.350102 Stamp=[60] Truth: frequency=1.000000, confidence=0.810000",
+    "Derived: <\"integrability\" --> (follows /2 \"as\")>. Priority=0.350102 Stamp=[60] Truth: frequency=1.000000, confidence=0.810000",
+    "Input: <(\"integrability\" * \"conditions\") --> follows>. Priority=1.000000 Stamp=[61] Truth: frequency=1.000000, confidence=0.900000",
+    "Selected: <(\"integrability\" * \"conditions\") --> follows>. Priority=1.000000 Stamp=[61] Truth: frequency=1.000000, confidence=0.900000",
+    "Derived: <\"integrability\" --> (follows /1 \"conditions\")>. Priority=0.350102 Stamp=[61] Truth: frequency=1.000000, confidence=0.810000",
+    "Derived: <\"conditions\" --> (follows /2 \"integrability\")>. Priority=0.350102 Stamp=[61] Truth: frequency=1.000000, confidence=0.810000",
+    "Input: <(\"conditions\" * \"each\") --> follows>. Priority=1.000000 Stamp=[62] Truth: frequency=1.000000, confidence=0.900000",
+    "Selected: <(\"conditions\" * \"each\") --> follows>. Priority=1.000000 Stamp=[62] Truth: frequency=1.000000, confidence=0.900000",
+    "Derived: <\"conditions\" --> (follows /1 \"each\")>. Priority=0.350102 Stamp=[62] Truth: frequency=1.000000, confidence=0.810000",
+    "Derived: <\"each\" --> (follows /2 \"conditions\")>. Priority=0.350102 Stamp=[62] Truth: frequency=1.000000, confidence=0.810000",
+    "Input: <(\"each\" * \"bounding\") --> follows>. Priority=1.000000 Stamp=[63] Truth: frequency=1.000000, confidence=0.900000",
+    "Selected: <(\"each\" * \"bounding\") --> follows>. Priority=1.000000 Stamp=[63] Truth: frequency=1.000000, confidence=0.900000",
+    "Derived: <\"each\" --> (follows /1 \"bounding\")>. Priority=0.350102 Stamp=[63] Truth: frequency=1.000000, confidence=0.810000",
+    "Derived: <\"bounding\" --> (follows /2 \"each\")>. Priority=0.350102 Stamp=[63] Truth: frequency=1.000000, confidence=0.810000",
+    "Input: <(\"bounding\" * \"a\") --> follows>. Priority=1.000000 Stamp=[64] Truth: frequency=1.000000, confidence=0.900000",
+    "Selected: <(\"bounding\" * \"a\") --> follows>. Priority=1.000000 Stamp=[64] Truth: frequency=1.000000, confidence=0.900000",
+    "Derived: <\"bounding\" --> (follows /1 \"a\")>. Priority=0.350102 Stamp=[64] Truth: frequency=1.000000, confidence=0.810000",
+    "Derived: <\"a\" --> (follows /2 \"bounding\")>. Priority=0.350102 Stamp=[64] Truth: frequency=1.000000, confidence=0.810000",
+    "Input: <(\"a\" * \"dimension\") --> follows>. Priority=1.000000 Stamp=[65] Truth: frequency=1.000000, confidence=0.900000",
+    "Selected: <(\"a\" * \"dimension\") --> follows>. Priority=1.000000 Stamp=[65] Truth: frequency=1.000000, confidence=0.900000",
+    "Derived: <\"a\" --> (follows /1 \"dimension\")>. Priority=0.350102 Stamp=[65] Truth: frequency=1.000000, confidence=0.810000",
+    "Derived: <\"dimension\" --> (follows /2 \"a\")>. Priority=0.350102 Stamp=[65] Truth: frequency=1.000000, confidence=0.810000",
+    "Input: <(\"dimension\" * \"of\") --> follows>. Priority=1.000000 Stamp=[66] Truth: frequency=1.000000, confidence=0.900000",
+    "Selected: <(\"dimension\" * \"of\") --> follows>. Priority=1.000000 Stamp=[66] Truth: frequency=1.000000, confidence=0.900000",
+    "Derived: <\"dimension\" --> (follows /1 \"of\")>. Priority=0.350102 Stamp=[66] Truth: frequency=1.000000, confidence=0.810000",
+    "Derived: <\"of\" --> (follows /2 \"dimension\")>. Priority=0.350102 Stamp=[66] Truth: frequency=1.000000, confidence=0.810000",
+    "Input: <(\"of\" * \"epistemic\") --> follows>. Priority=1.000000 Stamp=[67] Truth: frequency=1.000000, confidence=0.900000",
+    "Selected: <(\"of\" * \"epistemic\") --> follows>. Priority=1.000000 Stamp=[67] Truth: frequency=1.000000, confidence=0.900000",
+    "Derived: <\"of\" --> (follows /1 \"epistemic\")>. Priority=0.350102 Stamp=[67] Truth: frequency=1.000000, confidence=0.810000",
+    "Derived: <\"epistemic\" --> (follows /2 \"of\")>. Priority=0.350102 Stamp=[67] Truth: frequency=1.000000, confidence=0.810000",
+    "Input: <(\"epistemic\" * \"expansion\") --> follows>. Priority=1.000000 Stamp=[68] Truth: frequency=1.000000, confidence=0.900000",
+    "Selected: <(\"epistemic\" * \"expansion\") --> follows>. Priority=1.000000 Stamp=[68] Truth: frequency=1.000000, confidence=0.900000",
+    "Derived: <\"epistemic\" --> (follows /1 \"expansion\")>. Priority=0.350102 Stamp=[68] Truth: frequency=1.000000, confidence=0.810000",
+    "Derived: <\"expansion\" --> (follows /2 \"epistemic\")>. Priority=0.350102 Stamp=[68] Truth: frequency=1.000000, confidence=0.810000",
+    "Input: <(\"expansion\" * \"to\") --> follows>. Priority=1.000000 Stamp=[69] Truth: frequency=1.000000, confidence=0.900000",
+    "Selected: <(\"expansion\" * \"to\") --> follows>. Priority=1.000000 Stamp=[69] Truth: frequency=1.000000, confidence=0.900000",
+    "Derived: <\"expansion\" --> (follows /1 \"to\")>. Priority=0.350102 Stamp=[69] Truth: frequency=1.000000, confidence=0.810000",
+    "Derived: <\"to\" --> (follows /2 \"expansion\")>. Priority=0.350102 Stamp=[69] Truth: frequency=1.000000, confidence=0.810000",
+    "Input: <(\"to\" * \"ensure\") --> follows>. Priority=1.000000 Stamp=[70] Truth: frequency=1.000000, confidence=0.900000",
+    "Selected: <(\"to\" * \"ensure\") --> follows>. Priority=1.000000 Stamp=[70] Truth: frequency=1.000000, confidence=0.900000",
+    "Derived: <\"to\" --> (follows /1 \"ensure\")>. Priority=0.350102 Stamp=[70] Truth: frequency=1.000000, confidence=0.810000",
+    "Derived: <\"ensure\" --> (follows /2 \"to\")>. Priority=0.350102 Stamp=[70] Truth: frequency=1.000000, confidence=0.810000",
+    "Input: <(\"ensure\" * \"convergence.\") --> follows>. Priority=1.000000 Stamp=[71] Truth: frequency=1.000000, confidence=0.900000",
+    "Selected: <(\"ensure\" * \"convergence.\") --> follows>. Priority=1.000000 Stamp=[71] Truth: frequency=1.000000, confidence=0.900000",
+    "Derived: <\"ensure\" --> (follows /1 \"convergence.\")>. Priority=0.350102 Stamp=[71] Truth: frequency=1.000000, confidence=0.810000",
+    "Derived: <\"convergence.\" --> (follows /2 \"ensure\")>. Priority=0.350102 Stamp=[71] Truth: frequency=1.000000, confidence=0.810000",
+    "Input: <(\"convergence.\" * \"Under\") --> follows>. Priority=1.000000 Stamp=[72] Truth: frequency=1.000000, confidence=0.900000",
+    "Selected: <(\"convergence.\" * \"Under\") --> follows>. Priority=1.000000 Stamp=[72] Truth: frequency=1.000000, confidence=0.900000",
+    "Derived: <\"convergence.\" --> (follows /1 \"Under\")>. Priority=0.350102 Stamp=[72] Truth: frequency=1.000000, confidence=0.810000",
+    "Derived: <\"Under\" --> (follows /2 \"convergence.\")>. Priority=0.350102 Stamp=[72] Truth: frequency=1.000000, confidence=0.810000",
+    "Input: <(\"Under\" * \"bounded\") --> follows>. Priority=1.000000 Stamp=[73] Truth: frequency=1.000000, confidence=0.900000",
+    "Selected: <(\"Under\" * \"bounded\") --> follows>. Priority=1.000000 Stamp=[73] Truth: frequency=1.000000, confidence=0.900000",
+    "Derived: <\"Under\" --> (follows /1 \"bounded\")>. Priority=0.350102 Stamp=[73] Truth: frequency=1.000000, confidence=0.810000",
+    "Derived: <\"bounded\" --> (follows /2 \"Under\")>. Priority=0.350102 Stamp=[73] Truth: frequency=1.000000, confidence=0.810000",
+    "Input: <(\"bounded\" * \"observation\") --> follows>. Priority=1.000000 Stamp=[74] Truth: frequency=1.000000, confidence=0.900000",
+    "Selected: <(\"bounded\" * \"observation\") --> follows>. Priority=1.000000 Stamp=[74] Truth: frequency=1.000000, confidence=0.900000",
+    "Derived: <\"bounded\" --> (follows /1 \"observation\")>. Priority=0.350102 Stamp=[74] Truth: frequency=1.000000, confidence=0.810000",
+    "Derived: <\"observation\" --> (follows /2 \"bounded\")>. Priority=0.350102 Stamp=[74] Truth: frequency=1.000000, confidence=0.810000",
+    "Input: <(\"observation\" * \"differentiation\") --> follows>. Priority=1.000000 Stamp=[75] Truth: frequency=1.000000, confidence=0.900000",
+    "Selected: <(\"observation\" * \"differentiation\") --> follows>. Priority=1.000000 Stamp=[75] Truth: frequency=1.000000, confidence=0.900000",
+    "Derived: <\"observation\" --> (follows /1 \"differentiation\")>. Priority=0.350102 Stamp=[75] Truth: frequency=1.000000, confidence=0.810000",
+    "Derived: <\"differentiation\" --> (follows /2 \"observation\")>. Priority=0.350102 Stamp=[75] Truth: frequency=1.000000, confidence=0.810000",
+    "Input: <(\"differentiation\" * \"and\") --> follows>. Priority=1.000000 Stamp=[76] Truth: frequency=1.000000, confidence=0.900000",
+    "Selected: <(\"differentiation\" * \"and\") --> follows>. Priority=1.000000 Stamp=[76] Truth: frequency=1.000000, confidence=0.900000",
+    "Derived: <\"differentiation\" --> (follows /1 \"and\")>. Priority=0.350102 Stamp=[76] Truth: frequency=1.000000, confidence=0.810000",
+    "Derived: <\"and\" --> (follows /2 \"differentiation\")>. Priority=0.350102 Stamp=[76] Truth: frequency=1.000000, confidence=0.810000",
+    "Input: <(\"and\" * \"integration\") --> follows>. Priority=1.000000 Stamp=[77] Truth: frequency=1.000000, confidence=0.900000",
+    "Selected: <(\"and\" * \"integration\") --> follows>. Priority=1.000000 Stamp=[77] Truth: frequency=1.000000, confidence=0.900000",
+    "Derived: <\"and\" --> (follows /1 \"integration\")>. Priority=0.350102 Stamp=[77] Truth: frequency=1.000000, confidence=0.810000",
+    "Derived: <\"integration\" --> (follows /2 \"and\")>. Priority=0.350102 Stamp=[77] Truth: frequency=1.000000, confidence=0.810000",
+    "Input: <(\"integration\" * \"are\") --> follows>. Priority=1.000000 Stamp=[78] Truth: frequency=1.000000, confidence=0.900000",
+    "Selected: <(\"integration\" * \"are\") --> follows>. Priority=1.000000 Stamp=[78] Truth: frequency=1.000000, confidence=0.900000",
+    "Derived: <\"integration\" --> (follows /1 \"are\")>. Priority=0.350102 Stamp=[78] Truth: frequency=1.000000, confidence=0.810000",
+    "Derived: <\"are\" --> (follows /2 \"integration\")>. Priority=0.350102 Stamp=[78] Truth: frequency=1.000000, confidence=0.810000",
+    "Input: <(\"are\" * \"dual\") --> follows>. Priority=1.000000 Stamp=[79] Truth: frequency=1.000000, confidence=0.900000",
+    "Selected: <(\"are\" * \"dual\") --> follows>. Priority=1.000000 Stamp=[79] Truth: frequency=1.000000, confidence=0.900000",
+    "Derived: <\"are\" --> (follows /1 \"dual\")>. Priority=0.350102 Stamp=[79] Truth: frequency=1.000000, confidence=0.810000",
+    "Derived: <\"dual\" --> (follows /2 \"are\")>. Priority=0.350102 Stamp=[79] Truth: frequency=1.000000, confidence=0.810000",
+    "Input: <(\"dual\" * \"but\") --> follows>. Priority=1.000000 Stamp=[80] Truth: frequency=1.000000, confidence=0.900000",
+    "Selected: <(\"dual\" * \"but\") --> follows>. Priority=1.000000 Stamp=[80] Truth: frequency=1.000000, confidence=0.900000",
+    "Derived: <\"dual\" --> (follows /1 \"but\")>. Priority=0.350102 Stamp=[80] Truth: frequency=1.000000, confidence=0.810000",
+    "Derived: <\"but\" --> (follows /2 \"dual\")>. Priority=0.350102 Stamp=[80] Truth: frequency=1.000000, confidence=0.810000",
+    "Input: <(\"but\" * \"not\") --> follows>. Priority=1.000000 Stamp=[81] Truth: frequency=1.000000, confidence=0.900000",
+    "Selected: <(\"but\" * \"not\") --> follows>. Priority=1.000000 Stamp=[81] Truth: frequency=1.000000, confidence=0.900000",
+    "Derived: <\"but\" --> (follows /1 \"not\")>. Priority=0.350102 Stamp=[81] Truth: frequency=1.000000, confidence=0.810000",
+    "Derived: <\"not\" --> (follows /2 \"but\")>. Priority=0.350102 Stamp=[81] Truth: frequency=1.000000, confidence=0.810000",
+    "Input: <(\"not\" * \"inverse.\") --> follows>. Priority=1.000000 Stamp=[82] Truth: frequency=1.000000, confidence=0.900000",
+    "Selected: <(\"not\" * \"inverse.\") --> follows>. Priority=1.000000 Stamp=[82] Truth: frequency=1.000000, confidence=0.900000",
+    "Derived: <\"not\" --> (follows /1 \"inverse.\")>. Priority=0.350102 Stamp=[82] Truth: frequency=1.000000, confidence=0.810000",
+    "Derived: <\"inverse.\" --> (follows /2 \"not\")>. Priority=0.350102 Stamp=[82] Truth: frequency=1.000000, confidence=0.810000",
+    "Input: <(\"inverse.\" * \"A\") --> follows>. Priority=1.000000 Stamp=[83] Truth: frequency=1.000000, confidence=0.900000",
+    "Selected: <(\"inverse.\" * \"A\") --> follows>. Priority=1.000000 Stamp=[83] Truth: frequency=1.000000, confidence=0.900000",
+    "Derived: <\"inverse.\" --> (follows /1 \"A\")>. Priority=0.350102 Stamp=[83] Truth: frequency=1.000000, confidence=0.810000",
+    "Derived: <\"A\" --> (follows /2 \"inverse.\")>. Priority=0.350102 Stamp=[83] Truth: frequency=1.000000, confidence=0.810000",
+    "Input: <(\"A\" * \"fuzzy\") --> follows>. Priority=1.000000 Stamp=[84] Truth: frequency=1.000000, confidence=0.900000",
+    "Selected: <(\"A\" * \"fuzzy\") --> follows>. Priority=1.000000 Stamp=[84] Truth: frequency=1.000000, confidence=0.900000",
+    "Derived: <\"A\" --> (follows /1 \"fuzzy\")>. Priority=0.350102 Stamp=[84] Truth: frequency=1.000000, confidence=0.810000",
+    "Derived: <\"fuzzy\" --> (follows /2 \"A\")>. Priority=0.350102 Stamp=[84] Truth: frequency=1.000000, confidence=0.810000",
+    "Input: <(\"fuzzy\" * \"fundamental\") --> follows>. Priority=1.000000 Stamp=[85] Truth: frequency=1.000000, confidence=0.900000",
+    "Selected: <(\"fuzzy\" * \"fundamental\") --> follows>. Priority=1.000000 Stamp=[85] Truth: frequency=1.000000, confidence=0.900000",
+    "Derived: <\"fuzzy\" --> (follows /1 \"fundamental\")>. Priority=0.350102 Stamp=[85] Truth: frequency=1.000000, confidence=0.810000",
+    "Derived: <\"fundamental\" --> (follows /2 \"fuzzy\")>. Priority=0.350102 Stamp=[85] Truth: frequency=1.000000, confidence=0.810000",
+    "Input: <(\"fundamental\" * \"theorem\") --> follows>. Priority=1.000000 Stamp=[86] Truth: frequency=1.000000, confidence=0.900000",
+    "Selected: <(\"fundamental\" * \"theorem\") --> follows>. Priority=1.000000 Stamp=[86] Truth: frequency=1.000000, confidence=0.900000",
+    "Derived: <\"fundamental\" --> (follows /1 \"theorem\")>. Priority=0.350102 Stamp=[86] Truth: frequency=1.000000, confidence=0.810000",
+    "Derived: <\"theorem\" --> (follows /2 \"fundamental\")>. Priority=0.350102 Stamp=[86] Truth: frequency=1.000000, confidence=0.810000",
+    "Input: <(\"theorem\" * \"shows\") --> follows>. Priority=1.000000 Stamp=[87] Truth: frequency=1.000000, confidence=0.900000",
+    "Selected: <(\"theorem\" * \"shows\") --> follows>. Priority=1.000000 Stamp=[87] Truth: frequency=1.000000, confidence=0.900000",
+    "Derived: <\"theorem\" --> (follows /1 \"shows\")>. Priority=0.350102 Stamp=[87] Truth: frequency=1.000000, confidence=0.810000",
+    "Derived: <\"shows\" --> (follows /2 \"theorem\")>. Priority=0.350102 Stamp=[87] Truth: frequency=1.000000, confidence=0.810000",
+    "Input: <(\"shows\" * \"that\") --> follows>. Priority=1.000000 Stamp=[88] Truth: frequency=1.000000, confidence=0.900000",
+    "Selected: <(\"shows\" * \"that\") --> follows>. Priority=1.000000 Stamp=[88] Truth: frequency=1.000000, confidence=0.900000",
+    "Derived: <\"shows\" --> (follows /1 \"that\")>. Priority=0.350102 Stamp=[88] Truth: frequency=1.000000, confidence=0.810000",
+    "Derived: <\"that\" --> (follows /2 \"shows\")>. Priority=0.350102 Stamp=[88] Truth: frequency=1.000000, confidence=0.810000",
+    "Input: <(\"that\" * \"re-differentiating\") --> follows>. Priority=1.000000 Stamp=[89] Truth: frequency=1.000000, confidence=0.900000",
+    "Selected: <(\"that\" * \"re-differentiating\") --> follows>. Priority=1.000000 Stamp=[89] Truth: frequency=1.000000, confidence=0.900000",
+    "Derived: <\"that\" --> (follows /1 \"re-differentiating\")>. Priority=0.350102 Stamp=[89] Truth: frequency=1.000000, confidence=0.810000",
+    "Derived: <\"re-differentiating\" --> (follows /2 \"that\")>. Priority=0.350102 Stamp=[89] Truth: frequency=1.000000, confidence=0.810000",
+    "Input: <(\"re-differentiating\" * \"an\") --> follows>. Priority=1.000000 Stamp=[90] Truth: frequency=1.000000, confidence=0.900000",
+    "Selected: <(\"re-differentiating\" * \"an\") --> follows>. Priority=1.000000 Stamp=[90] Truth: frequency=1.000000, confidence=0.900000",
+    "Derived: <\"re-differentiating\" --> (follows /1 \"an\")>. Priority=0.350102 Stamp=[90] Truth: frequency=1.000000, confidence=0.810000",
+    "Derived: <\"an\" --> (follows /2 \"re-differentiating\")>. Priority=0.350102 Stamp=[90] Truth: frequency=1.000000, confidence=0.810000",
+    "Input: <(\"an\" * \"integrated\") --> follows>. Priority=1.000000 Stamp=[91] Truth: frequency=1.000000, confidence=0.900000",
+    "Selected: <(\"an\" * \"integrated\") --> follows>. Priority=1.000000 Stamp=[91] Truth: frequency=1.000000, confidence=0.900000",
+    "Derived: <\"an\" --> (follows /1 \"integrated\")>. Priority=0.350102 Stamp=[91] Truth: frequency=1.000000, confidence=0.810000",
+    "Derived: <\"integrated\" --> (follows /2 \"an\")>. Priority=0.350102 Stamp=[91] Truth: frequency=1.000000, confidence=0.810000",
+    "Input: <(\"integrated\" * \"state\") --> follows>. Priority=1.000000 Stamp=[92] Truth: frequency=1.000000, confidence=0.900000",
+    "Selected: <(\"integrated\" * \"state\") --> follows>. Priority=1.000000 Stamp=[92] Truth: frequency=1.000000, confidence=0.900000",
+    "Derived: <\"integrated\" --> (follows /1 \"state\")>. Priority=0.350102 Stamp=[92] Truth: frequency=1.000000, confidence=0.810000",
+    "Derived: <\"state\" --> (follows /2 \"integrated\")>. Priority=0.350102 Stamp=[92] Truth: frequency=1.000000, confidence=0.810000",
+    "Input: <(\"state\" * \"recovers\") --> follows>. Priority=1.000000 Stamp=[93] Truth: frequency=1.000000, confidence=0.900000",
+    "Selected: <(\"state\" * \"recovers\") --> follows>. Priority=1.000000 Stamp=[93] Truth: frequency=1.000000, confidence=0.900000",
+    "Derived: <\"state\" --> (follows /1 \"recovers\")>. Priority=0.350102 Stamp=[93] Truth: frequency=1.000000, confidence=0.810000",
+    "Derived: <\"recovers\" --> (follows /2 \"state\")>. Priority=0.350102 Stamp=[93] Truth: frequency=1.000000, confidence=0.810000",
+    "Input: <(\"recovers\" * \"the\") --> follows>. Priority=1.000000 Stamp=[94] Truth: frequency=1.000000, confidence=0.900000",
+    "Selected: <(\"recovers\" * \"the\") --> follows>. Priority=1.000000 Stamp=[94] Truth: frequency=1.000000, confidence=0.900000",
+    "Derived: <\"recovers\" --> (follows /1 \"the\")>. Priority=0.350102 Stamp=[94] Truth: frequency=1.000000, confidence=0.810000",
+    "Derived: <\"the\" --> (follows /2 \"recovers\")>. Priority=0.350102 Stamp=[94] Truth: frequency=1.000000, confidence=0.810000",
+    "Input: <(\"the\" * \"original\") --> follows>. Priority=1.000000 Stamp=[95] Truth: frequency=1.000000, confidence=0.900000",
+    "Selected: <(\"the\" * \"original\") --> follows>. Priority=1.000000 Stamp=[95] Truth: frequency=1.000000, confidence=0.900000",
+    "Derived: <\"the\" --> (follows /1 \"original\")>. Priority=0.350102 Stamp=[95] Truth: frequency=1.000000, confidence=0.810000",
+    "Derived: <\"original\" --> (follows /2 \"the\")>. Priority=0.350102 Stamp=[95] Truth: frequency=1.000000, confidence=0.810000",
+    "Input: <(\"original\" * \"plus\") --> follows>. Priority=1.000000 Stamp=[96] Truth: frequency=1.000000, confidence=0.900000",
+    "Selected: <(\"original\" * \"plus\") --> follows>. Priority=1.000000 Stamp=[96] Truth: frequency=1.000000, confidence=0.900000",
+    "Derived: <\"original\" --> (follows /1 \"plus\")>. Priority=0.350102 Stamp=[96] Truth: frequency=1.000000, confidence=0.810000",
+    "Derived: <\"plus\" --> (follows /2 \"original\")>. Priority=0.350102 Stamp=[96] Truth: frequency=1.000000, confidence=0.810000",
+    "Input: <(\"plus\" * \"an\") --> follows>. Priority=1.000000 Stamp=[97] Truth: frequency=1.000000, confidence=0.900000",
+    "Selected: <(\"plus\" * \"an\") --> follows>. Priority=1.000000 Stamp=[97] Truth: frequency=1.000000, confidence=0.900000",
+    "Derived: <\"plus\" --> (follows /1 \"an\")>. Priority=0.350102 Stamp=[97] Truth: frequency=1.000000, confidence=0.810000",
+    "Derived: <\"an\" --> (follows /2 \"plus\")>. Priority=0.350102 Stamp=[97] Truth: frequency=1.000000, confidence=0.810000",
+    "Input: <(\"an\" * \"irreducible\") --> follows>. Priority=1.000000 Stamp=[98] Truth: frequency=1.000000, confidence=0.900000",
+    "Selected: <(\"an\" * \"irreducible\") --> follows>. Priority=1.000000 Stamp=[98] Truth: frequency=1.000000, confidence=0.900000",
+    "Derived: <\"an\" --> (follows /1 \"irreducible\")>. Priority=0.350102 Stamp=[98] Truth: frequency=1.000000, confidence=0.810000",
+    "Derived: <\"irreducible\" --> (follows /2 \"an\")>. Priority=0.350102 Stamp=[98] Truth: frequency=1.000000, confidence=0.810000",
+    "Input: <(\"irreducible\" * \"residual.\") --> follows>. Priority=1.000000 Stamp=[99] Truth: frequency=1.000000, confidence=0.900000",
+    "Selected: <(\"irreducible\" * \"residual.\") --> follows>. Priority=1.000000 Stamp=[99] Truth: frequency=1.000000, confidence=0.900000",
+    "Derived: <\"irreducible\" --> (follows /1 \"residual.\")>. Priority=0.350102 Stamp=[99] Truth: frequency=1.000000, confidence=0.810000",
+    "Derived: <\"residual.\" --> (follows /2 \"irreducible\")>. Priority=0.350102 Stamp=[99] Truth: frequency=1.000000, confidence=0.810000",
+    "Input: <(\"residual.\" * \"A\") --> follows>. Priority=1.000000 Stamp=[100] Truth: frequency=1.000000, confidence=0.900000",
+    "Selected: <(\"residual.\" * \"A\") --> follows>. Priority=1.000000 Stamp=[100] Truth: frequency=1.000000, confidence=0.900000",
+    "Derived: <\"residual.\" --> (follows /1 \"A\")>. Priority=0.350102 Stamp=[100] Truth: frequency=1.000000, confidence=0.810000",
+    "Derived: <\"A\" --> (follows /2 \"residual.\")>. Priority=0.350102 Stamp=[100] Truth: frequency=1.000000, confidence=0.810000",
+    "Input: <(\"A\" * \"Gibbs\") --> follows>. Priority=1.000000 Stamp=[101] Truth: frequency=1.000000, confidence=0.900000",
+    "Selected: <(\"A\" * \"Gibbs\") --> follows>. Priority=1.000000 Stamp=[101] Truth: frequency=1.000000, confidence=0.900000",
+    "Derived: <\"A\" --> (follows /1 \"Gibbs\")>. Priority=0.350102 Stamp=[101] Truth: frequency=1.000000, confidence=0.810000",
+    "Derived: <\"Gibbs\" --> (follows /2 \"A\")>. Priority=0.350102 Stamp=[101] Truth: frequency=1.000000, confidence=0.810000",
+    "Input: <(\"Gibbs\" * \"characterization\") --> follows>. Priority=1.000000 Stamp=[102] Truth: frequency=1.000000, confidence=0.900000",
+    "Selected: <(\"Gibbs\" * \"characterization\") --> follows>. Priority=1.000000 Stamp=[102] Truth: frequency=1.000000, confidence=0.900000",
+    "Derived: <\"Gibbs\" --> (follows /1 \"characterization\")>. Priority=0.350102 Stamp=[102] Truth: frequency=1.000000, confidence=0.810000",
+    "Derived: <\"characterization\" --> (follows /2 \"Gibbs\")>. Priority=0.350102 Stamp=[102] Truth: frequency=1.000000, confidence=0.810000",
+    "Input: <(\"characterization\" * \"then\") --> follows>. Priority=1.000000 Stamp=[103] Truth: frequency=1.000000, confidence=0.900000",
+    "Selected: <(\"characterization\" * \"then\") --> follows>. Priority=1.000000 Stamp=[103] Truth: frequency=1.000000, confidence=0.900000",
+    "Derived: <\"characterization\" --> (follows /1 \"then\")>. Priority=0.350102 Stamp=[103] Truth: frequency=1.000000, confidence=0.810000",
+    "Derived: <\"then\" --> (follows /2 \"characterization\")>. Priority=0.350102 Stamp=[103] Truth: frequency=1.000000, confidence=0.810000",
+    "Input: <(\"then\" * \"establishes\") --> follows>. Priority=1.000000 Stamp=[104] Truth: frequency=1.000000, confidence=0.900000",
+    "Selected: <(\"then\" * \"establishes\") --> follows>. Priority=1.000000 Stamp=[104] Truth: frequency=1.000000, confidence=0.900000",
+    "Derived: <\"then\" --> (follows /1 \"establishes\")>. Priority=0.350102 Stamp=[104] Truth: frequency=1.000000, confidence=0.810000",
+    "Derived: <\"establishes\" --> (follows /2 \"then\")>. Priority=0.350102 Stamp=[104] Truth: frequency=1.000000, confidence=0.810000",
+    "Input: <(\"establishes\" * \"that\") --> follows>. Priority=1.000000 Stamp=[105] Truth: frequency=1.000000, confidence=0.900000",
+    "Selected: <(\"establishes\" * \"that\") --> follows>. Priority=1.000000 Stamp=[105] Truth: frequency=1.000000, confidence=0.900000",
+    "Derived: <\"establishes\" --> (follows /1 \"that\")>. Priority=0.350102 Stamp=[105] Truth: frequency=1.000000, confidence=0.810000",
+    "Derived: <\"that\" --> (follows /2 \"establishes\")>. Priority=0.350102 Stamp=[105] Truth: frequency=1.000000, confidence=0.810000",
+    "Input: <(\"that\" * \"integration\") --> follows>. Priority=1.000000 Stamp=[106] Truth: frequency=1.000000, confidence=0.900000",
+    "Selected: <(\"that\" * \"integration\") --> follows>. Priority=1.000000 Stamp=[106] Truth: frequency=1.000000, confidence=0.900000",
+    "Derived: <\"that\" --> (follows /1 \"integration\")>. Priority=0.350102 Stamp=[106] Truth: frequency=1.000000, confidence=0.810000",
+    "Derived: <\"integration\" --> (follows /2 \"that\")>. Priority=0.350102 Stamp=[106] Truth: frequency=1.000000, confidence=0.810000",
+    "Input: <(\"integration\" * \"by\") --> follows>. Priority=1.000000 Stamp=[107] Truth: frequency=1.000000, confidence=0.900000",
+    "Selected: <(\"integration\" * \"by\") --> follows>. Priority=1.000000 Stamp=[107] Truth: frequency=1.000000, confidence=0.900000",
+    "Derived: <\"integration\" --> (follows /1 \"by\")>. Priority=0.350102 Stamp=[107] Truth: frequency=1.000000, confidence=0.810000",
+    "Derived: <\"by\" --> (follows /2 \"integration\")>. Priority=0.350102 Stamp=[107] Truth: frequency=1.000000, confidence=0.810000",
+    "Input: <(\"by\" * \"succeeding\") --> follows>. Priority=1.000000 Stamp=[108] Truth: frequency=1.000000, confidence=0.900000",
+    "Selected: <(\"by\" * \"succeeding\") --> follows>. Priority=1.000000 Stamp=[108] Truth: frequency=1.000000, confidence=0.900000",
+    "Derived: <\"by\" --> (follows /1 \"succeeding\")>. Priority=0.350102 Stamp=[108] Truth: frequency=1.000000, confidence=0.810000",
+    "Derived: <\"succeeding\" --> (follows /2 \"by\")>. Priority=0.350102 Stamp=[108] Truth: frequency=1.000000, confidence=0.810000",
+    "Input: <(\"succeeding\" * \"forces\") --> follows>. Priority=1.000000 Stamp=[109] Truth: frequency=1.000000, confidence=0.900000",
+    "Selected: <(\"succeeding\" * \"forces\") --> follows>. Priority=1.000000 Stamp=[109] Truth: frequency=1.000000, confidence=0.900000",
+    "Derived: <\"succeeding\" --> (follows /1 \"forces\")>. Priority=0.350102 Stamp=[109] Truth: frequency=1.000000, confidence=0.810000",
+    "Derived: <\"forces\" --> (follows /2 \"succeeding\")>. Priority=0.350102 Stamp=[109] Truth: frequency=1.000000, confidence=0.810000",
+    "Input: <(\"forces\" * \"a\") --> follows>. Priority=1.000000 Stamp=[110] Truth: frequency=1.000000, confidence=0.900000",
+    "Selected: <(\"forces\" * \"a\") --> follows>. Priority=1.000000 Stamp=[110] Truth: frequency=1.000000, confidence=0.900000",
+    "Derived: <\"forces\" --> (follows /1 \"a\")>. Priority=0.350102 Stamp=[110] Truth: frequency=1.000000, confidence=0.810000",
+    "Derived: <\"a\" --> (follows /2 \"forces\")>. Priority=0.350102 Stamp=[110] Truth: frequency=1.000000, confidence=0.810000",
+    "Input: <(\"a\" * \"transition\") --> follows>. Priority=1.000000 Stamp=[111] Truth: frequency=1.000000, confidence=0.900000",
+    "Selected: <(\"a\" * \"transition\") --> follows>. Priority=1.000000 Stamp=[111] Truth: frequency=1.000000, confidence=0.900000",
+    "Derived: <\"a\" --> (follows /1 \"transition\")>. Priority=0.350102 Stamp=[111] Truth: frequency=1.000000, confidence=0.810000",
+    "Derived: <\"transition\" --> (follows /2 \"a\")>. Priority=0.350102 Stamp=[111] Truth: frequency=1.000000, confidence=0.810000",
+    "Input: <(\"transition\" * \"to\") --> follows>. Priority=1.000000 Stamp=[112] Truth: frequency=1.000000, confidence=0.900000",
+    "Selected: <(\"transition\" * \"to\") --> follows>. Priority=1.000000 Stamp=[112] Truth: frequency=1.000000, confidence=0.900000",
+    "Derived: <\"transition\" --> (follows /1 \"to\")>. Priority=0.350102 Stamp=[112] Truth: frequency=1.000000, confidence=0.810000",
+    "Derived: <\"to\" --> (follows /2 \"transition\")>. Priority=0.350102 Stamp=[112] Truth: frequency=1.000000, confidence=0.810000",
+    "Input: <(\"to\" * \"coherent\") --> follows>. Priority=1.000000 Stamp=[113] Truth: frequency=1.000000, confidence=0.900000",
+    "Selected: <(\"to\" * \"coherent\") --> follows>. Priority=1.000000 Stamp=[113] Truth: frequency=1.000000, confidence=0.900000",
+    "Derived: <\"to\" --> (follows /1 \"coherent\")>. Priority=0.350102 Stamp=[113] Truth: frequency=1.000000, confidence=0.810000",
+    "Derived: <\"coherent\" --> (follows /2 \"to\")>. Priority=0.350102 Stamp=[113] Truth: frequency=1.000000, confidence=0.810000",
+    "Input: <(\"coherent\" * \"sampling.\") --> follows>. Priority=1.000000 Stamp=[114] Truth: frequency=1.000000, confidence=0.900000",
+    "Selected: <(\"coherent\" * \"sampling.\") --> follows>. Priority=1.000000 Stamp=[114] Truth: frequency=1.000000, confidence=0.900000",
+    "Derived: <\"coherent\" --> (follows /1 \"sampling.\")>. Priority=0.350102 Stamp=[114] Truth: frequency=1.000000, confidence=0.810000",
+    "Derived: <\"sampling.\" --> (follows /2 \"coherent\")>. Priority=0.350102 Stamp=[114] Truth: frequency=1.000000, confidence=0.810000",
+    "Input: <(\"sampling.\" * \"A\") --> follows>. Priority=1.000000 Stamp=[115] Truth: frequency=1.000000, confidence=0.900000",
+    "Selected: <(\"sampling.\" * \"A\") --> follows>. Priority=1.000000 Stamp=[115] Truth: frequency=1.000000, confidence=0.900000",
+    "Derived: <\"sampling.\" --> (follows /1 \"A\")>. Priority=0.350102 Stamp=[115] Truth: frequency=1.000000, confidence=0.810000",
+    "Derived: <\"A\" --> (follows /2 \"sampling.\")>. Priority=0.350102 Stamp=[115] Truth: frequency=1.000000, confidence=0.810000",
+    "Input: <(\"A\" * \"deterministic\") --> follows>. Priority=1.000000 Stamp=[116] Truth: frequency=1.000000, confidence=0.900000",
+    "Selected: <(\"A\" * \"deterministic\") --> follows>. Priority=1.000000 Stamp=[116] Truth: frequency=1.000000, confidence=0.900000",
+    "Derived: <\"A\" --> (follows /1 \"deterministic\")>. Priority=0.350102 Stamp=[116] Truth: frequency=1.000000, confidence=0.810000",
+    "Derived: <\"deterministic\" --> (follows /2 \"A\")>. Priority=0.350102 Stamp=[116] Truth: frequency=1.000000, confidence=0.810000",
+    "Input: <(\"deterministic\" * \"pipeline\") --> follows>. Priority=1.000000 Stamp=[117] Truth: frequency=1.000000, confidence=0.900000",
+    "Selected: <(\"deterministic\" * \"pipeline\") --> follows>. Priority=1.000000 Stamp=[117] Truth: frequency=1.000000, confidence=0.900000",
+    "Derived: <\"deterministic\" --> (follows /1 \"pipeline\")>. Priority=0.350102 Stamp=[117] Truth: frequency=1.000000, confidence=0.810000",
+    "Derived: <\"pipeline\" --> (follows /2 \"deterministic\")>. Priority=0.350102 Stamp=[117] Truth: frequency=1.000000, confidence=0.810000",
+    "Input: <(\"pipeline\" * \"implements\") --> follows>. Priority=1.000000 Stamp=[118] Truth: frequency=1.000000, confidence=0.900000",
+    "Selected: <(\"pipeline\" * \"implements\") --> follows>. Priority=1.000000 Stamp=[118] Truth: frequency=1.000000, confidence=0.900000",
+    "Derived: <\"pipeline\" --> (follows /1 \"implements\")>. Priority=0.350102 Stamp=[118] Truth: frequency=1.000000, confidence=0.810000",
+    "Derived: <\"implements\" --> (follows /2 \"pipeline\")>. Priority=0.350102 Stamp=[118] Truth: frequency=1.000000, confidence=0.810000",
+    "Input: <(\"implements\" * \"the\") --> follows>. Priority=1.000000 Stamp=[119] Truth: frequency=1.000000, confidence=0.900000",
+    "Selected: <(\"implements\" * \"the\") --> follows>. Priority=1.000000 Stamp=[119] Truth: frequency=1.000000, confidence=0.900000",
+    "Derived: <\"implements\" --> (follows /1 \"the\")>. Priority=0.350102 Stamp=[119] Truth: frequency=1.000000, confidence=0.810000",
+    "Derived: <\"the\" --> (follows /2 \"implements\")>. Priority=0.350102 Stamp=[119] Truth: frequency=1.000000, confidence=0.810000",
+    "Input: <(\"the\" * \"framework\") --> follows>. Priority=1.000000 Stamp=[120] Truth: frequency=1.000000, confidence=0.900000",
+    "Selected: <(\"the\" * \"framework\") --> follows>. Priority=1.000000 Stamp=[120] Truth: frequency=1.000000, confidence=0.900000",
+    "Derived: <\"the\" --> (follows /1 \"framework\")>. Priority=0.350102 Stamp=[120] Truth: frequency=1.000000, confidence=0.810000",
+    "Derived: <\"framework\" --> (follows /2 \"the\")>. Priority=0.350102 Stamp=[120] Truth: frequency=1.000000, confidence=0.810000",
+    "Input: <(\"framework\" * \"with\") --> follows>. Priority=1.000000 Stamp=[121] Truth: frequency=1.000000, confidence=0.900000",
+    "Selected: <(\"framework\" * \"with\") --> follows>. Priority=1.000000 Stamp=[121] Truth: frequency=1.000000, confidence=0.900000",
+    "Derived: <\"framework\" --> (follows /1 \"with\")>. Priority=0.350102 Stamp=[121] Truth: frequency=1.000000, confidence=0.810000",
+    "Derived: <\"with\" --> (follows /2 \"framework\")>. Priority=0.350102 Stamp=[121] Truth: frequency=1.000000, confidence=0.810000",
+    "Input: <(\"with\" * \"no\") --> follows>. Priority=1.000000 Stamp=[122] Truth: frequency=1.000000, confidence=0.900000",
+    "Selected: <(\"with\" * \"no\") --> follows>. Priority=1.000000 Stamp=[122] Truth: frequency=1.000000, confidence=0.900000",
+    "Derived: <\"with\" --> (follows /1 \"no\")>. Priority=0.350102 Stamp=[122] Truth: frequency=1.000000, confidence=0.810000",
+    "Derived: <\"no\" --> (follows /2 \"with\")>. Priority=0.350102 Stamp=[122] Truth: frequency=1.000000, confidence=0.810000",
+    "Input: <(\"no\" * \"external\") --> follows>. Priority=1.000000 Stamp=[123] Truth: frequency=1.000000, confidence=0.900000",
+    "Selected: <(\"no\" * \"external\") --> follows>. Priority=1.000000 Stamp=[123] Truth: frequency=1.000000, confidence=0.900000",
+    "Derived: <\"no\" --> (follows /1 \"external\")>. Priority=0.350102 Stamp=[123] Truth: frequency=1.000000, confidence=0.810000",
+    "Derived: <\"external\" --> (follows /2 \"no\")>. Priority=0.350102 Stamp=[123] Truth: frequency=1.000000, confidence=0.810000",
+    "Input: <(\"external\" * \"APIs\") --> follows>. Priority=1.000000 Stamp=[124] Truth: frequency=1.000000, confidence=0.900000",
+    "Selected: <(\"external\" * \"APIs\") --> follows>. Priority=1.000000 Stamp=[124] Truth: frequency=1.000000, confidence=0.900000",
+    "Derived: <\"external\" --> (follows /1 \"APIs\")>. Priority=0.350102 Stamp=[124] Truth: frequency=1.000000, confidence=0.810000",
+    "Derived: <\"APIs\" --> (follows /2 \"external\")>. Priority=0.350102 Stamp=[124] Truth: frequency=1.000000, confidence=0.810000",
+    "Input: <(\"APIs\" * \"and\") --> follows>. Priority=1.000000 Stamp=[125] Truth: frequency=1.000000, confidence=0.900000",
+    "Selected: <(\"APIs\" * \"and\") --> follows>. Priority=1.000000 Stamp=[125] Truth: frequency=1.000000, confidence=0.900000",
+    "Derived: <\"APIs\" --> (follows /1 \"and\")>. Priority=0.350102 Stamp=[125] Truth: frequency=1.000000, confidence=0.810000",
+    "Derived: <\"and\" --> (follows /2 \"APIs\")>. Priority=0.350102 Stamp=[125] Truth: frequency=1.000000, confidence=0.810000",
+    "Input: <(\"and\" * \"no\") --> follows>. Priority=1.000000 Stamp=[126] Truth: frequency=1.000000, confidence=0.900000",
+    "Selected: <(\"and\" * \"no\") --> follows>. Priority=1.000000 Stamp=[126] Truth: frequency=1.000000, confidence=0.900000",
+    "Derived: <\"and\" --> (follows /1 \"no\")>. Priority=0.350102 Stamp=[126] Truth: frequency=1.000000, confidence=0.810000",
+    "Derived: <\"no\" --> (follows /2 \"and\")>. Priority=0.350102 Stamp=[126] Truth: frequency=1.000000, confidence=0.810000",
+    "Input: <(\"no\" * \"GPU.\") --> follows>. Priority=1.000000 Stamp=[127] Truth: frequency=1.000000, confidence=0.900000",
+    "Selected: <(\"no\" * \"GPU.\") --> follows>. Priority=1.000000 Stamp=[127] Truth: frequency=1.000000, confidence=0.900000",
+    "Derived: <\"no\" --> (follows /1 \"GPU.\")>. Priority=0.350102 Stamp=[127] Truth: frequency=1.000000, confidence=0.810000",
+    "Derived: <\"GPU.\" --> (follows /2 \"no\")>. Priority=0.350102 Stamp=[127] Truth: frequency=1.000000, confidence=0.810000",
+    "Input: <(\"GPU.\" * \"The\") --> follows>. Priority=1.000000 Stamp=[128] Truth: frequency=1.000000, confidence=0.900000",
+    "Selected: <(\"GPU.\" * \"The\") --> follows>. Priority=1.000000 Stamp=[128] Truth: frequency=1.000000, confidence=0.900000",
+    "Derived: <\"GPU.\" --> (follows /1 \"The\")>. Priority=0.350102 Stamp=[128] Truth: frequency=1.000000, confidence=0.810000",
+    "Derived: <\"The\" --> (follows /2 \"GPU.\")>. Priority=0.350102 Stamp=[128] Truth: frequency=1.000000, confidence=0.810000",
+    "Input: <(\"The\" * \"anti-masking\") --> follows>. Priority=1.000000 Stamp=[129] Truth: frequency=1.000000, confidence=0.900000",
+    "Selected: <(\"The\" * \"anti-masking\") --> follows>. Priority=1.000000 Stamp=[129] Truth: frequency=1.000000, confidence=0.900000",
+    "Derived: <\"The\" --> (follows /1 \"anti-masking\")>. Priority=0.350102 Stamp=[129] Truth: frequency=1.000000, confidence=0.810000",
+    "Derived: <\"anti-masking\" --> (follows /2 \"The\")>. Priority=0.350102 Stamp=[129] Truth: frequency=1.000000, confidence=0.810000",
+    "Input: <(\"anti-masking\" * \"invariant\") --> follows>. Priority=1.000000 Stamp=[130] Truth: frequency=1.000000, confidence=0.900000",
+    "Selected: <(\"anti-masking\" * \"invariant\") --> follows>. Priority=1.000000 Stamp=[130] Truth: frequency=1.000000, confidence=0.900000",
+    "Derived: <\"anti-masking\" --> (follows /1 \"invariant\")>. Priority=0.350102 Stamp=[130] Truth: frequency=1.000000, confidence=0.810000",
+    "Derived: <\"invariant\" --> (follows /2 \"anti-masking\")>. Priority=0.350102 Stamp=[130] Truth: frequency=1.000000, confidence=0.810000",
+    "Input: <(\"invariant\" * \"reduces\") --> follows>. Priority=1.000000 Stamp=[131] Truth: frequency=1.000000, confidence=0.900000",
+    "Selected: <(\"invariant\" * \"reduces\") --> follows>. Priority=1.000000 Stamp=[131] Truth: frequency=1.000000, confidence=0.900000",
+    "Derived: <\"invariant\" --> (follows /1 \"reduces\")>. Priority=0.350102 Stamp=[131] Truth: frequency=1.000000, confidence=0.810000",
+    "Derived: <\"reduces\" --> (follows /2 \"invariant\")>. Priority=0.350102 Stamp=[131] Truth: frequency=1.000000, confidence=0.810000",
+    "Input: <(\"reduces\" * \"the\") --> follows>. Priority=1.000000 Stamp=[132] Truth: frequency=1.000000, confidence=0.900000",
+    "Selected: <(\"reduces\" * \"the\") --> follows>. Priority=1.000000 Stamp=[132] Truth: frequency=1.000000, confidence=0.900000",
+    "Derived: <\"reduces\" --> (follows /1 \"the\")>. Priority=0.350102 Stamp=[132] Truth: frequency=1.000000, confidence=0.810000",
+    "Derived: <\"the\" --> (follows /2 \"reduces\")>. Priority=0.350102 Stamp=[132] Truth: frequency=1.000000, confidence=0.810000",
+    "Input: <(\"the\" * \"masking\") --> follows>. Priority=1.000000 Stamp=[133] Truth: frequency=1.000000, confidence=0.900000",
+    "Selected: <(\"the\" * \"masking\") --> follows>. Priority=1.000000 Stamp=[133] Truth: frequency=1.000000, confidence=0.900000",
+    "Derived: <\"the\" --> (follows /1 \"masking\")>. Priority=0.350102 Stamp=[133] Truth: frequency=1.000000, confidence=0.810000",
+    "Derived: <\"masking\" --> (follows /2 \"the\")>. Priority=0.350102 Stamp=[133] Truth: frequency=1.000000, confidence=0.810000",
+    "Input: <(\"masking\" * \"rate\") --> follows>. Priority=1.000000 Stamp=[134] Truth: frequency=1.000000, confidence=0.900000",
+    "Selected: <(\"masking\" * \"rate\") --> follows>. Priority=1.000000 Stamp=[134] Truth: frequency=1.000000, confidence=0.900000",
+    "Derived: <\"masking\" --> (follows /1 \"rate\")>. Priority=0.350102 Stamp=[134] Truth: frequency=1.000000, confidence=0.810000",
+    "Derived: <\"rate\" --> (follows /2 \"masking\")>. Priority=0.350102 Stamp=[134] Truth: frequency=1.000000, confidence=0.810000",
+    "Input: <(\"rate\" * \"to\") --> follows>. Priority=1.000000 Stamp=[135] Truth: frequency=1.000000, confidence=0.900000",
+    "Selected: <(\"rate\" * \"to\") --> follows>. Priority=1.000000 Stamp=[135] Truth: frequency=1.000000, confidence=0.900000",
+    "Derived: <\"rate\" --> (follows /1 \"to\")>. Priority=0.350102 Stamp=[135] Truth: frequency=1.000000, confidence=0.810000",
+    "Derived: <\"to\" --> (follows /2 \"rate\")>. Priority=0.350102 Stamp=[135] Truth: frequency=1.000000, confidence=0.810000",
+    "Input: <(\"to\" * \"zero.\") --> follows>. Priority=1.000000 Stamp=[136] Truth: frequency=1.000000, confidence=0.900000",
+    "Selected: <(\"to\" * \"zero.\") --> follows>. Priority=1.000000 Stamp=[136] Truth: frequency=1.000000, confidence=0.900000",
+    "Derived: <\"to\" --> (follows /1 \"zero.\")>. Priority=0.350102 Stamp=[136] Truth: frequency=1.000000, confidence=0.810000",
+    "Derived: <\"zero.\" --> (follows /2 \"to\")>. Priority=0.350102 Stamp=[136] Truth: frequency=1.000000, confidence=0.810000",
+    "Input: <(\"zero.\" * \"The\") --> follows>. Priority=1.000000 Stamp=[137] Truth: frequency=1.000000, confidence=0.900000",
+    "Selected: <(\"zero.\" * \"The\") --> follows>. Priority=1.000000 Stamp=[137] Truth: frequency=1.000000, confidence=0.900000",
+    "Derived: <\"zero.\" --> (follows /1 \"The\")>. Priority=0.350102 Stamp=[137] Truth: frequency=1.000000, confidence=0.810000",
+    "Derived: <\"The\" --> (follows /2 \"zero.\")>. Priority=0.350102 Stamp=[137] Truth: frequency=1.000000, confidence=0.810000",
+    "Input: <(\"The\" * \"integrability\") --> follows>. Priority=1.000000 Stamp=[138] Truth: frequency=1.000000, confidence=0.900000",
+    "Selected: <(\"The\" * \"integrability\") --> follows>. Priority=1.000000 Stamp=[138] Truth: frequency=1.000000, confidence=0.900000",
+    "Derived: <\"The\" --> (follows /1 \"integrability\")>. Priority=0.350102 Stamp=[138] Truth: frequency=1.000000, confidence=0.810000",
+    "Derived: <\"integrability\" --> (follows /2 \"The\")>. Priority=0.350102 Stamp=[138] Truth: frequency=1.000000, confidence=0.810000",
+    "Input: <(\"integrability\" * \"condition\") --> follows>. Priority=1.000000 Stamp=[139] Truth: frequency=1.000000, confidence=0.900000",
+    "Selected: <(\"integrability\" * \"condition\") --> follows>. Priority=1.000000 Stamp=[139] Truth: frequency=1.000000, confidence=0.900000",
+    "Derived: <\"integrability\" --> (follows /1 \"condition\")>. Priority=0.350102 Stamp=[139] Truth: frequency=1.000000, confidence=0.810000",
+    "Derived: <\"condition\" --> (follows /2 \"integrability\")>. Priority=0.350102 Stamp=[139] Truth: frequency=1.000000, confidence=0.810000",
+    "Input: <(\"condition\" * \"is\") --> follows>. Priority=1.000000 Stamp=[140] Truth: frequency=1.000000, confidence=0.900000",
+    "Selected: <(\"condition\" * \"is\") --> follows>. Priority=1.000000 Stamp=[140] Truth: frequency=1.000000, confidence=0.900000",
+    "Derived: <\"condition\" --> (follows /1 \"is\")>. Priority=0.350102 Stamp=[140] Truth: frequency=1.000000, confidence=0.810000",
+    "Derived: <\"is\" --> (follows /2 \"condition\")>. Priority=0.350102 Stamp=[140] Truth: frequency=1.000000, confidence=0.810000",
+    "Input: <(\"is\" * \"load-bearing.\") --> follows>. Priority=1.000000 Stamp=[141] Truth: frequency=1.000000, confidence=0.900000",
+    "Selected: <(\"is\" * \"load-bearing.\") --> follows>. Priority=1.000000 Stamp=[141] Truth: frequency=1.000000, confidence=0.900000",
+    "Derived: <\"is\" --> (follows /1 \"load-bearing.\")>. Priority=0.350102 Stamp=[141] Truth: frequency=1.000000, confidence=0.810000",
+    "Derived: <\"load-bearing.\" --> (follows /2 \"is\")>. Priority=0.350102 Stamp=[141] Truth: frequency=1.000000, confidence=0.810000",
+    "Input: <(\"load-bearing.\" * \"The\") --> follows>. Priority=1.000000 Stamp=[142] Truth: frequency=1.000000, confidence=0.900000",
+    "Selected: <(\"load-bearing.\" * \"The\") --> follows>. Priority=1.000000 Stamp=[142] Truth: frequency=1.000000, confidence=0.900000",
+    "Derived: <\"load-bearing.\" --> (follows /1 \"The\")>. Priority=0.350102 Stamp=[142] Truth: frequency=1.000000, confidence=0.810000",
+    "Derived: <\"The\" --> (follows /2 \"load-bearing.\")>. Priority=0.350102 Stamp=[142] Truth: frequency=1.000000, confidence=0.810000",
+    "Input: <(\"The\" * \"masking\") --> follows>. Priority=1.000000 Stamp=[143] Truth: frequency=1.000000, confidence=0.900000",
+    "Selected: <(\"The\" * \"masking\") --> follows>. Priority=1.000000 Stamp=[143] Truth: frequency=1.000000, confidence=0.900000",
+    "Derived: <\"The\" --> (follows /1 \"masking\")>. Priority=0.350102 Stamp=[143] Truth: frequency=1.000000, confidence=0.810000",
+    "Derived: <\"masking\" --> (follows /2 \"The\")>. Priority=0.350102 Stamp=[143] Truth: frequency=1.000000, confidence=0.810000",
+    "Input: <(\"masking\" * \"rate\") --> follows>. Priority=1.000000 Stamp=[144] Truth: frequency=1.000000, confidence=0.900000",
+    "Revised: <(\"masking\" * \"rate\") --> follows>. Priority=1.000000 Stamp=[134,144] Truth: frequency=1.000000, confidence=0.947368",
+    "Selected: <(\"masking\" * \"rate\") --> follows>. Priority=1.000000 Stamp=[144] Truth: frequency=1.000000, confidence=0.900000",
+    "Revised: <\"masking\" --> (follows /1 \"rate\")>. Priority=0.350102 Stamp=[134,144] Truth: frequency=1.000000, confidence=0.895028",
+    "Derived: <\"masking\" --> (follows /1 \"rate\")>. Priority=0.350102 Stamp=[144] Truth: frequency=1.000000, confidence=0.810000",
+    "Revised: <\"rate\" --> (follows /2 \"masking\")>. Priority=0.350102 Stamp=[134,144] Truth: frequency=1.000000, confidence=0.895028",
+    "Derived: <\"rate\" --> (follows /2 \"masking\")>. Priority=0.350102 Stamp=[144] Truth: frequency=1.000000, confidence=0.810000",
+    "Input: <(\"rate\" * \"computable\") --> follows>. Priority=1.000000 Stamp=[145] Truth: frequency=1.000000, confidence=0.900000",
+    "Selected: <(\"rate\" * \"computable\") --> follows>. Priority=1.000000 Stamp=[145] Truth: frequency=1.000000, confidence=0.900000",
+    "Derived: <\"rate\" --> (follows /1 \"computable\")>. Priority=0.350102 Stamp=[145] Truth: frequency=1.000000, confidence=0.810000",
+    "Derived: <\"computable\" --> (follows /2 \"rate\")>. Priority=0.350102 Stamp=[145] Truth: frequency=1.000000, confidence=0.810000",
+    "Input: <(\"computable\" * \"from\") --> follows>. Priority=1.000000 Stamp=[146] Truth: frequency=1.000000, confidence=0.900000",
+    "Selected: <(\"computable\" * \"from\") --> follows>. Priority=1.000000 Stamp=[146] Truth: frequency=1.000000, confidence=0.900000",
+    "Derived: <\"computable\" --> (follows /1 \"from\")>. Priority=0.350102 Stamp=[146] Truth: frequency=1.000000, confidence=0.810000",
+    "Derived: <\"from\" --> (follows /2 \"computable\")>. Priority=0.350102 Stamp=[146] Truth: frequency=1.000000, confidence=0.810000",
+    "Input: <(\"from\" * \"text\") --> follows>. Priority=1.000000 Stamp=[147] Truth: frequency=1.000000, confidence=0.900000",
+    "Selected: <(\"from\" * \"text\") --> follows>. Priority=1.000000 Stamp=[147] Truth: frequency=1.000000, confidence=0.900000",
+    "Derived: <\"from\" --> (follows /1 \"text\")>. Priority=0.350102 Stamp=[147] Truth: frequency=1.000000, confidence=0.810000",
+    "Derived: <\"text\" --> (follows /2 \"from\")>. Priority=0.350102 Stamp=[147] Truth: frequency=1.000000, confidence=0.810000",
+    "Input: <(\"text\" * \"alone\") --> follows>. Priority=1.000000 Stamp=[148] Truth: frequency=1.000000, confidence=0.900000",
+    "Selected: <(\"text\" * \"alone\") --> follows>. Priority=1.000000 Stamp=[148] Truth: frequency=1.000000, confidence=0.900000",
+    "Derived: <\"text\" --> (follows /1 \"alone\")>. Priority=0.350102 Stamp=[148] Truth: frequency=1.000000, confidence=0.810000",
+    "Derived: <\"alone\" --> (follows /2 \"text\")>. Priority=0.350102 Stamp=[148] Truth: frequency=1.000000, confidence=0.810000",
+    "Input: <(\"alone\" * \"is\") --> follows>. Priority=1.000000 Stamp=[149] Truth: frequency=1.000000, confidence=0.900000",
+    "Selected: <(\"alone\" * \"is\") --> follows>. Priority=1.000000 Stamp=[149] Truth: frequency=1.000000, confidence=0.900000",
+    "Derived: <\"alone\" --> (follows /1 \"is\")>. Priority=0.350102 Stamp=[149] Truth: frequency=1.000000, confidence=0.810000",
+    "Derived: <\"is\" --> (follows /2 \"alone\")>. Priority=0.350102 Stamp=[149] Truth: frequency=1.000000, confidence=0.810000",
+    "Input: <(\"is\" * \"an\") --> follows>. Priority=1.000000 Stamp=[150] Truth: frequency=1.000000, confidence=0.900000",
+    "Selected: <(\"is\" * \"an\") --> follows>. Priority=1.000000 Stamp=[150] Truth: frequency=1.000000, confidence=0.900000",
+    "Derived: <\"is\" --> (follows /1 \"an\")>. Priority=0.350102 Stamp=[150] Truth: frequency=1.000000, confidence=0.810000",
+    "Derived: <\"an\" --> (follows /2 \"is\")>. Priority=0.350102 Stamp=[150] Truth: frequency=1.000000, confidence=0.810000",
+    "Input: <(\"an\" * \"integration\") --> follows>. Priority=1.000000 Stamp=[151] Truth: frequency=1.000000, confidence=0.900000",
+    "Selected: <(\"an\" * \"integration\") --> follows>. Priority=1.000000 Stamp=[151] Truth: frequency=1.000000, confidence=0.900000",
+    "Derived: <\"an\" --> (follows /1 \"integration\")>. Priority=0.350102 Stamp=[151] Truth: frequency=1.000000, confidence=0.810000",
+    "Derived: <\"integration\" --> (follows /2 \"an\")>. Priority=0.350102 Stamp=[151] Truth: frequency=1.000000, confidence=0.810000",
+    "Input: <(\"integration\" * \"diagnostic\") --> follows>. Priority=1.000000 Stamp=[152] Truth: frequency=1.000000, confidence=0.900000",
+    "Selected: <(\"integration\" * \"diagnostic\") --> follows>. Priority=1.000000 Stamp=[152] Truth: frequency=1.000000, confidence=0.900000",
+    "Derived: <\"integration\" --> (follows /1 \"diagnostic\")>. Priority=0.350102 Stamp=[152] Truth: frequency=1.000000, confidence=0.810000",
+    "Derived: <\"diagnostic\" --> (follows /2 \"integration\")>. Priority=0.350102 Stamp=[152] Truth: frequency=1.000000, confidence=0.810000",
+    "Input: <(\"diagnostic\" * \"complementary\") --> follows>. Priority=1.000000 Stamp=[153] Truth: frequency=1.000000, confidence=0.900000",
+    "Selected: <(\"diagnostic\" * \"complementary\") --> follows>. Priority=1.000000 Stamp=[153] Truth: frequency=1.000000, confidence=0.900000",
+    "Derived: <\"diagnostic\" --> (follows /1 \"complementary\")>. Priority=0.350102 Stamp=[153] Truth: frequency=1.000000, confidence=0.810000",
+    "Derived: <\"complementary\" --> (follows /2 \"diagnostic\")>. Priority=0.350102 Stamp=[153] Truth: frequency=1.000000, confidence=0.810000",
+    "Input: <(\"complementary\" * \"to\") --> follows>. Priority=1.000000 Stamp=[154] Truth: frequency=1.000000, confidence=0.900000",
+    "Selected: <(\"complementary\" * \"to\") --> follows>. Priority=1.000000 Stamp=[154] Truth: frequency=1.000000, confidence=0.900000",
+    "Derived: <\"complementary\" --> (follows /1 \"to\")>. Priority=0.350102 Stamp=[154] Truth: frequency=1.000000, confidence=0.810000",
+    "Derived: <\"to\" --> (follows /2 \"complementary\")>. Priority=0.350102 Stamp=[154] Truth: frequency=1.000000, confidence=0.810000",
+    "Input: <(\"to\" * \"the\") --> follows>. Priority=1.000000 Stamp=[155] Truth: frequency=1.000000, confidence=0.900000",
+    "Selected: <(\"to\" * \"the\") --> follows>. Priority=1.000000 Stamp=[155] Truth: frequency=1.000000, confidence=0.900000",
+    "Derived: <\"to\" --> (follows /1 \"the\")>. Priority=0.350102 Stamp=[155] Truth: frequency=1.000000, confidence=0.810000",
+    "Derived: <\"the\" --> (follows /2 \"to\")>. Priority=0.350102 Stamp=[155] Truth: frequency=1.000000, confidence=0.810000",
+    "Input: <(\"the\" * \"collapse\") --> follows>. Priority=1.000000 Stamp=[156] Truth: frequency=1.000000, confidence=0.900000",
+    "Selected: <(\"the\" * \"collapse\") --> follows>. Priority=1.000000 Stamp=[156] Truth: frequency=1.000000, confidence=0.900000",
+    "Derived: <\"the\" --> (follows /1 \"collapse\")>. Priority=0.350102 Stamp=[156] Truth: frequency=1.000000, confidence=0.810000",
+    "Derived: <\"collapse\" --> (follows /2 \"the\")>. Priority=0.350102 Stamp=[156] Truth: frequency=1.000000, confidence=0.810000",
+    "Input: <(\"collapse\" * \"diagnostic\") --> follows>. Priority=1.000000 Stamp=[157] Truth: frequency=1.000000, confidence=0.900000",
+    "Selected: <(\"collapse\" * \"diagnostic\") --> follows>. Priority=1.000000 Stamp=[157] Truth: frequency=1.000000, confidence=0.900000",
+    "Derived: <\"collapse\" --> (follows /1 \"diagnostic\")>. Priority=0.350102 Stamp=[157] Truth: frequency=1.000000, confidence=0.810000",
+    "Derived: <\"diagnostic\" --> (follows /2 \"collapse\")>. Priority=0.350102 Stamp=[157] Truth: frequency=1.000000, confidence=0.810000",
+    "Input: <(\"diagnostic\" * \"established\") --> follows>. Priority=1.000000 Stamp=[158] Truth: frequency=1.000000, confidence=0.900000",
+    "Selected: <(\"diagnostic\" * \"established\") --> follows>. Priority=1.000000 Stamp=[158] Truth: frequency=1.000000, confidence=0.900000",
+    "Derived: <\"diagnostic\" --> (follows /1 \"established\")>. Priority=0.350102 Stamp=[158] Truth: frequency=1.000000, confidence=0.810000",
+    "Derived: <\"established\" --> (follows /2 \"diagnostic\")>. Priority=0.350102 Stamp=[158] Truth: frequency=1.000000, confidence=0.810000",
+    "Input: <(\"established\" * \"in\") --> follows>. Priority=1.000000 Stamp=[159] Truth: frequency=1.000000, confidence=0.900000",
+    "Selected: <(\"established\" * \"in\") --> follows>. Priority=1.000000 Stamp=[159] Truth: frequency=1.000000, confidence=0.900000",
+    "Derived: <\"established\" --> (follows /1 \"in\")>. Priority=0.350102 Stamp=[159] Truth: frequency=1.000000, confidence=0.810000",
+    "Derived: <\"in\" --> (follows /2 \"established\")>. Priority=0.350102 Stamp=[159] Truth: frequency=1.000000, confidence=0.810000",
+    "Input: <(\"in\" * \"prior\") --> follows>. Priority=1.000000 Stamp=[160] Truth: frequency=1.000000, confidence=0.900000",
+    "Selected: <(\"in\" * \"prior\") --> follows>. Priority=1.000000 Stamp=[160] Truth: frequency=1.000000, confidence=0.900000",
+    "Derived: <\"in\" --> (follows /1 \"prior\")>. Priority=0.350102 Stamp=[160] Truth: frequency=1.000000, confidence=0.810000",
+    "Derived: <\"prior\" --> (follows /2 \"in\")>. Priority=0.350102 Stamp=[160] Truth: frequency=1.000000, confidence=0.810000",
+    "Input: <(\"prior\" * \"work.\") --> follows>. Priority=1.000000 Stamp=[161] Truth: frequency=1.000000, confidence=0.900000",
+    "Selected: <(\"prior\" * \"work.\") --> follows>. Priority=1.000000 Stamp=[161] Truth: frequency=1.000000, confidence=0.900000",
+    "Derived: <\"prior\" --> (follows /1 \"work.\")>. Priority=0.350102 Stamp=[161] Truth: frequency=1.000000, confidence=0.810000",
+    "Derived: <\"work.\" --> (follows /2 \"prior\")>. Priority=0.350102 Stamp=[161] Truth: frequency=1.000000, confidence=0.810000",
+    "performing 20 inference steps:",
+    "Selected: <\"prior\" --> (follows /1 \"work.\")>. Priority=0.350067 Stamp=[161] Truth: frequency=1.000000, confidence=0.810000",
+    "Selected: <\"work.\" --> (follows /2 \"prior\")>. Priority=0.350032 Stamp=[161] Truth: frequency=1.000000, confidence=0.810000",
+    "Selected: <\"prior\" --> (follows /2 \"in\")>. Priority=0.349962 Stamp=[160] Truth: frequency=1.000000, confidence=0.810000",
+    "Selected: <\"in\" --> (follows /1 \"prior\")>. Priority=0.349927 Stamp=[160] Truth: frequency=1.000000, confidence=0.810000",
+    "Derived: <(\"established\" * (follows /1 \"prior\")) --> follows>. Priority=0.044062 Stamp=[160,159] Truth: frequency=1.000000, confidence=0.421631",
+    "Selected: <\"established\" --> (follows /1 \"in\")>. Priority=0.349857 Stamp=[159] Truth: frequency=1.000000, confidence=0.810000",
+    "Derived: <(\"diagnostic\" * (follows /1 \"in\")) --> follows>. Priority=0.035683 Stamp=[159,158] Truth: frequency=1.000000, confidence=0.421631",
+    "Selected: <\"in\" --> (follows /2 \"established\")>. Priority=0.349822 Stamp=[159] Truth: frequency=1.000000, confidence=0.810000",
+    "Derived: <((follows /2 \"established\") * \"prior\") --> follows>. Priority=0.039644 Stamp=[159,160] Truth: frequency=1.000000, confidence=0.421631",
+    "Selected: <\"established\" --> (follows /2 \"diagnostic\")>. Priority=0.349752 Stamp=[158] Truth: frequency=1.000000, confidence=0.810000",
+    "Derived: <\"complementary\" --> \"established\">. Priority=0.008800 Stamp=[158,153] Truth: frequency=1.000000, confidence=0.396172",
+    "Derived: <\"established\" --> \"complementary\">. Priority=0.008800 Stamp=[158,153] Truth: frequency=1.000000, confidence=0.396172",
+    "Derived: <\"complementary\" <-> \"established\">. Priority=0.008800 Stamp=[158,153] Truth: frequency=1.000000, confidence=0.396172",
+    "Derived: <\"established\" <-> \"complementary\">. Priority=0.008800 Stamp=[158,153] Truth: frequency=1.000000, confidence=0.396172",
+    "Derived: <((follows /2 \"diagnostic\") * \"in\") --> follows>. Priority=0.032105 Stamp=[158,159] Truth: frequency=1.000000, confidence=0.421631",
+    "Selected: <\"diagnostic\" --> (follows /1 \"established\")>. Priority=0.349717 Stamp=[158] Truth: frequency=1.000000, confidence=0.810000",
+    "Derived: <(\"integration\" * (follows /1 \"established\")) --> follows>. Priority=0.013819 Stamp=[158,152] Truth: frequency=1.000000, confidence=0.421631",
+    "Derived: <((follows /1 \"established\") * \"complementary\") --> follows>. Priority=0.015354 Stamp=[158,153] Truth: frequency=1.000000, confidence=0.421631",
+    "Derived: <(\"collapse\" * (follows /1 \"established\")) --> follows>. Priority=0.023403 Stamp=[158,157] Truth: frequency=1.000000, confidence=0.421631",
+    "Selected: <\"diagnostic\" --> (follows /2 \"collapse\")>. Priority=0.349647 Stamp=[157] Truth: frequency=1.000000, confidence=0.810000",
+    "Derived: <(\"integration\" * (follows /2 \"collapse\")) --> follows>. Priority=0.012435 Stamp=[157,152] Truth: frequency=1.000000, confidence=0.421631",
+    "Derived: <((follows /2 \"collapse\") * \"complementary\") --> follows>. Priority=0.013816 Stamp=[157,153] Truth: frequency=1.000000, confidence=0.421631",
+    "Derived: <((follows /2 \"collapse\") * \"established\") --> follows>. Priority=0.023398 Stamp=[157,158] Truth: frequency=1.000000, confidence=0.421631",
+    "Selected: <\"collapse\" --> (follows /1 \"diagnostic\")>. Priority=0.349612 Stamp=[157] Truth: frequency=1.000000, confidence=0.810000",
+    "Derived: <(\"the\" * (follows /1 \"diagnostic\")) --> follows>. Priority=0.017055 Stamp=[157,156] Truth: frequency=1.000000, confidence=0.421631",
+    "Selected: <\"the\" --> (follows /1 \"collapse\")>. Priority=0.349542 Stamp=[156] Truth: frequency=1.000000, confidence=0.810000",
+    "Derived: <(\"to\" * (follows /1 \"collapse\")) --> follows>. Priority=0.013812 Stamp=[156,155] Truth: frequency=1.000000, confidence=0.421631",
+    "Selected: <\"collapse\" --> (follows /2 \"the\")>. Priority=0.349507 Stamp=[156] Truth: frequency=1.000000, confidence=0.810000",
+    "Derived: <((follows /2 \"the\") * \"diagnostic\") --> follows>. Priority=0.015345 Stamp=[156,157] Truth: frequency=1.000000, confidence=0.421631",
+    "Selected: <\"to\" --> (follows /1 \"the\")>. Priority=0.349437 Stamp=[155] Truth: frequency=1.000000, confidence=0.810000",
+    "Derived: <(\"complementary\" * (follows /1 \"the\")) --> follows>. Priority=0.010066 Stamp=[155,154] Truth: frequency=1.000000, confidence=0.421631",
+    "Selected: <\"the\" --> (follows /2 \"to\")>. Priority=0.349402 Stamp=[155] Truth: frequency=1.000000, confidence=0.810000",
+    "Derived: <((follows /2 \"to\") * \"collapse\") --> follows>. Priority=0.011183 Stamp=[155,156] Truth: frequency=1.000000, confidence=0.421631",
+    "Selected: <\"complementary\" --> (follows /1 \"to\")>. Priority=0.349332 Stamp=[154] Truth: frequency=1.000000, confidence=0.810000",
+    "Derived: <(\"diagnostic\" * (follows /1 \"to\")) --> follows>. Priority=0.007336 Stamp=[154,153] Truth: frequency=1.000000, confidence=0.421631",
+    "Selected: <\"to\" --> (follows /2 \"complementary\")>. Priority=0.349297 Stamp=[154] Truth: frequency=1.000000, confidence=0.810000",
+    "Derived: <((follows /2 \"complementary\") * \"the\") --> follows>. Priority=0.008150 Stamp=[154,155] Truth: frequency=1.000000, confidence=0.421631",
+    "Selected: <\"diagnostic\" --> (follows /1 \"complementary\")>. Priority=0.349228 Stamp=[153] Truth: frequency=1.000000, confidence=0.810000",
+    "Derived: <(\"integration\" * (follows /1 \"complementary\")) --> follows>. Priority=0.005346 Stamp=[153,152] Truth: frequency=1.000000, confidence=0.421631",
+    "Derived: <(\"collapse\" * (follows /1 \"complementary\")) --> follows>. Priority=0.009054 Stamp=[153,157] Truth: frequency=1.000000, confidence=0.421631",
+    "Derived: <((follows /1 \"complementary\") * \"established\") --> follows>. Priority=0.010060 Stamp=[153,158] Truth: frequency=1.000000, confidence=0.421631",
+    "Selected: <\"complementary\" --> (follows /2 \"diagnostic\")>. Priority=0.349193 Stamp=[153] Truth: frequency=1.000000, confidence=0.810000",
+    "Derived: <((follows /2 \"diagnostic\") * \"to\") --> follows>. Priority=0.007829 Stamp=[153,154] Truth: frequency=1.000000, confidence=0.421631",
+    "Selected: <\"diagnostic\" --> (follows /2 \"integration\")>. Priority=0.349123 Stamp=[152] Truth: frequency=1.000000, confidence=0.810000",
+    "Derived: <((follows /2 \"integration\") * \"complementary\") --> follows>. Priority=0.008694 Stamp=[152,153] Truth: frequency=1.000000, confidence=0.421631",
+    "Derived: <((follows /2 \"integration\") * \"established\") --> follows>. Priority=0.008146 Stamp=[152,158] Truth: frequency=1.000000, confidence=0.421631",
+    "Selected: <\"integration\" --> (follows /1 \"diagnostic\")>. Priority=0.349088 Stamp=[152] Truth: frequency=1.000000, confidence=0.810000",
+    "done with 20 additional inference steps."
+  ],
+  "result": {
+    "statements": [
+      {
+        "statement": "<\"A\" --> (follows /1 \"resource-bounded\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"resource-bounded\" --> (follows /2 \"A\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"resource-bounded\" --> (follows /1 \"agent\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"agent\" --> (follows /2 \"resource-bounded\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<(\"A\" * \"resource-bounded\") --> (\"resource-bounded\" * \"agent\")>.",
+        "freq": 1.0,
+        "conf": 0.447514
+      },
+      {
+        "statement": "<(\"resource-bounded\" * \"agent\") --> (\"A\" * \"resource-bounded\")>.",
+        "freq": 1.0,
+        "conf": 0.447514
+      },
+      {
+        "statement": "<(\"A\" * \"resource-bounded\") <-> (\"resource-bounded\" * \"agent\")>.",
+        "freq": 1.0,
+        "conf": 0.447514
+      },
+      {
+        "statement": "<(\"resource-bounded\" * \"agent\") <-> (\"A\" * \"resource-bounded\")>.",
+        "freq": 1.0,
+        "conf": 0.447514
+      },
+      {
+        "statement": "<((follows /2 \"A\") * \"agent\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.421631
+      },
+      {
+        "statement": "<\"agent\" --> (follows /1 \"that\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"that\" --> (follows /2 \"agent\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<(\"A\" * \"resource-bounded\") --> (\"agent\" * \"that\")>.",
+        "freq": 1.0,
+        "conf": 0.447514
+      },
+      {
+        "statement": "<(\"agent\" * \"that\") --> (\"A\" * \"resource-bounded\")>.",
+        "freq": 1.0,
+        "conf": 0.447514
+      },
+      {
+        "statement": "<(\"A\" * \"resource-bounded\") <-> (\"agent\" * \"that\")>.",
+        "freq": 1.0,
+        "conf": 0.447514
+      },
+      {
+        "statement": "<(\"agent\" * \"that\") <-> (\"A\" * \"resource-bounded\")>.",
+        "freq": 1.0,
+        "conf": 0.447514
+      },
+      {
+        "statement": "<(\"resource-bounded\" * \"agent\") --> (\"agent\" * \"that\")>.",
+        "freq": 1.0,
+        "conf": 0.447514
+      },
+      {
+        "statement": "<(\"agent\" * \"that\") --> (\"resource-bounded\" * \"agent\")>.",
+        "freq": 1.0,
+        "conf": 0.447514
+      },
+      {
+        "statement": "<(\"resource-bounded\" * \"agent\") <-> (\"agent\" * \"that\")>.",
+        "freq": 1.0,
+        "conf": 0.447514
+      },
+      {
+        "statement": "<(\"agent\" * \"that\") <-> (\"resource-bounded\" * \"agent\")>.",
+        "freq": 1.0,
+        "conf": 0.447514
+      },
+      {
+        "statement": "<((follows /2 \"resource-bounded\") * \"that\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.421631
+      },
+      {
+        "statement": "<((follows /2 \"A\") * \"agent\") --> (\"agent\" * \"that\")>.",
+        "freq": 1.0,
+        "conf": 0.275083
+      },
+      {
+        "statement": "<(\"agent\" * \"that\") --> ((follows /2 \"A\") * \"agent\")>.",
+        "freq": 1.0,
+        "conf": 0.275083
+      },
+      {
+        "statement": "<((follows /2 \"A\") * \"agent\") <-> (\"agent\" * \"that\")>.",
+        "freq": 1.0,
+        "conf": 0.275083
+      },
+      {
+        "statement": "<(\"agent\" * \"that\") <-> ((follows /2 \"A\") * \"agent\")>.",
+        "freq": 1.0,
+        "conf": 0.275083
+      },
+      {
+        "statement": "<\"that\" --> (follows /1 \"differentiates\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"differentiates\" --> (follows /2 \"that\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<(\"A\" * \"resource-bounded\") --> (\"that\" * \"differentiates\")>.",
+        "freq": 1.0,
+        "conf": 0.447514
+      },
+      {
+        "statement": "<(\"that\" * \"differentiates\") --> (\"A\" * \"resource-bounded\")>.",
+        "freq": 1.0,
+        "conf": 0.447514
+      },
+      {
+        "statement": "<(\"A\" * \"resource-bounded\") <-> (\"that\" * \"differentiates\")>.",
+        "freq": 1.0,
+        "conf": 0.447514
+      },
+      {
+        "statement": "<(\"that\" * \"differentiates\") <-> (\"A\" * \"resource-bounded\")>.",
+        "freq": 1.0,
+        "conf": 0.447514
+      },
+      {
+        "statement": "<(\"resource-bounded\" * \"agent\") --> (\"that\" * \"differentiates\")>.",
+        "freq": 1.0,
+        "conf": 0.447514
+      },
+      {
+        "statement": "<(\"that\" * \"differentiates\") --> (\"resource-bounded\" * \"agent\")>.",
+        "freq": 1.0,
+        "conf": 0.447514
+      },
+      {
+        "statement": "<(\"resource-bounded\" * \"agent\") <-> (\"that\" * \"differentiates\")>.",
+        "freq": 1.0,
+        "conf": 0.447514
+      },
+      {
+        "statement": "<(\"that\" * \"differentiates\") <-> (\"resource-bounded\" * \"agent\")>.",
+        "freq": 1.0,
+        "conf": 0.447514
+      },
+      {
+        "statement": "<((follows /2 \"A\") * \"agent\") --> (\"that\" * \"differentiates\")>.",
+        "freq": 1.0,
+        "conf": 0.275083
+      },
+      {
+        "statement": "<(\"that\" * \"differentiates\") --> ((follows /2 \"A\") * \"agent\")>.",
+        "freq": 1.0,
+        "conf": 0.275083
+      },
+      {
+        "statement": "<((follows /2 \"A\") * \"agent\") <-> (\"that\" * \"differentiates\")>.",
+        "freq": 1.0,
+        "conf": 0.275083
+      },
+      {
+        "statement": "<(\"that\" * \"differentiates\") <-> ((follows /2 \"A\") * \"agent\")>.",
+        "freq": 1.0,
+        "conf": 0.275083
+      },
+      {
+        "statement": "<(\"agent\" * \"that\") --> (\"that\" * \"differentiates\")>.",
+        "freq": 1.0,
+        "conf": 0.447514
+      },
+      {
+        "statement": "<(\"that\" * \"differentiates\") --> (\"agent\" * \"that\")>.",
+        "freq": 1.0,
+        "conf": 0.447514
+      },
+      {
+        "statement": "<(\"agent\" * \"that\") <-> (\"that\" * \"differentiates\")>.",
+        "freq": 1.0,
+        "conf": 0.447514
+      },
+      {
+        "statement": "<(\"that\" * \"differentiates\") <-> (\"agent\" * \"that\")>.",
+        "freq": 1.0,
+        "conf": 0.447514
+      },
+      {
+        "statement": "<((follows /2 \"agent\") * \"differentiates\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.421631
+      },
+      {
+        "statement": "<((follows /2 \"resource-bounded\") * \"that\") --> (\"that\" * \"differentiates\")>.",
+        "freq": 1.0,
+        "conf": 0.275083
+      },
+      {
+        "statement": "<(\"that\" * \"differentiates\") --> ((follows /2 \"resource-bounded\") * \"that\")>.",
+        "freq": 1.0,
+        "conf": 0.275083
+      },
+      {
+        "statement": "<((follows /2 \"resource-bounded\") * \"that\") <-> (\"that\" * \"differentiates\")>.",
+        "freq": 1.0,
+        "conf": 0.275083
+      },
+      {
+        "statement": "<(\"that\" * \"differentiates\") <-> ((follows /2 \"resource-bounded\") * \"that\")>.",
+        "freq": 1.0,
+        "conf": 0.275083
+      },
+      {
+        "statement": "<\"differentiates\" --> (follows /1 \"its\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"its\" --> (follows /2 \"differentiates\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<(\"A\" * \"resource-bounded\") --> (\"differentiates\" * \"its\")>.",
+        "freq": 1.0,
+        "conf": 0.447514
+      },
+      {
+        "statement": "<(\"differentiates\" * \"its\") --> (\"A\" * \"resource-bounded\")>.",
+        "freq": 1.0,
+        "conf": 0.447514
+      },
+      {
+        "statement": "<(\"A\" * \"resource-bounded\") <-> (\"differentiates\" * \"its\")>.",
+        "freq": 1.0,
+        "conf": 0.447514
+      },
+      {
+        "statement": "<(\"differentiates\" * \"its\") <-> (\"A\" * \"resource-bounded\")>.",
+        "freq": 1.0,
+        "conf": 0.447514
+      },
+      {
+        "statement": "<(\"resource-bounded\" * \"agent\") --> (\"differentiates\" * \"its\")>.",
+        "freq": 1.0,
+        "conf": 0.447514
+      },
+      {
+        "statement": "<(\"differentiates\" * \"its\") --> (\"resource-bounded\" * \"agent\")>.",
+        "freq": 1.0,
+        "conf": 0.447514
+      },
+      {
+        "statement": "<(\"resource-bounded\" * \"agent\") <-> (\"differentiates\" * \"its\")>.",
+        "freq": 1.0,
+        "conf": 0.447514
+      },
+      {
+        "statement": "<(\"differentiates\" * \"its\") <-> (\"resource-bounded\" * \"agent\")>.",
+        "freq": 1.0,
+        "conf": 0.447514
+      },
+      {
+        "statement": "<(\"agent\" * \"that\") --> (\"differentiates\" * \"its\")>.",
+        "freq": 1.0,
+        "conf": 0.447514
+      },
+      {
+        "statement": "<(\"differentiates\" * \"its\") --> (\"agent\" * \"that\")>.",
+        "freq": 1.0,
+        "conf": 0.447514
+      },
+      {
+        "statement": "<(\"agent\" * \"that\") <-> (\"differentiates\" * \"its\")>.",
+        "freq": 1.0,
+        "conf": 0.447514
+      },
+      {
+        "statement": "<(\"differentiates\" * \"its\") <-> (\"agent\" * \"that\")>.",
+        "freq": 1.0,
+        "conf": 0.447514
+      },
+      {
+        "statement": "<(\"that\" * \"differentiates\") --> (\"differentiates\" * \"its\")>.",
+        "freq": 1.0,
+        "conf": 0.447514
+      },
+      {
+        "statement": "<(\"differentiates\" * \"its\") --> (\"that\" * \"differentiates\")>.",
+        "freq": 1.0,
+        "conf": 0.447514
+      },
+      {
+        "statement": "<(\"that\" * \"differentiates\") <-> (\"differentiates\" * \"its\")>.",
+        "freq": 1.0,
+        "conf": 0.447514
+      },
+      {
+        "statement": "<(\"differentiates\" * \"its\") <-> (\"that\" * \"differentiates\")>.",
+        "freq": 1.0,
+        "conf": 0.447514
+      },
+      {
+        "statement": "<\"its\" --> (follows /1 \"input\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"input\" --> (follows /2 \"its\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<(\"that\" * \"differentiates\") --> (\"its\" * \"input\")>.",
+        "freq": 1.0,
+        "conf": 0.447514
+      },
+      {
+        "statement": "<(\"its\" * \"input\") --> (\"that\" * \"differentiates\")>.",
+        "freq": 1.0,
+        "conf": 0.447514
+      },
+      {
+        "statement": "<(\"that\" * \"differentiates\") <-> (\"its\" * \"input\")>.",
+        "freq": 1.0,
+        "conf": 0.447514
+      },
+      {
+        "statement": "<(\"its\" * \"input\") <-> (\"that\" * \"differentiates\")>.",
+        "freq": 1.0,
+        "conf": 0.447514
+      },
+      {
+        "statement": "<(\"differentiates\" * \"its\") --> (\"its\" * \"input\")>.",
+        "freq": 1.0,
+        "conf": 0.447514
+      },
+      {
+        "statement": "<(\"its\" * \"input\") --> (\"differentiates\" * \"its\")>.",
+        "freq": 1.0,
+        "conf": 0.447514
+      },
+      {
+        "statement": "<(\"differentiates\" * \"its\") <-> (\"its\" * \"input\")>.",
+        "freq": 1.0,
+        "conf": 0.447514
+      },
+      {
+        "statement": "<(\"its\" * \"input\") <-> (\"differentiates\" * \"its\")>.",
+        "freq": 1.0,
+        "conf": 0.447514
+      },
+      {
+        "statement": "<\"input\" --> (follows /1 \"into\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"into\" --> (follows /2 \"input\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<(\"differentiates\" * \"its\") --> (\"input\" * \"into\")>.",
+        "freq": 1.0,
+        "conf": 0.447514
+      },
+      {
+        "statement": "<(\"input\" * \"into\") --> (\"differentiates\" * \"its\")>.",
+        "freq": 1.0,
+        "conf": 0.447514
+      },
+      {
+        "statement": "<(\"differentiates\" * \"its\") <-> (\"input\" * \"into\")>.",
+        "freq": 1.0,
+        "conf": 0.447514
+      },
+      {
+        "statement": "<(\"input\" * \"into\") <-> (\"differentiates\" * \"its\")>.",
+        "freq": 1.0,
+        "conf": 0.447514
+      },
+      {
+        "statement": "<\"into\" --> (follows /1 \"claims\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"claims\" --> (follows /2 \"into\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"claims\" --> (follows /1 \"faces\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"faces\" --> (follows /2 \"claims\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"faces\" --> (follows /1 \"a\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"a\" --> (follows /2 \"faces\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"a\" --> (follows /1 \"geometric\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"geometric\" --> (follows /2 \"a\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"geometric\" --> (follows /1 \"forcing\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"forcing\" --> (follows /2 \"geometric\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"forcing\" --> (follows /1 \"law.\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"law.\" --> (follows /2 \"forcing\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"law.\" --> (follows /1 \"The\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"The\" --> (follows /2 \"law.\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"The\" --> (follows /1 \"cost\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"cost\" --> (follows /2 \"The\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"cost\" --> (follows /1 \"of\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"of\" --> (follows /2 \"cost\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"of\" --> (follows /1 \"further\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"further\" --> (follows /2 \"of\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"further\" --> (follows /1 \"claim\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"claim\" --> (follows /2 \"further\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"claim\" --> (follows /1 \"interactions\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"interactions\" --> (follows /2 \"claim\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"interactions\" --> (follows /1 \"diverges\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"diverges\" --> (follows /2 \"interactions\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"diverges\" --> (follows /1 \"at\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"at\" --> (follows /2 \"diverges\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"at\" --> (follows /1 \"critical\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"critical\" --> (follows /2 \"at\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"critical\" --> (follows /1 \"conflict\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"conflict\" --> (follows /2 \"critical\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"conflict\" --> (follows /1 \"density\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"density\" --> (follows /2 \"conflict\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"density\" --> (follows /1 \"making\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"making\" --> (follows /2 \"density\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"making\" --> (follows /1 \"continued\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"continued\" --> (follows /2 \"making\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"continued\" --> (follows /1 \"differentiation\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"differentiation\" --> (follows /2 \"continued\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"differentiation\" --> (follows /1 \"epistemically\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"epistemically\" --> (follows /2 \"differentiation\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"epistemically\" --> (follows /1 \"insolvent.\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"insolvent.\" --> (follows /2 \"epistemically\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"insolvent.\" --> (follows /1 \"The\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"The\" --> (follows /2 \"insolvent.\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"The\" --> (follows /1 \"agent\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"agent\" --> (follows /2 \"The\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"agent\" --> (follows /1 \"must\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"must\" --> (follows /2 \"agent\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"must\" --> (follows /1 \"integrate.\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"integrate.\" --> (follows /2 \"must\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"integrate.\" --> (follows /1 \"We\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"We\" --> (follows /2 \"integrate.\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"We\" --> (follows /1 \"introduce\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"introduce\" --> (follows /2 \"We\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"introduce\" --> (follows /1 \"the\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"the\" --> (follows /2 \"introduce\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"the\" --> (follows /1 \"Hypothesis\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"Hypothesis\" --> (follows /2 \"the\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"Hypothesis\" --> (follows /1 \"Surface\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"Surface\" --> (follows /2 \"Hypothesis\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"Surface\" --> (follows /1 \"a\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"a\" --> (follows /2 \"Surface\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"a\" --> (follows /1 \"typed\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"typed\" --> (follows /2 \"a\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"typed\" --> (follows /1 \"epistemic\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"epistemic\" --> (follows /2 \"typed\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"epistemic\" --> (follows /1 \"workspace\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"workspace\" --> (follows /2 \"epistemic\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"workspace\" --> (follows /1 \"for\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"for\" --> (follows /2 \"workspace\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"for\" --> (follows /1 \"active\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"active\" --> (follows /2 \"for\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"active\" --> (follows /1 \"inference\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"inference\" --> (follows /2 \"active\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"inference\" --> (follows /1 \"at\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"at\" --> (follows /2 \"inference\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"at\" --> (follows /1 \"test\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"test\" --> (follows /2 \"at\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"test\" --> (follows /1 \"time\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"time\" --> (follows /2 \"test\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"time\" --> (follows /1 \"that\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"that\" --> (follows /2 \"time\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"that\" --> (follows /1 \"separates\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"separates\" --> (follows /2 \"that\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"separates\" --> (follows /1 \"claims\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"claims\" --> (follows /2 \"separates\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"claims\" --> (follows /1 \"from\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"from\" --> (follows /2 \"claims\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"from\" --> (follows /1 \"their\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"their\" --> (follows /2 \"from\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"their\" --> (follows /1 \"evidential\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"evidential\" --> (follows /2 \"their\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"evidential\" --> (follows /1 \"fibers.\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"fibers.\" --> (follows /2 \"evidential\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"fibers.\" --> (follows /1 \"Three\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"Three\" --> (follows /2 \"fibers.\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"Three\" --> (follows /1 \"invariants\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"invariants\" --> (follows /2 \"Three\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"invariants\" --> (follows /1 \"function\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"function\" --> (follows /2 \"invariants\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"function\" --> (follows /1 \"as\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"as\" --> (follows /2 \"function\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"as\" --> (follows /1 \"integrability\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"integrability\" --> (follows /2 \"as\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"integrability\" --> (follows /1 \"conditions\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"conditions\" --> (follows /2 \"integrability\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"conditions\" --> (follows /1 \"each\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"each\" --> (follows /2 \"conditions\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"each\" --> (follows /1 \"bounding\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"bounding\" --> (follows /2 \"each\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"bounding\" --> (follows /1 \"a\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"a\" --> (follows /2 \"bounding\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"a\" --> (follows /1 \"dimension\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"dimension\" --> (follows /2 \"a\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"dimension\" --> (follows /1 \"of\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"of\" --> (follows /2 \"dimension\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"of\" --> (follows /1 \"epistemic\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"epistemic\" --> (follows /2 \"of\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"epistemic\" --> (follows /1 \"expansion\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"expansion\" --> (follows /2 \"epistemic\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"expansion\" --> (follows /1 \"to\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"to\" --> (follows /2 \"expansion\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"to\" --> (follows /1 \"ensure\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"ensure\" --> (follows /2 \"to\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"ensure\" --> (follows /1 \"convergence.\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"convergence.\" --> (follows /2 \"ensure\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"convergence.\" --> (follows /1 \"Under\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"Under\" --> (follows /2 \"convergence.\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"Under\" --> (follows /1 \"bounded\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"bounded\" --> (follows /2 \"Under\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"bounded\" --> (follows /1 \"observation\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"observation\" --> (follows /2 \"bounded\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"observation\" --> (follows /1 \"differentiation\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"differentiation\" --> (follows /2 \"observation\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"differentiation\" --> (follows /1 \"and\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"and\" --> (follows /2 \"differentiation\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"and\" --> (follows /1 \"integration\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"integration\" --> (follows /2 \"and\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"integration\" --> (follows /1 \"are\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"are\" --> (follows /2 \"integration\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"are\" --> (follows /1 \"dual\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"dual\" --> (follows /2 \"are\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"dual\" --> (follows /1 \"but\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"but\" --> (follows /2 \"dual\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"but\" --> (follows /1 \"not\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"not\" --> (follows /2 \"but\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"not\" --> (follows /1 \"inverse.\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"inverse.\" --> (follows /2 \"not\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"inverse.\" --> (follows /1 \"A\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"A\" --> (follows /2 \"inverse.\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"A\" --> (follows /1 \"fuzzy\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"fuzzy\" --> (follows /2 \"A\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"fuzzy\" --> (follows /1 \"fundamental\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"fundamental\" --> (follows /2 \"fuzzy\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"fundamental\" --> (follows /1 \"theorem\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"theorem\" --> (follows /2 \"fundamental\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"theorem\" --> (follows /1 \"shows\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"shows\" --> (follows /2 \"theorem\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"shows\" --> (follows /1 \"that\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"that\" --> (follows /2 \"shows\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"that\" --> (follows /1 \"re-differentiating\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"re-differentiating\" --> (follows /2 \"that\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"re-differentiating\" --> (follows /1 \"an\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"an\" --> (follows /2 \"re-differentiating\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"an\" --> (follows /1 \"integrated\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"integrated\" --> (follows /2 \"an\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"integrated\" --> (follows /1 \"state\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"state\" --> (follows /2 \"integrated\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"state\" --> (follows /1 \"recovers\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"recovers\" --> (follows /2 \"state\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"recovers\" --> (follows /1 \"the\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"the\" --> (follows /2 \"recovers\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"the\" --> (follows /1 \"original\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"original\" --> (follows /2 \"the\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"original\" --> (follows /1 \"plus\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"plus\" --> (follows /2 \"original\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"plus\" --> (follows /1 \"an\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"an\" --> (follows /2 \"plus\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"an\" --> (follows /1 \"irreducible\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"irreducible\" --> (follows /2 \"an\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"irreducible\" --> (follows /1 \"residual.\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"residual.\" --> (follows /2 \"irreducible\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"residual.\" --> (follows /1 \"A\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"A\" --> (follows /2 \"residual.\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"A\" --> (follows /1 \"Gibbs\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"Gibbs\" --> (follows /2 \"A\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"Gibbs\" --> (follows /1 \"characterization\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"characterization\" --> (follows /2 \"Gibbs\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"characterization\" --> (follows /1 \"then\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"then\" --> (follows /2 \"characterization\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"then\" --> (follows /1 \"establishes\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"establishes\" --> (follows /2 \"then\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"establishes\" --> (follows /1 \"that\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"that\" --> (follows /2 \"establishes\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"that\" --> (follows /1 \"integration\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"integration\" --> (follows /2 \"that\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"integration\" --> (follows /1 \"by\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"by\" --> (follows /2 \"integration\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"by\" --> (follows /1 \"succeeding\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"succeeding\" --> (follows /2 \"by\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"succeeding\" --> (follows /1 \"forces\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"forces\" --> (follows /2 \"succeeding\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"forces\" --> (follows /1 \"a\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"a\" --> (follows /2 \"forces\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"a\" --> (follows /1 \"transition\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"transition\" --> (follows /2 \"a\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"transition\" --> (follows /1 \"to\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"to\" --> (follows /2 \"transition\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"to\" --> (follows /1 \"coherent\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"coherent\" --> (follows /2 \"to\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"coherent\" --> (follows /1 \"sampling.\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"sampling.\" --> (follows /2 \"coherent\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"sampling.\" --> (follows /1 \"A\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"A\" --> (follows /2 \"sampling.\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"A\" --> (follows /1 \"deterministic\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"deterministic\" --> (follows /2 \"A\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"deterministic\" --> (follows /1 \"pipeline\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"pipeline\" --> (follows /2 \"deterministic\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"pipeline\" --> (follows /1 \"implements\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"implements\" --> (follows /2 \"pipeline\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"implements\" --> (follows /1 \"the\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"the\" --> (follows /2 \"implements\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"the\" --> (follows /1 \"framework\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"framework\" --> (follows /2 \"the\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"framework\" --> (follows /1 \"with\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"with\" --> (follows /2 \"framework\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"with\" --> (follows /1 \"no\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"no\" --> (follows /2 \"with\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"no\" --> (follows /1 \"external\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"external\" --> (follows /2 \"no\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"external\" --> (follows /1 \"APIs\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"APIs\" --> (follows /2 \"external\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"APIs\" --> (follows /1 \"and\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"and\" --> (follows /2 \"APIs\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"and\" --> (follows /1 \"no\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"no\" --> (follows /2 \"and\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"no\" --> (follows /1 \"GPU.\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"GPU.\" --> (follows /2 \"no\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"GPU.\" --> (follows /1 \"The\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"The\" --> (follows /2 \"GPU.\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"The\" --> (follows /1 \"anti-masking\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"anti-masking\" --> (follows /2 \"The\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"anti-masking\" --> (follows /1 \"invariant\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"invariant\" --> (follows /2 \"anti-masking\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"invariant\" --> (follows /1 \"reduces\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"reduces\" --> (follows /2 \"invariant\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"reduces\" --> (follows /1 \"the\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"the\" --> (follows /2 \"reduces\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"the\" --> (follows /1 \"masking\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"masking\" --> (follows /2 \"the\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"masking\" --> (follows /1 \"rate\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"rate\" --> (follows /2 \"masking\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"rate\" --> (follows /1 \"to\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"to\" --> (follows /2 \"rate\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"to\" --> (follows /1 \"zero.\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"zero.\" --> (follows /2 \"to\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"zero.\" --> (follows /1 \"The\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"The\" --> (follows /2 \"zero.\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"The\" --> (follows /1 \"integrability\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"integrability\" --> (follows /2 \"The\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"integrability\" --> (follows /1 \"condition\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"condition\" --> (follows /2 \"integrability\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"condition\" --> (follows /1 \"is\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"is\" --> (follows /2 \"condition\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"is\" --> (follows /1 \"load-bearing.\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"load-bearing.\" --> (follows /2 \"is\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"load-bearing.\" --> (follows /1 \"The\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"The\" --> (follows /2 \"load-bearing.\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"The\" --> (follows /1 \"masking\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"masking\" --> (follows /2 \"The\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"masking\" --> (follows /1 \"rate\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"rate\" --> (follows /2 \"masking\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"rate\" --> (follows /1 \"computable\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"computable\" --> (follows /2 \"rate\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"computable\" --> (follows /1 \"from\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"from\" --> (follows /2 \"computable\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"from\" --> (follows /1 \"text\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"text\" --> (follows /2 \"from\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"text\" --> (follows /1 \"alone\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"alone\" --> (follows /2 \"text\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"alone\" --> (follows /1 \"is\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"is\" --> (follows /2 \"alone\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"is\" --> (follows /1 \"an\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"an\" --> (follows /2 \"is\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"an\" --> (follows /1 \"integration\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"integration\" --> (follows /2 \"an\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"integration\" --> (follows /1 \"diagnostic\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"diagnostic\" --> (follows /2 \"integration\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"diagnostic\" --> (follows /1 \"complementary\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"complementary\" --> (follows /2 \"diagnostic\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"complementary\" --> (follows /1 \"to\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"to\" --> (follows /2 \"complementary\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"to\" --> (follows /1 \"the\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"the\" --> (follows /2 \"to\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"the\" --> (follows /1 \"collapse\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"collapse\" --> (follows /2 \"the\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"collapse\" --> (follows /1 \"diagnostic\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"diagnostic\" --> (follows /2 \"collapse\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"diagnostic\" --> (follows /1 \"established\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"established\" --> (follows /2 \"diagnostic\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"established\" --> (follows /1 \"in\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"in\" --> (follows /2 \"established\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"in\" --> (follows /1 \"prior\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"prior\" --> (follows /2 \"in\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"prior\" --> (follows /1 \"work.\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<\"work.\" --> (follows /2 \"prior\")>.",
+        "freq": 1.0,
+        "conf": 0.81
+      },
+      {
+        "statement": "<(\"established\" * (follows /1 \"prior\")) --> follows>.",
+        "freq": 1.0,
+        "conf": 0.421631
+      },
+      {
+        "statement": "<(\"diagnostic\" * (follows /1 \"in\")) --> follows>.",
+        "freq": 1.0,
+        "conf": 0.421631
+      },
+      {
+        "statement": "<((follows /2 \"established\") * \"prior\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.421631
+      },
+      {
+        "statement": "<\"complementary\" --> \"established\">.",
+        "freq": 1.0,
+        "conf": 0.396172
+      },
+      {
+        "statement": "<\"established\" --> \"complementary\">.",
+        "freq": 1.0,
+        "conf": 0.396172
+      },
+      {
+        "statement": "<\"complementary\" <-> \"established\">.",
+        "freq": 1.0,
+        "conf": 0.396172
+      },
+      {
+        "statement": "<\"established\" <-> \"complementary\">.",
+        "freq": 1.0,
+        "conf": 0.396172
+      },
+      {
+        "statement": "<((follows /2 \"diagnostic\") * \"in\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.421631
+      },
+      {
+        "statement": "<(\"integration\" * (follows /1 \"established\")) --> follows>.",
+        "freq": 1.0,
+        "conf": 0.421631
+      },
+      {
+        "statement": "<((follows /1 \"established\") * \"complementary\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.421631
+      },
+      {
+        "statement": "<(\"collapse\" * (follows /1 \"established\")) --> follows>.",
+        "freq": 1.0,
+        "conf": 0.421631
+      },
+      {
+        "statement": "<(\"integration\" * (follows /2 \"collapse\")) --> follows>.",
+        "freq": 1.0,
+        "conf": 0.421631
+      },
+      {
+        "statement": "<((follows /2 \"collapse\") * \"complementary\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.421631
+      },
+      {
+        "statement": "<((follows /2 \"collapse\") * \"established\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.421631
+      },
+      {
+        "statement": "<(\"the\" * (follows /1 \"diagnostic\")) --> follows>.",
+        "freq": 1.0,
+        "conf": 0.421631
+      },
+      {
+        "statement": "<(\"to\" * (follows /1 \"collapse\")) --> follows>.",
+        "freq": 1.0,
+        "conf": 0.421631
+      },
+      {
+        "statement": "<((follows /2 \"the\") * \"diagnostic\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.421631
+      },
+      {
+        "statement": "<(\"complementary\" * (follows /1 \"the\")) --> follows>.",
+        "freq": 1.0,
+        "conf": 0.421631
+      },
+      {
+        "statement": "<((follows /2 \"to\") * \"collapse\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.421631
+      },
+      {
+        "statement": "<(\"diagnostic\" * (follows /1 \"to\")) --> follows>.",
+        "freq": 1.0,
+        "conf": 0.421631
+      },
+      {
+        "statement": "<((follows /2 \"complementary\") * \"the\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.421631
+      },
+      {
+        "statement": "<(\"integration\" * (follows /1 \"complementary\")) --> follows>.",
+        "freq": 1.0,
+        "conf": 0.421631
+      },
+      {
+        "statement": "<(\"collapse\" * (follows /1 \"complementary\")) --> follows>.",
+        "freq": 1.0,
+        "conf": 0.421631
+      },
+      {
+        "statement": "<((follows /1 \"complementary\") * \"established\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.421631
+      },
+      {
+        "statement": "<((follows /2 \"diagnostic\") * \"to\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.421631
+      },
+      {
+        "statement": "<((follows /2 \"integration\") * \"complementary\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.421631
+      },
+      {
+        "statement": "<((follows /2 \"integration\") * \"established\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.421631
+      }
+    ],
+    "stats": {
+      "count": 416,
+      "mean_freq": 1.0,
+      "mean_conf": 0.7210067740384616
+    }
+  }
+}
