@@ -23,6 +23,18 @@ The reframing this repository operationalizes is integration. Authors and reader
 
 This repository is incomplete by construction. The work of integrating author and reader is by definition not finished. The invitation in the epigraph is the form of that incompleteness.
 
+## Eight billion manifestos
+
+In *The Consciousness Explosion: A Mindful Human's Guide to the Coming Technological and Experiential Singularity* (Goertzel and Montes, Humanity+, 2024, p. 11), the authors title a section **"Let 8 billion manifestos bloom"** and write:
+
+> we should not be closely adhering to anybody's manifesto. We should each be doing our best to understand and figure things out on our own — based on valuable input from everyone around us.
+
+Tiffany's response on receiving the book:
+
+> Let 8 billion manifestos bloom. Growing beautiful whilst rooted, so that we may cross-pollinate and thrive for a time.
+
+This repository is one such manifesto in operational form. Rooted in the cosmist tradition Goertzel names a page later (Ten Cosmist Convictions, p. 12, with Prisco), it blooms outward as a runnable substrate, offered for cross-pollination with whoever extends it. Each adapter is a bloom: mutable, verifiable, finite. The author-reader integration named in the paradox-drive section above is the manifesto-bloom integration at code altitude. Cross-pollination is the pipeline. Thriving for a time is the honest scope.
+
 ## Pipeline
 
 ```
