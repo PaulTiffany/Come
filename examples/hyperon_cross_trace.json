@@ -1,0 +1,590 @@
+{
+  "hyperon_version": "0.2.10",
+  "python": "3.11",
+  "metta_trace": [
+    {
+      "query": "!(+ 2 3)",
+      "result": "[[5]]",
+      "kind": "arithmetic"
+    },
+    {
+      "query": "!(match &self (Parent Tom $x) $x)",
+      "result": "[[Bob]]",
+      "kind": "atomspace_match"
+    },
+    {
+      "query": "!(grandparent Tom Alice)",
+      "result": "[[(, (Parent Tom $b#66) (Parent $b#66 Alice))]]",
+      "kind": "rule_application"
+    },
+    {
+      "query": "!(if (> 5 3) yes no)",
+      "result": "[[yes]]",
+      "kind": "conditional"
+    },
+    {
+      "query": "!(== (+ 1 1) 2)",
+      "result": "[[True]]",
+      "kind": "equality"
+    }
+  ],
+  "narrative": "At query 0 the MeTTa runtime received arithmetic input !(+ 2 3). The atomspace returned result [[5]] for that query. At query 1 the MeTTa runtime received atomspace_match input !(match &self (Parent Tom $x) $x). The atomspace returned result [[Bob]] for that query. At query 2 the MeTTa runtime received rule_application input !(grandparent Tom Alice). The atomspace returned result [[(, (Parent Tom $b#66) (Parent $b#66 Alice))]] for that query. At query 3 the MeTTa runtime received conditional input !(if (> 5 3) yes no). The atomspace returned result [[yes]] for that query. At query 4 the MeTTa runtime received equality input !(== (+ 1 1) 2). The atomspace returned result [[True]] for that query.",
+  "come_result": {
+    "statements": [
+      {
+        "statement": "<(*, \"At\", \"query\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"query\", \"0\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"0\", \"the\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"the\", \"MeTTa\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"MeTTa\", \"runtime\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"runtime\", \"received\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"received\", \"arithmetic\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"arithmetic\", \"input\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"input\", \"2\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"2\", \"3).\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"3).\", \"The\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"The\", \"atomspace\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"atomspace\", \"returned\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"returned\", \"result\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"result\", \"[[5]]\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"[[5]]\", \"for\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"for\", \"that\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"that\", \"query.\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"query.\", \"At\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"At\", \"query\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"query\", \"1\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"1\", \"the\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"the\", \"MeTTa\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"MeTTa\", \"runtime\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"runtime\", \"received\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"received\", \"atomspace_match\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"atomspace_match\", \"input\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"input\", \"!(match\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"!(match\", \"&self\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"&self\", \"(Parent\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"(Parent\", \"Tom\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"Tom\", \"$x)\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"$x)\", \"$x).\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"$x).\", \"The\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"The\", \"atomspace\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"atomspace\", \"returned\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"returned\", \"result\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"result\", \"[[Bob]]\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"[[Bob]]\", \"for\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"for\", \"that\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"that\", \"query.\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"query.\", \"At\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"At\", \"query\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"query\", \"2\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"2\", \"the\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"the\", \"MeTTa\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"MeTTa\", \"runtime\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"runtime\", \"received\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"received\", \"rule_application\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"rule_application\", \"input\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"input\", \"!(grandparent\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"!(grandparent\", \"Tom\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"Tom\", \"Alice).\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"Alice).\", \"The\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"The\", \"atomspace\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"atomspace\", \"returned\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"returned\", \"result\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"result\", \"(Parent\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"(Parent\", \"Tom\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"Tom\", \"$b#66)\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"$b#66)\", \"(Parent\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"(Parent\", \"$b#66\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"$b#66\", \"Alice))]]\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"Alice))]]\", \"for\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"for\", \"that\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"that\", \"query.\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"query.\", \"At\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"At\", \"query\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"query\", \"3\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"3\", \"the\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"the\", \"MeTTa\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"MeTTa\", \"runtime\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"runtime\", \"received\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"received\", \"conditional\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"conditional\", \"input\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"input\", \"!(if\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"!(if\", \"5\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"5\", \"3)\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"3)\", \"yes\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"yes\", \"no).\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"no).\", \"The\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"The\", \"atomspace\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"atomspace\", \"returned\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"returned\", \"result\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"result\", \"[[yes]]\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"[[yes]]\", \"for\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"for\", \"that\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"that\", \"query.\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"query.\", \"At\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"At\", \"query\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"query\", \"4\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"4\", \"the\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"the\", \"MeTTa\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"MeTTa\", \"runtime\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"runtime\", \"received\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"received\", \"equality\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"equality\", \"input\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"input\", \"1\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"1\", \"1)\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"1)\", \"2).\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"2).\", \"The\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"The\", \"atomspace\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"atomspace\", \"returned\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"returned\", \"result\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"result\", \"[[True]]\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"[[True]]\", \"for\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"for\", \"that\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"that\", \"query.\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      }
+    ],
+    "stats": {
+      "count": 108,
+      "mean_freq": 1.0,
+      "mean_conf": 0.9000000000000012
+    }
+  },
+  "stats": {
+    "metta_queries": 5,
+    "narrative_chars": 703,
+    "opencog_tokens": 115,
+    "narsese_statements": 108,
+    "nars_raw_lines": 108,
+    "derived_inferences": 108,
+    "mean_confidence": 0.9000000000000012
+  }
+}
