@@ -1,0 +1,623 @@
+{
+  "pymdp_trace": [
+    {
+      "t": 0,
+      "obs": 0,
+      "posterior_states": [
+        0.272,
+        0.361,
+        0.368
+      ],
+      "policy_entropy": 0.23294754600386602,
+      "neg_efe": [
+        -2.712,
+        -2.497,
+        -2.739
+      ],
+      "action": 1
+    },
+    {
+      "t": 1,
+      "obs": 0,
+      "posterior_states": [
+        0.136,
+        0.398,
+        0.467
+      ],
+      "policy_entropy": 0.43112902777558115,
+      "neg_efe": [
+        -2.681,
+        -2.517,
+        -2.698
+      ],
+      "action": 1
+    },
+    {
+      "t": 2,
+      "obs": 0,
+      "posterior_states": [
+        0.155,
+        0.411,
+        0.434
+      ],
+      "policy_entropy": 0.39329388820306044,
+      "neg_efe": [
+        -2.694,
+        -2.517,
+        -2.701
+      ],
+      "action": 1
+    },
+    {
+      "t": 3,
+      "obs": 2,
+      "posterior_states": [
+        0.032,
+        0.495,
+        0.473
+      ],
+      "policy_entropy": 0.6338953549418107,
+      "neg_efe": [
+        -2.692,
+        -2.544,
+        -2.658
+      ],
+      "action": 1
+    },
+    {
+      "t": 4,
+      "obs": 0,
+      "posterior_states": [
+        0.179,
+        0.426,
+        0.395
+      ],
+      "policy_entropy": 0.34947218701821775,
+      "neg_efe": [
+        -2.711,
+        -2.516,
+        -2.705
+      ],
+      "action": 1
+    }
+  ],
+  "narrative": "At step 0 the agent observed signal 0 and inferred posterior over states. It selected action 1 under policy entropy 0.233. At step 1 the agent observed signal 0 and inferred posterior over states. It selected action 1 under policy entropy 0.431. At step 2 the agent observed signal 0 and inferred posterior over states. It selected action 1 under policy entropy 0.393. At step 3 the agent observed signal 2 and inferred posterior over states. It selected action 1 under policy entropy 0.634. At step 4 the agent observed signal 0 and inferred posterior over states. It selected action 1 under policy entropy 0.349.",
+  "come_result": {
+    "statements": [
+      {
+        "statement": "<(*, \"At\", \"step\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"step\", \"0\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"0\", \"the\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"the\", \"agent\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"agent\", \"observed\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"observed\", \"signal\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"signal\", \"0\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"0\", \"and\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"and\", \"inferred\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"inferred\", \"posterior\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"posterior\", \"over\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"over\", \"states.\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"states.\", \"It\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"It\", \"selected\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"selected\", \"action\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"action\", \"1\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"1\", \"under\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"under\", \"policy\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"policy\", \"entropy\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"entropy\", \"0.233.\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"0.233.\", \"At\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"At\", \"step\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"step\", \"1\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"1\", \"the\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"the\", \"agent\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"agent\", \"observed\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"observed\", \"signal\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"signal\", \"0\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"0\", \"and\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"and\", \"inferred\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"inferred\", \"posterior\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"posterior\", \"over\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"over\", \"states.\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"states.\", \"It\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"It\", \"selected\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"selected\", \"action\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"action\", \"1\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"1\", \"under\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"under\", \"policy\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"policy\", \"entropy\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"entropy\", \"0.431.\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"0.431.\", \"At\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"At\", \"step\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"step\", \"2\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"2\", \"the\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"the\", \"agent\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"agent\", \"observed\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"observed\", \"signal\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"signal\", \"0\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"0\", \"and\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"and\", \"inferred\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"inferred\", \"posterior\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"posterior\", \"over\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"over\", \"states.\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"states.\", \"It\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"It\", \"selected\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"selected\", \"action\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"action\", \"1\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"1\", \"under\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"under\", \"policy\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"policy\", \"entropy\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"entropy\", \"0.393.\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"0.393.\", \"At\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"At\", \"step\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"step\", \"3\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"3\", \"the\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"the\", \"agent\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"agent\", \"observed\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"observed\", \"signal\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"signal\", \"2\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"2\", \"and\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"and\", \"inferred\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"inferred\", \"posterior\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"posterior\", \"over\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"over\", \"states.\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"states.\", \"It\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"It\", \"selected\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"selected\", \"action\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"action\", \"1\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"1\", \"under\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"under\", \"policy\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"policy\", \"entropy\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"entropy\", \"0.634.\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"0.634.\", \"At\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"At\", \"step\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"step\", \"4\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"4\", \"the\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"the\", \"agent\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"agent\", \"observed\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"observed\", \"signal\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"signal\", \"0\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"0\", \"and\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"and\", \"inferred\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"inferred\", \"posterior\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"posterior\", \"over\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"over\", \"states.\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"states.\", \"It\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"It\", \"selected\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"selected\", \"action\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"action\", \"1\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"1\", \"under\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"under\", \"policy\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"policy\", \"entropy\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"entropy\", \"0.349.\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      }
+    ],
+    "stats": {
+      "count": 104,
+      "mean_freq": 1.0,
+      "mean_conf": 0.9000000000000001
+    }
+  },
+  "stats": {
+    "pymdp_steps": 5,
+    "narrative_chars": 614,
+    "opencog_tokens": 106,
+    "narsese_statements": 104,
+    "nars_raw_lines": 104,
+    "derived_inferences": 104,
+    "mean_confidence": 0.9000000000000001
+  }
+}
