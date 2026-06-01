@@ -1,7 +1,7 @@
 # Come
 
-> *All of us is limited. None of us has all the answers. Come develop with us.*
->
+*All of us is limited. None of us has all the answers. Come develop with us.*
+
 > *"And the Spirit and the bride say, Come."* — Revelation 22:17
 
 Mutation-tested adapter pipeline that brings together two of the longest-running symbolic-AGI research projects: **OpenCog** (the `learn` structural-learning system) and **OpenNARS** (the ONA reasoner). Both run as subprocesses behind narrow Python adapter modules. The adapters are what `mutmut` mutates. Every surviving mutant is a hole, either in the test suite or in the adapter.
@@ -15,7 +15,7 @@ Both papers argue that adequacy of an epistemic system should be measurable, not
 
 ## Why this pattern is load-bearing
 
-> *A "perfect paper" is a paradox drive if authors and readers are disjoint.* — Paul Carver Tiffany III
+Constituting a "perfect paper" is a paradox drive if authors and readers are disjoint.
 
 The academic convention asks authors to deliver an artifact immune to criticism, but the author has no privileged access to what a future reader will find broken. That disjointness makes the demand for perfection a paradox driver: a tension unresolvable from inside, only by reframing.
 
