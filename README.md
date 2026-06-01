@@ -106,4 +106,8 @@ OpenCog and OpenNARS are decades-old symbolic-AGI projects with deep theoretical
 
 ## License
 
-MIT. See `LICENSE`.
+The code, configurations, mocks, fixtures, and documentation in this repository are released under the **MIT License** (see `LICENSE`).
+
+Paper content and supplementary materials from the AGI-26 and Cost of Cacophony submissions, including the Hypothesis Surface companion materials at https://paultiffany.github.io/hypothesis-surface-agi26/, are released separately under **Creative Commons Attribution 4.0 International (CC BY 4.0)**. Where material from those papers appears in this repository — notably the abstract excerpt in `examples/surface_abstract.txt` and quotations of paper prose in commentary — it is reproduced under the original CC BY 4.0 terms with attribution to the source.
+
+The two licenses do not conflict. Software gets MIT, scholarly content gets CC BY. This documents the convention rather than changing it.
