@@ -2,7 +2,9 @@
 
 *All of us is limited. None of us has all the answers. Come develop with us.*
 
-> *"And the Spirit and the bride say, Come."* — Revelation 22:17
+> *"And the Spirit and the bride say, Come. And let him that heareth say, Come. And let him that is athirst come. And whosoever will, let him take the water of life freely."*
+>
+> — Revelation 22:17 (KJV)
 
 Mutation-tested adapter pipeline that brings together two of the longest-running symbolic-AGI research projects: **OpenCog** (the `learn` structural-learning system) and **OpenNARS** (the ONA reasoner). Both run as subprocesses behind narrow Python adapter modules. The adapters are what `mutmut` mutates. Every surviving mutant is a hole, either in the test suite or in the adapter.
 
