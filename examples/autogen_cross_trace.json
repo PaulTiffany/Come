@@ -1,0 +1,491 @@
+{
+  "autogen_transcript": [
+    {
+      "agent": "user",
+      "text": "Where is the light coming from in this room?"
+    },
+    {
+      "agent": "Seeker",
+      "text": "I notice the room is dim and the light source is unclear."
+    },
+    {
+      "agent": "Skeptic",
+      "text": "Dimness alone does not localize the source. Consider reflections."
+    },
+    {
+      "agent": "Seeker",
+      "text": "If we move closer to the window we should see brightness rise."
+    },
+    {
+      "agent": "Skeptic",
+      "text": "Agreed but only if no lamp is on. We should confirm lamps are off."
+    },
+    {
+      "agent": "Seeker",
+      "text": "The brightness did rise so the window is the dominant source."
+    },
+    {
+      "agent": "Skeptic",
+      "text": "Confirmed. The window hypothesis is consistent with observation."
+    }
+  ],
+  "narrative": "user said: Where is the light coming from in this room? Seeker said: I notice the room is dim and the light source is unclear. Skeptic said: Dimness alone does not localize the source. Consider reflections. Seeker said: If we move closer to the window we should see brightness rise. Skeptic said: Agreed but only if no lamp is on. We should confirm lamps are off. Seeker said: The brightness did rise so the window is the dominant source. Skeptic said: Confirmed. The window hypothesis is consistent with observation.",
+  "come_result": {
+    "statements": [
+      {
+        "statement": "<(*, \"user\", \"said:\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"said:\", \"Where\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"Where\", \"is\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"is\", \"the\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"the\", \"light\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"light\", \"coming\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"coming\", \"from\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"from\", \"in\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"in\", \"this\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"this\", \"room?\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"room?\", \"Seeker\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"Seeker\", \"said:\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"said:\", \"I\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"I\", \"notice\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"notice\", \"the\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"the\", \"room\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"room\", \"is\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"is\", \"dim\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"dim\", \"and\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"and\", \"the\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"the\", \"light\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"light\", \"source\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"source\", \"is\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"is\", \"unclear.\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"unclear.\", \"Skeptic\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"Skeptic\", \"said:\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"said:\", \"Dimness\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"Dimness\", \"alone\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"alone\", \"does\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"does\", \"not\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"not\", \"localize\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"localize\", \"the\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"the\", \"source.\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"source.\", \"Consider\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"Consider\", \"reflections.\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"reflections.\", \"Seeker\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"Seeker\", \"said:\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"said:\", \"If\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"If\", \"we\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"we\", \"move\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"move\", \"closer\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"closer\", \"to\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"to\", \"the\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"the\", \"window\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"window\", \"we\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"we\", \"should\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"should\", \"see\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"see\", \"brightness\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"brightness\", \"rise.\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"rise.\", \"Skeptic\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"Skeptic\", \"said:\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"said:\", \"Agreed\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"Agreed\", \"but\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"but\", \"only\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"only\", \"if\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"if\", \"no\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"no\", \"lamp\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"lamp\", \"is\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"is\", \"on.\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"on.\", \"We\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"We\", \"should\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"should\", \"confirm\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"confirm\", \"lamps\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"lamps\", \"are\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"are\", \"off.\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"off.\", \"Seeker\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"Seeker\", \"said:\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"said:\", \"The\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"The\", \"brightness\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"brightness\", \"did\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"did\", \"rise\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"rise\", \"so\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"so\", \"the\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"the\", \"window\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"window\", \"is\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"is\", \"the\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"the\", \"dominant\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"dominant\", \"source.\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"source.\", \"Skeptic\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"Skeptic\", \"said:\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"said:\", \"Confirmed.\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"Confirmed.\", \"The\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"The\", \"window\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"window\", \"hypothesis\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"hypothesis\", \"is\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"is\", \"consistent\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"consistent\", \"with\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      },
+      {
+        "statement": "<(*, \"with\", \"observation.\") --> follows>.",
+        "freq": 1.0,
+        "conf": 0.9
+      }
+    ],
+    "stats": {
+      "count": 88,
+      "mean_freq": 1.0,
+      "mean_conf": 0.9
+    }
+  },
+  "stats": {
+    "conversation_turns": 7,
+    "narrative_chars": 517,
+    "opencog_tokens": 90,
+    "narsese_statements": 88,
+    "nars_raw_lines": 88,
+    "derived_inferences": 88,
+    "mean_confidence": 0.9
+  }
+}
